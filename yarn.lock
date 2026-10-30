@@ -7230,33 +7230,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@web3-wallet/eslint-config@file:plugins/eslint-config::locator=superwallet%40workspace%3A.":
-  version: 1.0.0
-  resolution: "@web3-wallet/eslint-config@file:plugins/eslint-config#plugins/eslint-config::hash=610428&locator=superwallet%40workspace%3A."
-  dependencies:
-    "@react-native/eslint-config": 0.74.84
-    "@typescript-eslint/eslint-plugin": 7.18.0
-    "@typescript-eslint/parser": 7.18.0
-    eslint: 8.57.0
-    eslint-config-prettier: 9.1.0
-    eslint-import-resolver-typescript: 3.6.1
-    eslint-plugin-import: 2.29.1
-    eslint-plugin-jest: 28.8.3
-    eslint-plugin-jsx-a11y: 6.9.0
-    eslint-plugin-prettier: 5.2.1
-    eslint-plugin-react: 7.37.5
-    eslint-plugin-react-hooks: 4.6.2
-    eslint-plugin-storybook: 0.8.0
-    eslint-plugin-test-id: "*"
-    eslint-plugin-testing-library: 6.3.0
-    prettier: 3.6.2
-  peerDependencies:
-    eslint: ">=8.1.0"
-  checksum: 7af734eeccd09c4b0e12f964f0439a28233bdfa34a05c507e6c6f757f26fcccfe9dd854862806585cee93d6cbd4e4416440f87947590e7d8a31fcc79d45a8870
-  languageName: node
-  linkType: hard
-
-"@web3-wallet/eslint-config@workspace:plugins/eslint-config":
+"@web3-wallet/eslint-config@workspace:*, @web3-wallet/eslint-config@workspace:plugins/eslint-config":
   version: 0.0.0-use.local
   resolution: "@web3-wallet/eslint-config@workspace:plugins/eslint-config"
   dependencies:
@@ -14814,27 +14788,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"kraken-wallet-cryptoicons@file:assets/kraken-wallet-cryptoicons::locator=superwallet%40workspace%3A.":
-  version: 1.0.0
-  resolution: "kraken-wallet-cryptoicons@file:assets/kraken-wallet-cryptoicons#assets/kraken-wallet-cryptoicons::hash=5fff0b&locator=superwallet%40workspace%3A."
-  checksum: 58dca3844605c4b7f8695777a2bf349a92671aed9fe06cef8469cb02d634629851b90e0b4902dba4720d5e21c7abd4bf78e54b74c817df97141047532c3de7d1
-  languageName: node
-  linkType: hard
-
-"kraken-wallet-cryptoicons@workspace:assets/kraken-wallet-cryptoicons":
+"kraken-wallet-cryptoicons@workspace:*, kraken-wallet-cryptoicons@workspace:assets/kraken-wallet-cryptoicons":
   version: 0.0.0-use.local
   resolution: "kraken-wallet-cryptoicons@workspace:assets/kraken-wallet-cryptoicons"
   languageName: unknown
   linkType: soft
 
-"kraken-wallet-network-icons@file:assets/kraken-wallet-network-icons::locator=superwallet%40workspace%3A.":
-  version: 1.0.0
-  resolution: "kraken-wallet-network-icons@file:assets/kraken-wallet-network-icons#assets/kraken-wallet-network-icons::hash=e188bd&locator=superwallet%40workspace%3A."
-  checksum: 8c2cd4eec885fd560f181bb853d76c4e34c79bd6e1ec67f95fc8d3eba44cf79e4f5db1de511977166fa5fa5581dadb85781d5c537dccef8ac6e91d0f64837c1d
-  languageName: node
-  linkType: hard
-
-"kraken-wallet-network-icons@workspace:assets/kraken-wallet-network-icons":
+"kraken-wallet-network-icons@workspace:*, kraken-wallet-network-icons@workspace:assets/kraken-wallet-network-icons":
   version: 0.0.0-use.local
   resolution: "kraken-wallet-network-icons@workspace:assets/kraken-wallet-network-icons"
   languageName: unknown
@@ -19987,7 +19947,7 @@ __metadata:
     "@walletconnect/core": 2.23.9
     "@walletconnect/react-native-compat": 2.23.9
     "@walletconnect/types": 2.23.9
-    "@web3-wallet/eslint-config": "file:plugins/eslint-config"
+    "@web3-wallet/eslint-config": "workspace:*"
     argon2: 0.30.3
     assert: 2.1.0
     babel-jest: 29.7.0
@@ -20027,8 +19987,8 @@ __metadata:
     jest: 29.7.0
     jest-html-reporters: 3.1.4
     jest-junit: 14.0.1
-    kraken-wallet-cryptoicons: "file:assets/kraken-wallet-cryptoicons"
-    kraken-wallet-network-icons: "file:assets/kraken-wallet-network-icons"
+    kraken-wallet-cryptoicons: "workspace:*"
+    kraken-wallet-network-icons: "workspace:*"
     lint-staged: 15.4.1
     lodash: 4.17.23
     lottie-react-native: 7.2.5
