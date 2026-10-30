@@ -1,0 +1,2182 @@
+{
+  "_": {
+    "add": "Añadir",
+    "appName": "Kraken Wallet",
+    "balance": "Balance {0}",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "continue": "Continuar",
+    "copied": "Copiado",
+    "copy": "Copiar",
+    "copyToClipboard": "Copiado al portapapeles",
+    "details": "Detalles",
+    "done": "Hecho",
+    "high": "Alto:",
+    "low": "Bajo:",
+    "ok": "OK",
+    "period": {
+      "all": "Todo",
+      "day": "D",
+      "month": "M",
+      "week": "S",
+      "year": "Y"
+    },
+    "plus": "+{count}",
+    "receive": "Recibir",
+    "reconnecting": "Reconectando",
+    "remove": "Eliminar",
+    "send": "Enviar",
+    "showLess": "Mostrar menos",
+    "showMore": "Mostrar más",
+    "TEST_KEY": "deleteMeLaterMOdifiedTest",
+    "today": "Hoy",
+    "updating": "Actualizando",
+    "upToDate": "Actualizado",
+    "view": "Ver",
+    "yes": "Sí",
+    "yesterday": "Ayer"
+  },
+  "about": {
+    "blog": "Blog",
+    "licenses": "Licencias",
+    "privacyPolicy": "Política de privacidad",
+    "releaseNotes": "Notas de lanzamiento",
+    "termsOfService": "Condiciones de servicio"
+  },
+  "accountSwitch": {
+    "createWallet": "Crear monedero",
+    "createWalletError": "No se ha creado el monedero. Inténtalo de nuevo.",
+    "createWalletSuccess": "Monedero creado correctamente",
+    "creatingNewWallet": "Creando nuevo monedero",
+    "manage": "Gestionar",
+    "menu": {
+      "advanced_info": "Información avanzada",
+      "connected_apps": "Aplicaciones conectadas",
+      "delete": "Eliminar",
+      "edit": "Personalizar",
+      "exchange_connect": "Conectarse a Kraken",
+      "exchange_disconnect": "Desconectarse de Kraken"
+    },
+    "walletDelete": {
+      "error": "No se ha eliminado el monedero. Inténtalo de nuevo",
+      "success": "Se ha eliminado su monedero"
+    },
+    "wallets": "Monederos"
+  },
+  "advanced_account_info": {
+    "derivation_path": "Ruta de derivación",
+    "path_copied": "Ruta copiada",
+    "title": "Información de {walletName}",
+    "type": "Tipo",
+    "wallet_information": "Información de monedero",
+    "xpub": "Clave pública ampliada",
+    "xpub_key_copied": "Copiado al portapapeles"
+  },
+  "advancedAccountInfo": {
+    "derivationPath": "Ruta de derivación",
+    "ethereumDerivationPath": "Ruta de derivación de Ethereum",
+    "ethereumDerivationPathContent": "La ruta de derivación de Ethereum está compartida con redes compatibles de Ethereum, como Polygon, Arbitrum, OP Mainnet, Base, Linea y Avalanche, lo que significa que todas usan la misma ruta de derivación.",
+    "extendedPublicKey": "Clave pública ampliada",
+    "includesCompatibleNetworks": "Incluye redes compatibles de Ethereum",
+    "includesLayer2Networks": "Incluye redes de capa 2",
+    "pathCopied": "Ruta copiada",
+    "title": "Información de {walletName}",
+    "walletInformation": "Información de monedero",
+    "xpub": "Clave pública ampliada",
+    "xpubCopied": "xPub copiada",
+    "xpubHidden": "xPub ocultada",
+    "xpubKeyCopied": "Copiado al portapapeles"
+  },
+  "appLock": {
+    "appLockIsRequiredWhen": "Se requiere App Lock si:",
+    "authenticationCancelled": "Autenticación cancelada",
+    "authenticationCancelledDescription": "Autenticación biométrica cancelada.",
+    "authSignConnectedApps": "Aplicaciones conectadas para inicio de sesión y autenticación",
+    "authType": {
+      "faceId": "Face ID",
+      "generic": "configuración de privacidad como código PIN o desbloqueo biométrico",
+      "passcode": "código de acceso",
+      "touchId": "Touch ID"
+    },
+    "description": "App Lock le ofrece seguridad adicional al utilizar el {authType} de su dispositivo para permitir las siguientes acciones:",
+    "missingAuth": {
+      "biometrics": "Bloqueo de PIN o biométrico",
+      "description": "Para proteger su monedero, deberá establecer {authType} en la configuración de su dispositivo.",
+      "faceId": "Face ID o código de acceso",
+      "ok": "Ok",
+      "settings": "Abrir aplicación de configuración",
+      "setupPin": "Establecer desbloqueo biométrico o de PIN",
+      "tapFaceId": "Tocar Face ID y código de acceso\"",
+      "tapSecurityPivacy": "Tocar \"Seguridad y privacidad\"",
+      "tapTouchId": "Tocar \"Touch ID y código de acceso\"",
+      "title": "Primero, habilite {authType} en la configuración",
+      "touchId": "Touch ID o código de acceso",
+      "turnOn": "Active {authType}"
+    },
+    "openTheApp": "Abrir la aplicación",
+    "sendCryptoAndNfts": "Enviar cripto y NFT",
+    "signTransactions": "Firmar transacciones",
+    "title": "App Lock",
+    "turnOnAppLock": "Activar App Lock",
+    "viewSecret": "Ver frase de recuperación secreta",
+    "whatIs": "¿Qué es App Lock? "
+  },
+  "appSignRequest": {
+    "allowAccess": "¿Permitir acceso a sus {tokenSymbol}?",
+    "allowAccessDescription": "Permitirá que {dappName} automatice transacciones y gaste sus {tokenSymbol}.",
+    "amount": "Cantidad",
+    "approve": "Aprobar",
+    "approveSpendingCap": "Aprobar límite de gasto",
+    "balance": "Balance",
+    "cancel": "Cancelar",
+    "claim": "Reclamar",
+    "confirm": "Confirmar",
+    "contractAddress": "Dirección del contrato",
+    "contractInteraction": "Interacción del contrato",
+    "declinedRequest": "El usuario ha rechazado la solicitud",
+    "deposit": "Depositar",
+    "from": "De",
+    "message": "Mensaje",
+    "message_signing_request": "Solicitud de firma de mensaje",
+    "messageSigningRequest": "Mensaje",
+    "mint": "Mint",
+    "nonce": "Nonce",
+    "scrollToBottomToConfirm": "Desplázate hasta el final para confirmar",
+    "setSpendingCap": "Establecer límite de gasto",
+    "sign": "Firmar",
+    "swap": "Swap",
+    "to": "A",
+    "transactionBase64": "{index}. Transacción (Base64)",
+    "typed_message_signing_request": "{type} Solicitud de firma",
+    "typedMessageSigningRequest": "{type} Solicitud de firma",
+    "unknownApp": "Aplicación desconocida",
+    "verifyingContract": "Verificando contrato",
+    "withdrawal": "Retiro"
+  },
+  "assetOptions": {
+    "copied": "Dirección del contrato copiada.",
+    "copyContractAddress": "Copiar dirección del contrato",
+    "hideAsset": "Ocultar activo",
+    "receive": "Recibir",
+    "send": "Enviar",
+    "viewDetails": "Ver detalles",
+    "viewOn": "Ver en {explorer}"
+  },
+  "avaxLineaWelcoming": {
+    "buttonText": "Me gusta",
+    "part1": "Tu monedero ahora es compatible con Avalanche, la blockchain altamente escalable con una finalidad ultrarrápida, y Linea, la L2 de Ethereum diseñada para transacciones seguras y de bajo coste.",
+    "part2": "Con estas nuevas integraciones, puedes ver balances de activos, emitir transacciones, cobrar NFT, supervisar posiciones DeFi y conectarte a aplicaciones descentralizadas en ambas redes.",
+    "title": "¡Ya ha llegado la Atención al cliente de Avalanche y Linea!"
+  },
+  "backupWallet": {
+    "backup": "Respaldar",
+    "backupYourWallet": "Respalde su monedero",
+    "backupYourWalletDescription": "Asegúrese de poder recuperar sus cripto si pierde su dispositivo o cambia a otro monedero.",
+    "secretRecoveryPhrase": "Frase de recuperación secreta",
+    "tapHereToView": "Pulse aquí para ver"
+  },
+  "backupWalletPrompt": {
+    "backUpNow": "Realizar copia de seguridad ahora",
+    "body": "Aún no has hecho una copia de seguridad de tu frase de recuperación secreta. Te recomendamos que hagas una copia de seguridad para que no pierdas el acceso a tus fondos.",
+    "header": "Antes de recibir fondos en este monedero, haz una copia de seguridad"
+  },
+  "blastWelcoming": {
+    "boldBlastNetwork": "Blast Network",
+    "buttonText": "Me gusta",
+    "part1": "Tu monedero ahora es compatible con la {boldBlastNetwork}. El Ethereum L2 con rendimiento nativo para ETH y criptomonedas estables.",
+    "part2": "Con esta integración, hemos preparado las condiciones para añadir rápidamente más redes de Nivel 2, manteniendo al mismo tiempo la experiencia de monedero móvil más segura.",
+    "title": "¡Kraken Wallet da la bienvenida a Blast!"
+  },
+  "broadcast": {
+    "sent": "Enviado"
+  },
+  "browser": {
+    "clearSearch": "Borrar",
+    "downloadFile": {
+      "failed": "No se ha podido descargar el archivo",
+      "success": "Archivo descargado"
+    },
+    "loadingError": {
+      "description": "Comprueba la URL para que no haya erratas ni falte ninguna parte",
+      "title": "No se ha encontrado la URL"
+    },
+    "noSearch": {
+      "description": "Escribe o pega la URL completa para buscar",
+      "title": "Empieza tu búsqueda"
+    },
+    "quickActions": {
+      "connectedApps": "Ver aplicaciones conectadas",
+      "disconnect": "Desconectar",
+      "refresh": "Actualizar",
+      "share": "Compartir"
+    },
+    "searchOnChain": "Buscar onchain"
+  },
+  "browserExploreWelcome": {
+    "body": "Da hoy mismo el siguiente paso en tu andadura criptográfica. Puedes descubrir aplicaciones descentralizadas (DApp) y conectarte a ellas sin salir de Kraken Wallet.",
+    "buttonText": "Me gusta",
+    "part1": "Usa el nuevo menú de opciones situado en la parte inferior de tu pantalla para acceder a la página Explorar",
+    "part2": "Descubre las DApp populares y nuevas oportunidades on-chain o usa la barra de búsquedas para obtener más información",
+    "part3": "Conéctate de forma sencilla a varias DApp y realiza transacciones sin salir de la aplicación Kraken Wallet",
+    "title": "Descubre el mundo on-chain"
+  },
+  "bugTracking": {
+    "allow": "Permitir",
+    "content": "La capacidad de observación nos permite supervisar y mejorar tu experiencia con el monedero mediante la recopilación de datos esenciales. De este modo, podemos identificar problemas, optimizar el rendimiento y garantizar que tu monedero funcione correctamente. ¡Tus datos son anónimos y están seguros! ",
+    "disallow": "No permitir",
+    "skip": "Pregúnteme más tarde",
+    "title": "Ayúdanos a mejorar Kraken Wallet"
+  },
+  "coins": {
+    "allNetworks": "Todas las redes",
+    "filterAssets": "Filtrar activos",
+    "search_placeholder": "Buscar activos",
+    "showAssets": "Mostrar activos",
+    "testnet": "Testnet"
+  },
+  "collection": {
+    "title": "colección"
+  },
+  "config": {
+    "contract-approved-failed": {
+      "title": "👎 Aprobación fallida"
+    },
+    "contract-approved": {
+      "body": "Se aprobó {amount} {symbol} en {contractAddress}",
+      "title": "🤝 Contrato aprobado"
+    },
+    "contract-interaction-failed": {
+      "body": "Interacción con {contractAddress} fallida",
+      "title": "👎 Interacción fallida"
+    },
+    "contract-interaction": {
+      "body": "Interacción con {contractAddress}",
+      "title": "🤝 Interacción del contrato"
+    },
+    "funds-deposited-failed": {
+      "title": "👎 Depósito fallido"
+    },
+    "funds-deposited": {
+      "body": "Se depositó {amount} {symbol} en {address}",
+      "title": "🤝 {symbol} depositado"
+    },
+    "funds-withdrawn-failed": {
+      "title": "👎 Retiro fallido"
+    },
+    "funds-withdrawn": {
+      "body": "Retirado a {address}",
+      "title": "+ {amount} {symbol}"
+    },
+    "generic-transaction": {
+      "body": "La transacción reciente se ha procesado correctamente en {network}",
+      "title": "✅ Transacción satisfactoria"
+    },
+    "nft-failed": {
+      "title": "👎 Envío de NFT fallido"
+    },
+    "nft-received": {
+      "body": "Recibido en {address}",
+      "title": "NFT recibido: {symbol}"
+    },
+    "nft-sent": {
+      "body": "Se envió {nftName} a {address}",
+      "title": "🖼️ ¡{nftName} enviado!"
+    },
+    "payment-debited": {
+      "body": "Cargado en {address}",
+      "title": "- {amount} {symbol}"
+    },
+    "payment-failed": {
+      "title": "👎 Envío fallido"
+    },
+    "payment-pending": {
+      "body": "Pendiente en {address}"
+    },
+    "payment-received-pending": {
+      "bitcoin": {
+        "body": "Se está recibiendo {amount} {symbol}",
+        "title": "🤌 En camino"
+      },
+      "body": "Se está recibiendo {amount} {symbol}",
+      "dogecoin": {
+        "body": "Se está recibiendo {amount} {symbol}",
+        "title": "🤌 En camino"
+      },
+      "title": "🤌 En camino"
+    },
+    "payment-received": {
+      "bitcoin": {
+        "body": "Se recibió {amount} {symbol}"
+      },
+      "body": "Recibido en {address}",
+      "dogecoin": {
+        "body": "Se recibió {amount} {symbol}"
+      },
+      "title": "+ {amount} {symbol}"
+    },
+    "payment-sent": {
+      "bitcoin": {
+        "body": "Se envió {amount} {symbol}"
+      },
+      "body": "Se envió {amount} {symbol} a {address}",
+      "dogecoin": {
+        "body": "Se envió {amount} {symbol}"
+      },
+      "title": "{symbol} enviado"
+    },
+    "swap-complete": {
+      "body": "Se intercambió {amountOut} {symbolOut} por {amountIn} {symbolIn} mediante {facilitator}",
+      "title": "🫡 Aye Aye!"
+    },
+    "swap-failed": {
+      "title": "👎 Swap fallido"
+    },
+    "token-approved": {
+      "body": "Se aprobó {symbol} en {operator}",
+      "title": "🫡 Aye Aye!"
+    },
+    "transaction-confirmed": {
+      "body": "Su transacción se ha realizado correctamente.",
+      "title": "🫡 Aye Aye!"
+    },
+    "transaction-failed": {
+      "body": "Se ha producido un error en su transacción.",
+      "title": "👎 Arrrrgggghhhh.."
+    },
+    "utxo-payment-failed": {
+      "title": "👎 Envío fallido"
+    },
+    "utxo-payment-received-pending": {
+      "body": "Se está recibiendo {amount} {symbol}",
+      "title": "🤌 En camino"
+    },
+    "utxo-payment-received": {
+      "body": "Se recibió {amount} {symbol}",
+      "title": "🙌 ¡{symbol} recibido!"
+    },
+    "utxo-payment-sent-pending": {
+      "body": "Se está enviando {amount} {symbol}",
+      "title": "🤌 En camino"
+    },
+    "utxo-payment-sent": {
+      "body": "Se envió {amount} {symbol}",
+      "title": "🙌 ¡{symbol} enviado!"
+    }
+  },
+  "confirm": {
+    "no": "Cancelar",
+    "title": "¿Está seguro?",
+    "yes": "Sí"
+  },
+  "connect_app_auth": {
+    "app_has_access_to": "{app} tiene acceso a:",
+    "connect_app": "Conectar aplicación",
+    "network": "Red"
+  },
+  "connectApp": {
+    "all_networks": "Todas las redes",
+    "cancel": "Cancelar",
+    "connect": "Conectar",
+    "connect_wallet": "Conectar monedero",
+    "request_approval": "Solicitar aprobación para transacciones",
+    "see_balance": "Ver sus balances y actividad",
+    "unsupportedNetwork": "Red no admitida",
+    "unsupportedNetworkDescription": "Esta aplicación usa la red {unsupportedNetwork} que no se admite en este momento. Kraken Wallet admite actualmente las aplicaciones de las redes Ethereum, Polygon, OP Mainnet, Arbitrum y Solana.",
+    "unsupportedNetworksDescription": "Esta aplicación usa las redes {unsupportedNetworks} que no se admiten en este momento. Kraken Wallet admite actualmente las aplicaciones de las redes Ethereum, Polygon, OP Mainnet, Arbitrum y Solana."
+  },
+  "connectedApps": {
+    "app_details": {
+      "disconnect": "Desconectar",
+      "disconnect_decscription": "Al desconectar esta aplicación, se eliminará todo el acceso a su monedero",
+      "error": "Error al desconectar",
+      "open": "Abierto"
+    },
+    "list": {
+      "connect_to_app": "Conectar a la aplicación",
+      "disconnect_all": "Desconectar todos ({0})",
+      "error_all": "Error al desconectar todas las aplicaciones",
+      "instructions": "Escanee los códigos QR para conectar aplicaciones con WalletConnect",
+      "title": "Aplicaciones conectadas",
+      "tutorial": "¿Cómo funciona?"
+    }
+  },
+  "currency": {
+    "australianDollar": "Dólar australiano",
+    "bitcoin": "Bitcoin",
+    "britishPound": "Libra esterlina",
+    "canadianDollar": "Dólar canadiense",
+    "ether": "Ether",
+    "euro": "Euro",
+    "japaneseYen": "Yen japonés",
+    "russianRuble": "Rublo ruso",
+    "satoshis": "Satoshis",
+    "southKoreanWon": "Won surcoreano",
+    "swissFranc": "Franco suizo",
+    "usDollar": "Dólar estadounidense"
+  },
+  "defi": {
+    "allAssets": "Todos los activos",
+    "apr": "TAE",
+    "apy": "APY",
+    "claimable": "Se puede reclamar",
+    "debt": "Deuda",
+    "dept": "Dept",
+    "earnCTA": "Earn",
+    "earnUpToApr": "Hasta un {apr}% TAE",
+    "network": "red",
+    "onePosition": "1 posición",
+    "positions": "{numberOfPositions} posiciones",
+    "rewards": "Recompensas",
+    "tvl": "TVL",
+    "vaults": "Bóvedas"
+  },
+  "deleteAccountConfirm": {
+    "cancel": "Cancelar",
+    "caption": "Puede recuperar el monedero con su frase de recuperación secreta",
+    "delete": "Eliminar",
+    "header": "¿Seguro que quiere eliminar este monedero?",
+    "title": "Eliminar monedero"
+  },
+  "deleteAccountVerifyBalance": {
+    "balanceLabel": "Balance",
+    "cancel": "Cancelar",
+    "caption": "Introduzca el balance de su monedero antes de eliminar; puede recuperar el monedero con su frase de recuperación secreta",
+    "delete": "Eliminar",
+    "header": "Su monedero tiene un balance",
+    "inputLabel": "Introducir el balance del monedero"
+  },
+  "deleteAllData": {
+    "iCloudInfo": {
+      "desc": "Siempre que no hayas borrado manualmente tu copia de seguridad, tu monedero podrá recuperarse.",
+      "title": "Esto no eliminará tu copia de seguridad de iCloud."
+    }
+  },
+  "diagnostics": {
+    "running": "Ejecutando diagnóstico..."
+  },
+  "discovery": {
+    "explore": "Explorar"
+  },
+  "earn": {
+    "allAssets": "Todos los activos",
+    "apy": "APY",
+    "balance": "Balance",
+    "debt": "Deuda",
+    "detailsSheet": {
+      "deposit": "Depositar",
+      "depositCta": "Deposita {symbol} en {protocol}",
+      "from": "De:",
+      "high": "Alto:",
+      "info": {
+        "about": "Acerca de {symbol}",
+        "addressCopied": "Dirección copiada",
+        "assetsLocked": "Activos bloqueados",
+        "composition": "Composición",
+        "contractAddress": "Dirección del contrato",
+        "marketCap": "Capitalización de mercado",
+        "network": "Red",
+        "numberHolders": "Número de titulares",
+        "pool": "Oportunidad",
+        "poolAddress": "Dirección del grupo",
+        "protocol": "Protocolo",
+        "tokenEarned": "Token ganado",
+        "tokenPrice": "Precio del token",
+        "type": "Tipo"
+      },
+      "low": "Bajo:",
+      "openDapp": "Abrir DApp",
+      "period": {
+        "all": "Todo",
+        "day": "D",
+        "month": "M",
+        "week": "S",
+        "year": "Y"
+      },
+      "refreshChart": "Actualizar gráfico",
+      "to": "A:",
+      "transfer": "Transferencia",
+      "withdraw": "Retirar"
+    },
+    "earnCTA": "Earn",
+    "earnOnYourAssets": "Gana con tus activos",
+    "earnSheet": {
+      "amountAvailable": "Disponible: {balance} {symbol}",
+      "apy": "APY",
+      "earn": "Gane {symbol}",
+      "noBalanaceFound": "Sin balance. Deposita {symbol} en tu monedero para poder optar a Earn.",
+      "swapCta": "Swap",
+      "tvl": "{tvl} TVL"
+    },
+    "earnUpToApr": "Obtén hasta un {apy}% de rendimiento anual",
+    "earnUpToApy": "Obtén hasta un {apy}% de rendimiento anual",
+    "earnWhileYouSleep": "Gana recompensas mientras duermes",
+    "errors": {
+      "emptyCarousel": {
+        "detail": "Para acceder a las oportunidades de rendimiento, envía activos compatibles como Ethereum o USDC a tu monedero.",
+        "heading": "Deposita ETH para empezar a obtener recompensas",
+        "supportArticle": "Obtén más información sobre los activos compatibles"
+      },
+      "explaination": "Comprueba tu conexión o intenta abrir esta página más tarde",
+      "titlePlural": "Se ha producido un error al cargar las oportunidades de obtener recompensas",
+      "titleSingular": "Se ha producido un error al cargar la oportunidad de obtener recompensas"
+    },
+    "heroAvailableBalance": "Disponible: {balance} {symbol}",
+    "heroTitle": "Gana {symbol} en {protocol}",
+    "liquidityPool": "Grupo de liquidez",
+    "protocolType": {
+      "lending": "Préstamos"
+    },
+    "tvl": "TVL"
+  },
+  "editAccount": {
+    "rename": "Renombrar",
+    "save": "Guardar",
+    "title": "Editar monedero",
+    "walletName": "Nombre del monedero"
+  },
+  "editNote": {
+    "title": "Descripción"
+  },
+  "errors": {
+    "connectionError": "Error de conexión",
+    "exploreSubpage": "Algo salió mal al abrir este contenido. Inténtalo de nuevo más tarde.",
+    "generalFetchError": "Error. Vuelva a intentarlo.",
+    "generic": "Algo salió mal",
+    "genericTryAgainLater": "Se ha producido un error. Inténtalo de nuevo más tarde.",
+    "invalidRequest": "Solicitud de {method} no válida",
+    "network": "Error de red",
+    "offline": "Offline",
+    "offlineRetry": "Estás offline. Vuelve a intentarlo cuando estés online.",
+    "permissionDenied": "Permiso denegado",
+    "seedMissing": "Error crítico. La frase semilla no está disponible.",
+    "unauthorizedRequest": "Solicitud no autorizada",
+    "unsupportedChain": "Cadena no admitida"
+  },
+  "explore": {
+    "continueAccessibilityHint": "Aceptar el aviso legal y continuar",
+    "disclaimerBody": "Ten en cuenta que esta función incluye contenidos proporcionados por terceros. Consulta las condiciones pertinentes de los Términos de servicio.",
+    "disclaimerTitle": "Te damos la bienvenida a Explorar",
+    "earnBody": "Participar en finanzas descentralizadas",
+    "earnTitle": "Gana rendimiento con DeFi",
+    "errorBody": "La aplicación no ha podido cargar el contenido de esta página. Inténtelo de nuevo más tarde",
+    "errorTitle": "Algo salió mal",
+    "rewardPrefix": "Earn"
+  },
+  "extendedPublicKey": {
+    "bitcoinXpub": "xPub de Bitcoin",
+    "copyXpub": "Copiar xPub",
+    "summary": "Aquí está tu {summaryEmphasis}, es la clave pública maestra usada para generar todas las direcciones de bitcoin públicas para este monedero.",
+    "summaryEmphasis": "Clave pública extendida (xPub) de Bitcoin",
+    "type": "Tipo: {type}"
+  },
+  "extension": {
+    "_": {
+      "off": "Apagado",
+      "on": "Encendido",
+      "timeAbbr": {
+        "days": "día",
+        "hours": "hora",
+        "minutes": "min.",
+        "months": "mes",
+        "seconds": "s",
+        "weeks": "semana",
+        "years": "año"
+      },
+      "unknown": "desconocido"
+    },
+    "alt": {
+      "proceduralWalletImage": "Imagen de monedero de procedimiento"
+    },
+    "ariaLabel": {
+      "icon": "Icon",
+      "iconButton": "Botón con icono",
+      "toggleSwitch": "Botón de alternancia"
+    },
+    "assets": {
+      "logoAlt": "logotipo del activo",
+      "manageAssets": "Gestionar activos"
+    },
+    "customNetwork": {
+      "addCustomNetwork": "Añadir red personalizada",
+      "addNetwork": "Añadir red",
+      "blockExplorerUrl": "URL al explorador de bloques",
+      "chainId": "ID de la cadena",
+      "customNetwork": "Red personalizada",
+      "customNetworks": "Redes personalizadas",
+      "decimals": "Decimales",
+      "editCustomNetwork": "Editar red personalizada",
+      "enterNetworkName": "Introduce el nombre de la red",
+      "networkName": "Nombre de la red",
+      "remove": "Eliminar",
+      "rpcUrl": "URL de RPC",
+      "symbol": "Símbolo",
+      "updateNetwork": "Actualizar red"
+    },
+    "enterPasswordDialog": {
+      "continue": "Continuar",
+      "currentPasswordAriaLabel": "Contraseña actual",
+      "enterCurrentPassword": "Introduce la contraseña actual",
+      "enterToDecrypt": "Introduce tu contraseña actual para ver tu frase de recuperación",
+      "lockGraphicsAlternativeText": "Bloquear gráficos"
+    },
+    "home": {
+      "addWallet": "Añadir monedero",
+      "manage": "Gestionar",
+      "selectWallet": "Seleccionar monedero"
+    },
+    "lockWallet": "Bloquear monedero",
+    "manageAssets": {
+      "filter": "Filtrar activos",
+      "hiddenAssets": "Activos ocultos",
+      "manageAssets": "Gestionar activos",
+      "search": "Buscar + de 5000 activos",
+      "searchResults": "Buscar resultados",
+      "unhideAll": "Mostrar todo",
+      "visibleAssets": "Activos visibles"
+    },
+    "manageWallets": {
+      "viewRecoveryPhrase": "Ver frase de recuperación"
+    },
+    "navigation": {
+      "activity": "Actividad",
+      "assets": "Activos",
+      "nfts": "NFT"
+    },
+    "nft": {
+      "about": "Acerca de",
+      "addNfts": "Añadir NFT a tu monedero",
+      "send": "Enviar"
+    },
+    "onboarding_backup": {
+      "backUpWallet": "Realizar copia de seguridad del monedero"
+    },
+    "onboarding": {
+      "skip": "Omitir",
+      "typeYourSecretRecoveryPhrase": "Introduce tu frase de recuperación secreta",
+      "walletSupports": "Este monedero admite Ethereum, Polygon, Optimism, Arbitrum y más"
+    },
+    "receive": {
+      "receiveCryptoOrNft": "Recibir cripto o NFT"
+    },
+    "send": {
+      "amountInput": {
+        "balance": "Balance",
+        "errors": {
+          "exceedsBalance": "La cantidad introducida supera tu balance",
+          "greaterThanZero": "La cantidad introducida debe ser mayor que 0",
+          "invalid": "La cantidad introducida no es válida"
+        },
+        "label": "Cantidad",
+        "placeholder": "Introduzca un importe"
+      },
+      "continue": "Continuar",
+      "networkFee": "Comisión de red",
+      "sending": {
+        "title": "Enviando"
+      },
+      "sendingTo": {
+        "search": "Selecciona lo que quieras enviar.",
+        "title": "Enviando a"
+      },
+      "sendInput": {
+        "label": "Enviando a",
+        "paste": "Pegar",
+        "placeholder": "Dirección o dominio ENS..."
+      },
+      "sendOn": {
+        "network": "red",
+        "title": "Enviar en"
+      }
+    },
+    "settings": {
+      "build": "Versión {0}",
+      "changePassword": {
+        "caption": "Introduce la contraseña para proteger y bloquear tu monedero",
+        "confirmPassword": "Confirmar contraseña",
+        "label": "Contraseña",
+        "menuItemTitle": "Cambiar contraseña",
+        "setPassword": "Establecer contraseña",
+        "title": "Introducir nueva contraseña",
+        "typePassword": "Introducir contraseña"
+      },
+      "lockWallet": "Bloquear monedero",
+      "privacy": "Privacidad",
+      "version": "Extensión {0} de Kraken Wallet",
+      "walletSettings": "Configuración del monedero"
+    },
+    "skip": "Omitir",
+    "walletBackup": {
+      "couldNotRetrieveState": "No se ha podido obtener el estado de verificación de la frase de recuperación",
+      "unverified": "La frase de recuperación no está verificada",
+      "verified": "La frase de recuperación está verificada"
+    },
+    "walletSettings": "Configuración del monedero"
+  },
+  "floatingTransactionActivityButtons": {
+    "receive": "Recibir",
+    "send": "Enviar"
+  },
+  "globalActivity": {
+    "addAssets": "Añada algunos activos a su monedero",
+    "allActivity": "Toda la actividad",
+    "emptySelection": {
+      "description": "Tu monedero contiene 0 activos en la red seleccionada",
+      "title": "No hay activos en la red seleccionada"
+    },
+    "noActivity": {
+      "description": "Añade algunos activos a tu monedero",
+      "title": "Las transacciones aparecerán aquí"
+    },
+    "recentActivity": "Actividad reciente",
+    "title": "Actividad",
+    "transactionFailedInfo": "Error en la transacción de {network} reciente",
+    "transactionsWillAppearHere": "Las transacciones aparecerán aquí"
+  },
+  "home": {
+    "assets": "Activos",
+    "collection": "NFT",
+    "collection_see_all": "Ver todo",
+    "collectionEmpty": "Aún no hay NFT. Tus activos de coleccionismo aparecerán aquí cuando estén disponibles. ",
+    "collectionEmptyCta": "Recibir",
+    "defiEmpty": "Empieza a ganar con DeFi",
+    "defiEmptyCaption": "Aún no hay posiciones. Participa en DeFi para obtener rendimiento de tus activos.",
+    "defiEmptyCta": "Activar recompensas",
+    "defiEmptyTitle": "DeFi",
+    "deposits": "DeFi",
+    "manage": "Gestionar",
+    "total_balance": "Balance"
+  },
+  "krakenConnect": {
+    "appLock": {
+      "description": "Para proteger tus fondos, activa {authType} antes de conectar tu Exchange.",
+      "title": "Protege tu monedero antes de conectarte"
+    },
+    "appLockWarning": {
+      "ctaCancel": "Cancelar",
+      "ctaTurnOff": "Desactivar",
+      "description": "Desactivar App Lock desactivará tu conexión a Kraken. Deberás configurarla de nuevo si quieres transferir tus fondos con facilidad.",
+      "title": "¿Desactivar App Lock?"
+    },
+    "availableBalanceInfo": {
+      "description": "¿Por qué existe una retención?",
+      "title": "Puede que una porción de tus inversiones de Exchange en Kraken no se puedan retirar debido a una retención temporal."
+    },
+    "balanceOnKraken": "en Kraken",
+    "connected": {
+      "alert": "Solo el monedero actual, “<b>{walletName}</b>”, se ha conectado a Kraken.",
+      "cta": "Transferencia al monedero",
+      "feature0": "Podrás <b>recibir fondos de forma rápida</b> si realizas la transferencia desde tu cuenta de Kraken",
+      "feature1": "Comprueba <b>tus balances onchain y del exchange de Kraken</b> directamente desde tu monedero",
+      "featuresTitle": "Has desbloqueado las siguientes funciones:",
+      "success": "¡Cuenta de Kraken conectada!"
+    },
+    "connecting": "Conectando a Kraken",
+    "connectingFailed": "Error al conectar a Kraken ",
+    "errors": {
+      "createAddress": "Error al crear una dirección de depósito y retiro.",
+      "fetchBalance": "No es posible recuperar el balance de Exchange en Kraken.",
+      "getFee": "No es posible obtener la cantidad de la comisión exacta.",
+      "transferAppLockFailure": "No se inició la transferencia."
+    },
+    "exchangeBalance": "Balance del exchange",
+    "fundCta": {
+      "body": "Conecta tu cuenta de Kraken a",
+      "bodyBold": "transfiere criptos a tu monedero",
+      "heading": "Deposita fondos en tu monedero"
+    },
+    "noData": {
+      "description": "Tu cuenta de exchange de Kraken no tiene activos que transferir.",
+      "title": "No hay activos que transferir"
+    },
+    "pendingTransactionId": "ID de transacción de Kraken",
+    "receiveCta": {
+      "body": "Conecta tu cuenta de Exchange en Kraken",
+      "headline": "Transferencia rápida desde Kraken"
+    },
+    "selectNetwork": {
+      "description": "Elige en qué red quieres recibir tus {assetLabel} en tu monedero.",
+      "fee": "Tarifa: {assetValue}",
+      "minimum": "Mínimo: {assetValue}",
+      "network": "Red {selectedNetworkName}",
+      "title": "Seleccionar red"
+    },
+    "sendScreen": {
+      "title": "Transferir {assetSymbol}"
+    },
+    "settings": {
+      "benefits0": "Transferir criptomonedas desde Kraken",
+      "benefits1": "Ver balances del exchange de Kraken",
+      "benefitsHeadline": "La conexión a la cuenta de Kraken permite:",
+      "cancel": "Cancelar",
+      "connect": "Conectar",
+      "disconnect": "Desconectar",
+      "disconnectScreen": {
+        "alert": "Una vez hayas desconectado tu monedero, la clave API será válida en la configuración API de tu exchange de Kraken durante 6 meses.",
+        "description": "¿Estás seguro de que quieres desconectar este monedero de Kraken ?",
+        "title": "Desconectarse de Kraken",
+        "warningMessage": "Ya no podrás realizar transferencias sin interrupciones entre tu monedero <b>“{walletName}”</b> y tu cuenta de exchange de Kraken."
+      },
+      "walletsListTitle": "Tus monederos"
+    },
+    "stepsToConnect": {
+      "hasAccount": "He creado una cuenta",
+      "heading": "Si quieres conectarte a Kraken, sigue estos pasos:",
+      "step1": {
+        "description": "Configurar tu cuenta de Kraken",
+        "label": "Paso 1"
+      },
+      "step2": {
+        "description": "Vuelve al monedero",
+        "label": "Paso 2"
+      },
+      "step3": {
+        "description": "Conecta tu cuenta de Kraken",
+        "label": "Paso 3"
+      }
+    },
+    "transfer": {
+      "available": "Disponible: {value}",
+      "confirm": "Confirmar transferencia",
+      "network": "Red",
+      "selectAsset": "Selecciona un activo para transferirlo",
+      "selectAssetDescription": "Transferir desde el exchange de Kraken a tu monedero",
+      "title": "Transferencia",
+      "transferFee": "Comisión de transferencia",
+      "transferringTo": "Transfiriendo a",
+      "unsupportedAssets": "Activos no compatibles",
+      "unsupportedAssetsDescription": "Kraken Wallet no admite actualmente {assets}"
+    },
+    "transferCta": {
+      "body": "Conecta tu cuenta de Kraken para transferir criptomonedas rápidamente",
+      "heading": "Transferir desde Kraken"
+    },
+    "unconnected": {
+      "alert": "Solo el monedero actual, “<b>{walletName}</b>”, se conectará a Kraken.",
+      "body": "Conecta tu cuenta de exchange de Kraken para transferir fondos a tu monedero de forma sencilla",
+      "cta": "Conectar al exchange de Kraken",
+      "noAccount": "No tengo una cuenta",
+      "title": "Recibe criptomonedas en tu monedero con Kraken"
+    }
+  },
+  "manageWallets": {
+    "title": "Gestionar monederos"
+  },
+  "marketData": {
+    "about": "Acerca de {assetSymbol}",
+    "allTimeHigh": {
+      "details": "El precio más alto al que se ha se ha operado con una criptomoneda desde su creación.",
+      "title": "Máximo histórico"
+    },
+    "allTimeLow": {
+      "details": "El precio más bajo al que se ha se ha operado con una criptomoneda desde su creación.",
+      "title": "Mínimo histórico"
+    },
+    "circulatingSupply": {
+      "details": "El número de monedas o tokens que están disponibles activamente en el mercado y en manos del público en general.",
+      "title": "Suministro en circulación"
+    },
+    "contract": "Contrato",
+    "contractAddressCopied": "Dirección del contrato copiada.",
+    "explorers": "Exploradores",
+    "fullyDilutedValuation": {
+      "details": "El market cap si el suministro máximo estuviera en circulación, calculado multiplicando el precio actual por el suministro máximo.",
+      "short": "FDV",
+      "title": "Valoración totalmente diluida"
+    },
+    "high": "Alto:",
+    "links": "Enlaces",
+    "low": "Bajo:",
+    "marketCap": {
+      "details": "El valor total de mercado de una criptomoneda, calculado multiplicando el precio actual por el suministro en circulación.",
+      "short": "Market Cap",
+      "title": "Market Cap"
+    },
+    "maxSupply": {
+      "details": "El número máximo de monedas o tokens que existirán para una criptomoneda, según lo definido por el protocolo del proyecto.",
+      "title": "Suministro máximo"
+    },
+    "networkFee": {
+      "current": "Tarifa actual",
+      "duration": "Duración",
+      "title": "Tarifa de red"
+    },
+    "period": {
+      "all": "TODO",
+      "day": "24 h",
+      "month": "1M",
+      "week": "1S",
+      "year": "1 año"
+    },
+    "price": "Precio",
+    "priceNotAvailable": "Precio (no disponible)",
+    "readMore": "Leer más",
+    "showLess": "Mostrar menos",
+    "terminology": "Terminología",
+    "tokenContract": "Contrato de token",
+    "tokenContractWarning": {
+      "boldDescription": "Nunca envíes fondos a direcciones que hayas copiado.",
+      "description": "{boldDescription} NO es tu dirección para recibir fondos. Es la dirección de contrato inteligente utilizada para identificar el token en la blockchain.",
+      "header": "Acabas de copiar una dirección de contrato de token"
+    },
+    "totalSupply": {
+      "details": "El número de monedas o tokens que existen actualmente, incluidas las que pueden estar bloqueadas, reservadas o aún no liberadas.",
+      "title": "Suministro total"
+    },
+    "volume24h": {
+      "details": "El valor total de una criptomoneda con la que se ha operado en las últimas 24 horas en todas los exchanges.",
+      "short": "Volumen 24h",
+      "title": "Vol. 24 h"
+    },
+    "website": "Sitio web"
+  },
+  "network": {
+    "arbitrum": "Arbitrum",
+    "avalanche": "Avalanche",
+    "base": "Base",
+    "bitcoin": "Bitcoin",
+    "blast": "Blast",
+    "dogecoin": "Dogecoin",
+    "ethereum": "Ethereum",
+    "ethereum_goerli": "Ethereum - Testnet Goerli",
+    "ethereum_sepolia": "Ethereum: Sepolia",
+    "ink": "Ink",
+    "ink_sepolia": "Ethereum: Ink Sepolia",
+    "linea": "Linea",
+    "matic": "Matic",
+    "optimism": "OP Mainnet",
+    "polygon": "Polygon",
+    "solana": "Solana",
+    "solana_devnet": "Solana - Devnet",
+    "tezos": "Tezos",
+    "unknown": "Desconocido"
+  },
+  "nftCollection": {
+    "archiveCollectionDetailsSubtitle": "Todos los NFT archivados",
+    "archiveCollectionDetailsTitle": "Archivo",
+    "archiveCollectionSubtitle": "Todos los NFT archivados",
+    "archiveCollectionTitle": "NFT archivados",
+    "archivedDaysInfo": "Hace {days} días",
+    "archivedOneDayInfo": "Hace 1 día",
+    "heading": "Items"
+  },
+  "nftGallery": {
+    "favorite": "Favorito"
+  },
+  "nftList": {
+    "collections": "Colecciones",
+    "collectionsEmptyState": {
+      "allNetworks": {
+        "heading": "Aún no hay colecciones en este monedero",
+        "subheading": "Tu monedero contiene 0 colecciones en todas las redes compatibles"
+      },
+      "selectedNetworks": {
+        "heading": "No hay colecciones en las redes seleccionadas",
+        "subheading": "Tu monedero contiene 0 colecciones de NFT en las redes seleccionadas"
+      }
+    },
+    "everything": "Todo",
+    "everythingEmptyState": {
+      "allNetworks": {
+        "heading": "Aún no hay NFT en este monedero",
+        "subheading": "Tu monedero contiene 0 NFT en todas las redes compatibles"
+      },
+      "selectedNetworks": {
+        "blastHeading": "NFTs de Blast disponibles próximamente",
+        "blastSubheading": "Este monedero aún no permite ver tus NFT en la red Blast",
+        "heading": "No hay NFT en las redes seleccionadas",
+        "subheading": "Tu monedero contiene 0 NFT en las redes seleccionadas"
+      }
+    },
+    "title": "NFT"
+  },
+  "nftManage": {
+    "archive": "Archivo",
+    "copy_id": "Copiar ID",
+    "favorite": "Favorito",
+    "title": "Gestionar NFT",
+    "unArchive": "Desarchivar",
+    "unArchiveSuccess": "NFT desarchivado",
+    "unfavorite": "Suprimir de favoritos"
+  },
+  "nftOptions": {
+    "archive": "Archivo",
+    "favorite": "Favorito",
+    "send": "Enviar",
+    "unarchive": "Desarchivar",
+    "unfavorite": "Suprimir de favoritos",
+    "viewDetails": "Ver detalles",
+    "viewOn": "Ver en {explorer}"
+  },
+  "nftView": {
+    "about": "Acerca de",
+    "ens": {
+      "description": "Los dominios Ethereum Name Service (ENS) son nombres de dominios seguros para el mundo descentralizado. Los dominios END ofrecen una forma de que el usuario asigne nombres legibles por humanos a recursos de la blockchain y fuera de ella, como direcciones de Ethereum, hashes de IPFS o URL de sitios web. Los dominios ENS se pueden comprar y vender en mercados secundarios.",
+      "links": {
+        "label": "Ver en"
+      },
+      "ownership": {
+        "label": "Propiedad",
+        "manager": "Gestor",
+        "owner": "Propietario"
+      },
+      "traits": {
+        "created": "Fecha de creación",
+        "expiration": "Vence el"
+      }
+    },
+    "failedMedia": {
+      "desc": "Puede que el tipo de medios de comunicación aún no sea compatible.",
+      "title": "No se han podido cargar los medios de comunicación"
+    },
+    "links": {
+      "label": "Ver en"
+    },
+    "manage": "Gestionar",
+    "noName": "Sin nombre",
+    "properties": "Propiedades",
+    "show_less": "Mostrar menos",
+    "show_more": "Mostrar más"
+  },
+  "onboarding_backup_prompt": {
+    "caption": "Necesitará su {recoveryPhrase} para recuperar sus cripto si pierde su dispositivo o cambia a otro monedero. {neverShare}",
+    "continue": "Desvelar frase",
+    "recovery_phrase": "frase de recuperación secreta",
+    "skip": "Omitir",
+    "skipWarning": {
+      "back": "Atrás",
+      "checkOne": "Comprendo que si pierdo mi teléfono o elimino la aplicación sin hacer una copia de seguridad, no tendré ninguna forma de recuperar mi monedero.",
+      "checkTwo": "Entiendo que soy el único responsable de cualquier pérdida de activos resultante de no tener una copia de seguridad de recuperación.",
+      "confirm": "Confirmar",
+      "title": "¿Deseas continuar sin hacer una copia de seguridad de tu monedero?"
+    },
+    "subtitle": "tu monedero",
+    "title": "Respaldar"
+  },
+  "onboarding_backup_verify": {
+    "caption": "Pulse en las siguientes palabras en el orden numérico correcto para verificar que ha guardado su frase de recuperación secreta.",
+    "failed": "Frase no válida",
+    "paste": "Pegar",
+    "retry": "Inténtelo de nuevo",
+    "title": "Verifique que lo ha guardado correctamente",
+    "verified": "Verificado",
+    "verify": "Verificar"
+  },
+  "onboarding_backup": {
+    "caption": "Escriba estas 12 palabras en orden numérico y guárdelas en un lugar seguro. {neverShare}",
+    "continue": "Siguiente",
+    "copy": "Copiar",
+    "title": "Su frase de recuperación secreta"
+  },
+  "onboarding_import_wallet": {
+    "caption": "Introduzca su frase de recuperación secreta o clave privada para importar su monedero.",
+    "import": "Importar",
+    "paste": "Pegar",
+    "title": "Importar tu monedero"
+  },
+  "onboarding_secure_wallet": {
+    "authBiometric": "Autenticación biométrica",
+    "authFaceID": "FaceID",
+    "authPasscode": "Código de acceso",
+    "authTouchID": "TouchID",
+    "caption": "Use {authType} para evitar que alguien que tenga tu teléfono pueda acceder a tus criptomonedas.",
+    "secureWallet": "Proteger monedero",
+    "skip": "Omitir",
+    "subtitle": "tu monedero",
+    "title": "Protege"
+  },
+  "onboarding": {
+    "create_wallet": "Crear monedero",
+    "import_error": "No se ha podido importar el monedero",
+    "import_wallet": "Importar",
+    "intro_pages": {
+      "1": {
+        "subtitle": "Kraken Wallet",
+        "text": "Adquiera criptomonedas, descubra blockchains y proteja su futuro financiero.",
+        "title": "Le damos la bienvenida a"
+      },
+      "2": {
+        "subtitle": "su custodia",
+        "text": "Guarde sus cripto de forma segura en un monedero autocustodiado al que solo usted puede acceder.",
+        "title": "Sus cripto"
+      },
+      "3": {
+        "subtitle": "blockchains",
+        "text": "Kraken Wallet admite Bitcoin, Ethereum, Polygon, Doge y muchas más. ",
+        "title": "Explorar más"
+      },
+      "4": {
+        "subtitle": "y almacene NFT",
+        "text": "Compre, venda, intercambie criptomonedas y almacene NFT de sus colecciones favoritas.",
+        "title": "Comprar cripto"
+      },
+      "settingUp": {
+        "subtitle": "tu monedero...",
+        "text": "Debería tardar solo un momento",
+        "title": "Configurando"
+      }
+    },
+    "never_share": "Nunca la compartas con nadie.",
+    "scroll_note": "Desplácese para ver más"
+  },
+  "onboardingBackupVerify": {
+    "caption": "Pulse en las siguientes palabras en el orden numérico correcto para verificar que ha guardado su frase de recuperación secreta.",
+    "failed": "Frase no válida",
+    "paste": "Pegar",
+    "pasteWarning": {
+      "back": "Atrás",
+      "checkOne": "Comprendo que si pierdo mi teléfono o elimino la aplicación, necesitaré la frase de recuperación secreta para restaurar mi monedero.",
+      "checkTwo": "Comprendo que si pierdo mi frase de recuperación, soy el único responsable de cualquier pérdida de activos.",
+      "confirm": "Confirmar",
+      "title": "Confirme que lo ha guardado en un lugar seguro"
+    },
+    "retry": "Inténtelo de nuevo",
+    "title": "Verifique que lo ha guardado correctamente",
+    "verified": "Verificado",
+    "verify": "Verificar"
+  },
+  "onboardingImportCloudBackup": {
+    "desc": "Para importar tu monedero desde una copia de seguridad, usa tu clave de paso para el descifrado.",
+    "selection": {
+      "desc": "Has creado más de una copia de seguridad; elige la copia de seguridad de monedero que quieras importar",
+      "recent": "Más recientes",
+      "title": "Selecciona la copia de seguridad de monedero que quieras importar"
+    },
+    "title": "Importar desde copia de seguridad",
+    "usePasskey": "Usar mi clave de paso"
+  },
+  "onboardingImportMethod": {
+    "methodICloud": {
+      "desc": "Importar desde una copia de seguridad de iCloud que hayas creado para Kraken Wallet",
+      "title": "Importar desde iCloud"
+    },
+    "methodManual": {
+      "desc": "Importar con tu frase de recuperación secreta de 12-24 palabras",
+      "title": "Introducir frase semilla"
+    },
+    "subtitle": "su monedero",
+    "title": "Importar"
+  },
+  "onboardingImportSubWallets": {
+    "addByIndex": {
+      "addWallet": "Añadir monedero",
+      "addWallets": "Añadir monederos",
+      "button": "Añadir por índice",
+      "description": "Escribe el índice numérico del monedero que te gustaría importar.",
+      "placeholder": "Introducir el número del índice del monedero",
+      "title": "Introducir el índice del monedero"
+    },
+    "findingWallets": {
+      "caption": "Esto puede tardar unos segundos",
+      "foundWallets": "{count} monederos encontrados...",
+      "title": "Buscando submonederos"
+    },
+    "findSubWallets": {
+      "caption": "Esto puede tardar unos segundos",
+      "foundWallets": "{count} monederos encontrados...",
+      "title": "Buscando submonederos"
+    },
+    "importSubWallets": {
+      "addByIndex": "Añadir por índice",
+      "hasABalance": "Tiene un balance",
+      "hasBalance": "Contiene fondos",
+      "importingWallets": "Importando {subWalletsCount} monederos...",
+      "importingWalletsOne": "Importando 1 monedero...",
+      "importWallets": "Importar {subWalletsCount} monederos",
+      "importWalletsOne": "Importar 1 monedero",
+      "skip": "Omitir",
+      "subtitle": "Hemos encontrado {subWalletsWithBalanceCount} monederos con fondos. Selecciona los monederos que quieras importar.",
+      "subtitleOneWallet": "Hemos encontrado 1 monedero con fondos.",
+      "title": "Selecciona los monederos que importar",
+      "wallet": "Monedero",
+      "walletsFound": "{subWalletsCount} monederos encontrados",
+      "walletsFoundOne": "1 monedero encontrado"
+    },
+    "importSubWalletsSuccess": {
+      "continue": "Continuar",
+      "subtitle": "Monederos añadidos correctamente. Puedes añadir más en cualquier momento.",
+      "subtitleOneWallet": "Monedero añadido correctamente. Puedes añadir más en cualquier momento.",
+      "title": "{subWalletsCount} monederos importados.",
+      "titleOneWallet": "1 monedero importado."
+    },
+    "loadingSubWallets": {
+      "caption": "Esto puede tardar unos segundos",
+      "foundWallets": "Se han encontrado {subWalletsCount} monederos...",
+      "foundWalletsOne": "Se ha encontrado 1 monedero...",
+      "subtitle": "Esto puede tardar unos segundos",
+      "title": "Buscando submonederos"
+    }
+  },
+  "onboardingImportWallet": {
+    "caption": "Introduce tu frase de recuperación secreta para importar el monedero.",
+    "disclaimer": "Si alguien más supiese cuál es la frase de recuperación secreta (palabras semilla), también podría acceder a este monedero, por lo que los fondos no estarían protegidos.",
+    "disclaimerTitle": "¡Atención!",
+    "header": "Importar su monedero",
+    "headerInvalid": "Comprobar su frase secreta",
+    "import": "Importar",
+    "invalid": "Frase no válida",
+    "loading": "Importando monedero...",
+    "paste": "Pegar",
+    "valid": "Importado"
+  },
+  "onboardingOutro": {
+    "button": "Aceptar y continuar",
+    "caption": "Este monedero admite Bitcoin, Ethereum, Polygon, Solana y muchas más.",
+    "footer": "Al continuar, aceptas los términos de servicio\n",
+    "termsOfService": "del monedero de Kraken",
+    "title": "Su monedero está listo"
+  },
+  "onboardingPushNotifications": {
+    "allow": "Permitir",
+    "content": "Obtenga alertas cruciales sobre transacciones y otras interacciones del monedero importantes. Para activar esta función, permita las notificaciones.",
+    "skip": "Pregúnteme más tarde",
+    "title": "Para permanecer informado, permita las notificaciones",
+    "titleEnd": "permitir notificaciones",
+    "titleStart": "Para permanecer informado, "
+  },
+  "onChainSecurity": {
+    "analysingApp": "Analizando aplicación...",
+    "appConnectCriticalWarning": "Creemos que esta aplicación es maliciosa y no es seguro conectase. La aprobación puede conllevar la pérdida de fondos.",
+    "appConnectMediumWarning": "No se puede verificar la aplicación que ha enviado la solicitud.",
+    "appFlagged": "¡Aplicación sospechosa!",
+    "appSafetyNotVerified": "No se ha verificado la seguridad de la aplicación",
+    "appSafetyNotVerifiedMessage": "No hemos podido verificar la seguridad de la aplicación a la que intentas conectarte debido a un error temporal o a una interrupción de nuestro servicio de verificación de aplicaciones. Procede con precaución.",
+    "appSignMessageCriticalWarning": "Creemos que esta aplicación es maliciosa y no es seguro firmar el mensaje. La aprobación puede conllevar la pérdida de fondos.",
+    "appSignMessageMediumWarning": "No se puede verificar la aplicación que ha enviado la solicitud.",
+    "appSignTransactionCriticalWarning": "Creemos que esta aplicación es maliciosa y no es seguro firmar la transacción. La aprobación puede conllevar la pérdida de fondos.",
+    "appSignTransactionMediumWarning": "No se puede verificar la aplicación que ha enviado la solicitud.",
+    "appWarning": "Creemos que esta aplicación es maliciosa y no es seguro conectase. La aprobación puede conllevar la pérdida de fondos",
+    "criticalWarning": "Aviso crítico",
+    "domainMatch": "El dominio coincide",
+    "domainMatchInfo": "El dominio vinculado a esta solicitud se ha verificado como el dominio de esta aplicación.",
+    "domainMismatch": "El dominio no coincide",
+    "domainMismatchInfo": "Este sitio web tiene un dominio que no coincide con el emisor de esta solicitud. La aprobación puede conllevar la pérdida de fondos.",
+    "domainMismatchMessage": "El dominio de la aplicación no coincide con el emisor de esta solicitud. La aprobación puede conllevar la pérdida de fondos.",
+    "domainMismatchWarning": "Advertencia: El dominio no coincide",
+    "ignoreWarningAndProceed": "Ignorar aviso y continuar",
+    "knownSecurityRisk": "Riesgo de seguridad conocido",
+    "knownSecurityRisk!": "Riesgo de seguridad conocido.",
+    "knownSecurityRiskExclaimed": "Riesgo de seguridad conocido.",
+    "knownSecurityRiskExclamation": "Riesgo de seguridad conocido.",
+    "knownSecurityRiskInfo": "Varios proveedores de seguridad clasifican esta web como no segura. Para proteger tus activos, NO te conectes a ella.",
+    "knownSecurityRiskMessage": "Varios proveedores de seguridad clasifican esta web como no segura. Sal inmediatamente para evitar que vacíen tus activos",
+    "messageFlagged": "¡Mensaje sospechoso!",
+    "punycodeDomainRiskMessage": "La dirección de este sitio web contiene caracteres no estándar. Se trata de una técnica habitual utilizada por los estafadores para hacerse pasar por sitios web legítimos. Por tu seguridad, te recomendamos que no introduzcas información confidencial ni continúes en este sitio web.",
+    "returnToSafety": "Regresar por seguridad",
+    "signTransactionCriticalWarning": "Creemos que esta transacción es maliciosa y no es seguro firmar. La aprobación puede conllevar la pérdida de fondos.",
+    "transactionFlagged": "¡Transacción sospechosa!",
+    "transactionWarning": "Creemos que esta transacción es maliciosa y no es seguro firmar. La aprobación puede conllevar la pérdida de fondos",
+    "unverifiedApp": "No se puede verificar la aplicación que ha enviado la solicitud.",
+    "warning": "Aviso"
+  },
+  "passwordProtection": {
+    "authFailed": "Error de autenticación",
+    "authFailedDescription": "Puede intentarlo de nuevo o borrar y reiniciar la aplicación completamente",
+    "biometricDescriptionAndroid": "incluso si has configurado una huella biométrica mediante App Lock",
+    "biometricDescriptionIOS": "incluso si has configurado FaceID o TouchID mediante App Lock",
+    "confirm": "Confirmar",
+    "confirmPassword": "Confirmar contraseña",
+    "confirmResetApp": "Confirmar reiniciar la aplicación",
+    "connectedApps": "Aplicaciones conectadas para inicio de sesión y autenticación",
+    "createPassword": "Crear contraseña",
+    "dataLoss1": "Comprendo que al reiniciar la aplicación se restaurará completamente como si se hubiera instalado por primera vez.",
+    "dataLoss2": "Comprendo que después de que la aplicación se haya restaurado, necesitaré mis frases secretas para acceder a mis monederos.",
+    "dataLoss3": "Comprendo que si reinicio la aplicación y no tengo mis frases de recuperación secretas de los monederos, será imposible restaurar mis monederos.",
+    "dataLoss4": "Comprendo que si pierdo mis frases de recuperación, soy el único responsable de cualquier pérdida de activos.",
+    "dataLossWarning": "Aviso de pérdida de datos.",
+    "disable": "Deshabilitar",
+    "disablePassword": "Deshabilitar contraseña",
+    "disablePasswordDescription": "Introduzca la contraseña para desactivar la protección de contraseña",
+    "doubleEncryptsData": "Cifrado doble de los datos de su aplicación",
+    "enablePasswordProtection": "Habilitar la protección de contraseña",
+    "enterPassword": "Introducir contraseña",
+    "lockout": "Demasiados intentos fallidos. Inténtalo de nuevo más tarde.",
+    "openApp": "Abre la aplicación (opcional)",
+    "password": "Contraseña",
+    "passwordHintLetters": "Prueba a usar mayúsculas y minúsculas",
+    "passwordHintLonger": "Prueba a usar una contraseña más larga",
+    "passwordHintNumbers": "Prueba a usar letras y números",
+    "passwordHintSpecialChars": "Prueba a usar caracteres especiales como !@#$%^&*?_~",
+    "passwordIncorrect": "Contraseña incorrecta",
+    "passwordLengthError": "Se requiere un mínimo de 6 caracteres",
+    "passwordMatchError": "Las contraseñas no coinciden",
+    "passwordStrength": "Fortaleza de la contraseña:",
+    "passwordStrengthAverage": "Normal",
+    "passwordStrengthSecure": "Segura",
+    "passwordStrengthStrong": "Fuerte",
+    "passwordStrengthVeryWeak": "Muy débil",
+    "passwordStrengthWeak": "Débil",
+    "passwordSupersedesAppLock": "App Lock no sustituirá la contraseña",
+    "passwordSupersedesAppLockDescription": "Si creas una contraseña, la necesitarás para hacer transacciones, {biometricDescription}. Por motivos de seguridad, ambas serán necesarias.",
+    "protectYourData": "Proteja sus datos con el cifrado adicional",
+    "rationaleCreateWallet": "Tu contraseña es necesaria para crear un nuevo monedero",
+    "rationaleGetXPub": "Debes introducir la contraseña para ver tu clave pública ampliada",
+    "rationaleSeeRecoveryPhrase": "para ver tu frase de recuperación secreta",
+    "rationaleSignTransaction": "Tu contraseña es necesaria para firmar transacciones",
+    "requiredToAccess": "Se requiere para acceder a su monedero",
+    "requireOnOpen": "¿Quieres que se solicite cada vez que abras la aplicación?",
+    "requireOnOpenDesc": "Refuerza la seguridad con un sistema de doble cifrado de tus datos en la aplicación, pero tendrás que introducir la contraseña cada vez que abras la aplicación",
+    "resetHintModalConfirm": "De acuerdo",
+    "resetHintModalDesc": "Para ajustar las opciones de contraseña, desactiva la protección de contraseña y vuelve a activarla con el cambio incorporado.",
+    "resetHintModalTitle": "Resetea la contraseña para cambiar la configuración",
+    "retry": "Reintentar",
+    "sendCrypto": "Enviar cripto y NFT",
+    "signTransactions": "Firmar transacciones",
+    "title": "Protección de contraseña",
+    "typePassword": "Introducir contraseña",
+    "unlock": "Desbloquear",
+    "viewPhrase": "Ver frase de recuperación secreta",
+    "walletLocked": "Monedero bloqueado",
+    "walletLockedDescription": "Introduzca su contraseña para desbloquearlo",
+    "warning": "Aviso: No pierda la contraseña",
+    "warningDescription": "Guarde su contraseña en un lugar seguro. Está cifrada de forma local en su dispositivo, por lo que Kraken no puede recuperarla si la pierde u olvida.",
+    "whatIs": "¿Qué es la protección de contraseña? ",
+    "whatIsDescription": "Añade seguridad adicional al requerir una contraseña para permitir las siguientes acciones:",
+    "wipeAndReset": "Borrar y reiniciar aplicación",
+    "wrongPassword": "No ha funcionado",
+    "wrongPasswordDescription": "Compruebe su contraseña y vuelva a intentarlo"
+  },
+  "pushNotificationsPrompt": {
+    "allow": "Permitir",
+    "content": "Obtenga alertas cruciales sobre transacciones y otras interacciones del monedero importantes. Para activar esta función, permita las notificaciones.",
+    "disallow": "No permitir",
+    "skip": "Pregúnteme más tarde",
+    "title": "Para permanecer informado, permita las notificaciones",
+    "titleEnd": "permitir notificaciones",
+    "titleStart": "Para permanecer informado, "
+  },
+  "receive": {
+    "addressCopied": "Dirección copiada",
+    "addressError": "Puede que la dirección de recepción no esté actualizada. Refresca la página y vuelve a intentarlo.",
+    "copied": "Copiado",
+    "copy": "Copiar",
+    "share": "Compartir",
+    "warning": "Esta es su dirección de {networkName}.",
+    "warning_nft": "Esta es su dirección de {networkName}. Úsela para recibir criptomonedas y NFT compatibles en esta red."
+  },
+  "reputation": {
+    "likelySpam": "Spam probable",
+    "likelySpamDescription": "Este token está incluido en una lista negra. Tenga cuidado al interactuar con cualquier token que no pueda verificar. No confíe, verifique.",
+    "likelySpamHelp": "¿Qué son los token incluidos en una lista negra?",
+    "onTokenLists": "En {count} listas de token",
+    "openDocs": "Open docs",
+    "title": "Reputación",
+    "tokenLists": "Listas de token",
+    "tokenListsDescription": "Las listas de token son una iniciativa liderada por la comunidad para mejorar la detección, reputación y fiabilidad de los token ERC20.",
+    "tokenListsHelp": "¿Qué son las listas de token?",
+    "unverified": "No en lista",
+    "unverifiedDescription": "Este token no está en la lista. Tenga cuidado al interactuar con cualquier token que no pueda verificar. No confíe, verifique.",
+    "unverifiedHelp": "¿Por qué no está en la lista?",
+    "verified": "Incluido en la lista por",
+    "verifiedDescription": "Las listas de token son listas basadas en la reputación que pretenden identificar y destacar token fiables y de alta calidad para usted.",
+    "verifiedHelp": "¿Qué son las listas de token?"
+  },
+  "scan": {
+    "apps": "Aplicaciones",
+    "connected_to": "Conectado a {appName}",
+    "instructions": "Conéctese a aplicaciones descentralizadas escaneando un código QR",
+    "manage": "Gestionar",
+    "missingPermission": "Para usar la cámara, acceda a la configuración de su teléfono y active los permisos de cámara para la aplicación Super Wallet",
+    "paste": "Copiar dirección",
+    "wallet_connect_failed": "No se ha escaneado el código QR. Inténtalo de nuevo",
+    "wallet_connect_initialization_failure": "Fallo de inicialización de WalletConnect",
+    "wallet_connect_invalid_qr_code": "Este es un código QR inválido",
+    "wallet_connect_previously_submitted_qr_code": "Este es un código QR inválido, actualiza la página y vuelve a intentarlo",
+    "wallet_connect_version_deprecated": "Esta aplicación no es compatible"
+  },
+  "send": {
+    "address": "Introduzca dirección...",
+    "addressHeader": "Enviando a",
+    "addressOrENS": "Introduzca la dirección o el dominio ENS...",
+    "amountHeader": "Cantidad",
+    "available": "Disponible: {0}",
+    "balance": "Balance {0}",
+    "confirm": "Confirmar",
+    "confirmSend": "Confirmar enviar",
+    "create": "Crear",
+    "enterAmount": "Introduce un importe de {symbol}",
+    "evm_fee_fast": "Rápido",
+    "evm_fee_normal": "Normal",
+    "evm_fee_urgent": "Urgente",
+    "exceedsBalance": "El importe introducido es superior al balance disponible",
+    "exceedsFee": "No hay suficiente {token} para la tarifa de la red",
+    "failed": "Fallida",
+    "failedPriceAlert": {
+      "desc": "No podemos obtener la información del precio de este token en este momento.",
+      "title": "El precio en USD de {token} no está disponible"
+    },
+    "fee": "Tarifa",
+    "fee_fast": "Rápido",
+    "fee_medium": "Medio",
+    "fee_slow": "Lento",
+    "feeWarning": "La tarifa de red actual es de {feeAmount}, que supone más de un {percentage} % de lo que estás enviando.",
+    "invalidAddress": "Dirección no válida. Compruébela e inténtelo de nuevo.",
+    "max": "Max",
+    "minAmount": "Valor mínimo de la transferencia: {minAmount} {token}",
+    "network_fee": "Tarifa de red",
+    "networkWarning": {
+      "alertBody": "Asegúrese de que la persona a la que se lo está enviando tiene un monedero que admite {networkName}",
+      "alertTitle": "Enviando a través de la red {networkName}"
+    },
+    "no_note": "Sin nota",
+    "note": "Nota",
+    "note_to_self": "Nota para mí",
+    "pending": "Pendiente",
+    "polygonWarning": {
+      "alertBody": "Asegúrese de que la persona a la que se lo está enviando tiene un monedero que admite Polygon",
+      "alertTitle": "Enviando a través de la red Polygon",
+      "label": "Enviando a través de la red Polygon"
+    },
+    "priority": "Prioridad",
+    "recipient": "Beneficiario",
+    "scan": "Escanear",
+    "send": "Enviar",
+    "sendError": "La transacción no pudo completarse. Inténtalo de nuevo.",
+    "sending": "Enviando...",
+    "sent": "Enviado",
+    "successEstimation": "Tiempo estimado en completarse: ~{time}",
+    "successLabel": "Transacción iniciada.",
+    "suspiciousCharWarning": {
+      "desc": "La dirección contiene caracteres no ASCII. Tenga en cuenta que hay caracteres que parecen idénticos o muy similares al alfabeto inglés.",
+      "title": "Atención:"
+    },
+    "technicalIssues": "Se ha producido un problema, inténtalo de nuevo más tarde",
+    "timeStampabbreviation": {
+      "day": "día",
+      "days": "días",
+      "hour": "hora",
+      "hours": "horas",
+      "minute": "mín.",
+      "minutes": "minutos",
+      "second": "s",
+      "seconds": "segundos"
+    },
+    "title": "Enviar {ticker}",
+    "title_nft": "Enviar NFT",
+    "transaction_id": "Identificador de transacción",
+    "transfer_token": "Transferir token",
+    "undo": "Deshacer",
+    "warning": {
+      "firstTimeSending": "Primer envío a esta dirección",
+      "nthTimeSending": "{count} envíos anteriores a esta dirección",
+      "title": "Aviso",
+      "titleCritical": "Aviso crítico"
+    }
+  },
+  "settings": {
+    "about": "Acerca de",
+    "about_release_notes": "Notas de lanzamiento",
+    "about_selftest": "Ejecutar diagnóstico",
+    "advanced": "Avanzado",
+    "appLock": "App Lock",
+    "backup": "Copia de seguridad",
+    "backup_mnemonic_seed": "Frase semilla mnemotécnica de respaldo",
+    "connections": "Conexiones",
+    "currency": "Divisa",
+    "deleteAll": "Borrar todos los datos",
+    "electrum_error_connect": "No se ha podido conectar al servidor Electrum proporcionado",
+    "electrum_reset": "Reiniciar a valores predeterminados",
+    "electrum_reset_to_default": "¿Seguro que desea reiniciar los ajustes de Electrum a valores predeterminados?",
+    "electrum_saved": "Sus cambios se han guardado correctamente. Es posible que sea necesario reiniciar la aplicación para que los cambios surtan efecto.",
+    "electrum_unable_to_connect": "No se puede conectar a {server}.",
+    "enableTracking": "Activar el seguimiento de errores",
+    "enableTrackingDescription": "Al activarlo, contribuyes a mejorar nuestra aplicación",
+    "general": "General",
+    "header": "Configuración",
+    "hideBalances": "Ocultar saldos",
+    "krakenConnect": "Kraken Connect",
+    "krakenExchange": "Kraken Exchange",
+    "language": "Idioma",
+    "manageWallets": "Gestionar monederos",
+    "notifications": "Notificaciones push",
+    "passwordProtection": "Protección de contraseña",
+    "pn_account_activity": "Actividad de la cuenta",
+    "pn_auth_n_sign_connected_apps": "Aplicaciones conectadas para inicio de sesión y autenticación",
+    "pn_connected_app_interactions": "Interacciones de aplicaciones conectadas",
+    "pn_incoming_transactions": "Transacciones entrantes",
+    "pn_incoming_transactions_pending": "Transacciones entrantes pendientes",
+    "pn_levelAll": "Habilitar la actividad de la cuenta",
+    "pn_outgoing_transactions": "Transacciones salientes",
+    "pn_outgoing_transactions_complete": "Transacciones salientes completadas",
+    "pn_outgoing_transactions_pending": "Transacciones salientes pendientes",
+    "pn_types_of_notifications_youll_receive": "Tipos de notificaciones que recibirá:",
+    "pn_would_you_like_to_receive_notifications": "¿Le gustaría recibir notificaciones?",
+    "privacy": "Privacidad",
+    "pushNotifications": "Notificaciones push",
+    "refreshAll": "Refrescar metadatos",
+    "refreshAllDesc": "Limpia la caché para todos los NFT y los activos",
+    "secretRecoveryPhrase": "Frase de recuperación secreta",
+    "security": "Seguridad",
+    "support": "Atención al cliente",
+    "testnet": "Testnet",
+    "testnetDescription": "Cuando la función está activada, puede seleccionar los activos y la red testnet desde la pantalla de gestionar activos.",
+    "view_list_of_connected_dapps": "Ver lista de aplicaciones descentralizadas conectadas",
+    "wallets": "Monederos",
+    "walletsAndBackups": "Monederos y copias de seguridad"
+  },
+  "storeReview": {
+    "alertMessage": "Nos gustaría saber si tu experiencia está siendo buena.",
+    "alertTitle": "¿Te gusta la aplicación de Kraken Wallet?",
+    "nagativeAlertTitle": "Sentimos que tu experiencia en la aplicación no esté siendo positiva.",
+    "negativeAlertMessage": "¿Te gustaría contarnos cómo podríamos mejorarla?",
+    "notReally": "No realmente",
+    "sendFeedback": "Enviar comentarios",
+    "yes": "Sí"
+  },
+  "support": {
+    "contactUs": "Contáctenos",
+    "getInTouch": "Contacto",
+    "knowledgeBaseDesc": "Realiza una búsqueda en nuestros documentos, lee nuestras preguntas frecuentes y ponte en contacto con nosotros",
+    "knowledgeBaseTitle": "Base de conocimientos",
+    "visitSupportCenter": "Visitar el Centro de Atención al cliente"
+  },
+  "swap": {
+    "amountExceedingBalance": "El importe introducido es superior al balance disponible",
+    "amountPlaceholder": "Introduce un importe de {symbol}",
+    "balance": "Balance {0}",
+    "buttonTitle": "Swap",
+    "confirmation": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "initiated": "Swap iniciada.",
+      "swapFlagged": "¡Swap sospechoso!"
+    },
+    "emptyState": {
+      "assetsEmptyDesc": "Tu monedero actual no incluye ningún activo, trata de ingresar fondos.",
+      "assetsEmptyTitle": "No hay activos disponibles.",
+      "clearSearch": "Borrar búsqueda",
+      "goBack": "Volver",
+      "okay": "De acuerdo",
+      "searchAllNetworks": "Buscar todas las redes",
+      "searchEmptyDesc": "Trata de ampliar tu búsqueda.",
+      "searchEmptyTitle": "No hay resultados",
+      "swappableAssetsEmptyDesc": "Este monedero no tiene activos compatibles con nuestros proveedores de swaps. De momento, solo se admiten las redes de Ethereum y EVM compatibles.",
+      "swappableAssetsEmptyNetworkDesc": "Tu monedero actual no tiene ningún activo en la red seleccionada compatible con nuestros proveedores de swaps",
+      "swappableAssetsEmptyNetworkTitle": "No hay activos intercambiables disponibles en la red seleccionada",
+      "swappableAssetsEmptyTitle": "No hay activos intercambiables disponibles",
+      "targetAssetEmptyDesc": "Nuestros proveedores no admiten swaps para el activo que has seleccionado",
+      "targetAssetEmptyTitle": "No hay activos disponibles para hacer swap con"
+    },
+    "error": {
+      "insufficientGas": "Balance de {symbol} insuficiente para cubrir las transacciones de swap"
+    },
+    "findingBestRote": "Buscando mejor ruta",
+    "otherAssets": "Tokens",
+    "route": {
+      "bridgeCost": {
+        "hint": "Un coste de puente es una comisión que aplica el proveedor del swap por transferir activos entre diferentes blockchains durante el swap.",
+        "title": "Coste de puente"
+      },
+      "krakenFee": {
+        "hint": "Kraken Wallet no cobra ninguna comisión por los swaps. Ofrecemos este servicio de forma gratuita para apoyar la adopción de la tecnología de criptomonedas y blockchain.",
+        "title": "Comisión de Kraken",
+        "value": "GRATIS"
+      },
+      "minumumOutput": {
+        "hint": "Si se produce un deslizamiento, es la cantidad mínima del activo fijo que recibirá cuando la operación se realice.",
+        "title": "Cantidad mínima de salida"
+      },
+      "networkFee": {
+        "hint": "Una comisión de red es un cargo que se paga a los validadores de la blockchain por procesar y confirmar tu transacción.",
+        "title": "Comisión de red"
+      },
+      "priceImpact": {
+        "hint": "El impacto del precio es la diferencia entre el precio de mercado y el precio del swap. Depende del tamaño de tu operación en relación con la liquidez del pool.",
+        "title": "Impacto del precio"
+      },
+      "rate": "Tarifa",
+      "slippage": {
+        "hint": "El deslizamiento de swaps es la diferencia entre el precio previsto y el precio final de un activo. Si el precio cambia por encima de la tolerancia de deslizamiento establecida, la transacción se cancelará. El deslizamiento de swaps solo se aplica a los swaps de la misma cadena a excepción del deslizamiento del puente.",
+        "title": "Deslizamiento de swaps"
+      },
+      "swapRate": "Tarifa de swap",
+      "transactionFees": "Comisiones por transacción",
+      "typeSelection": {
+        "bestValue": {
+          "desc": "Mejor valor global",
+          "name": "Mejor valor"
+        },
+        "fastest": {
+          "desc": "Mayor velocidad de transacción",
+          "name": "Swap más rápido"
+        },
+        "title": "Encontrar la ruta de swap con"
+      },
+      "unsupportedRoute": {
+        "desc": "También puedes hacer swap de un token más grande primero y, después, hacer lo propio por el activo que quieras.",
+        "title": "No hay rutas disponibles para la transacción introducida. Si aumentas el ajuste de deslizamiento, puede que tengas más rutas."
+      }
+    },
+    "routePath": {
+      "bridge": "Puente a través de {name}",
+      "swap": "Intercambio a través de {name}",
+      "title": "Ruta de swap"
+    },
+    "selectAsset": "Seleccionar activo",
+    "slippageSettings": {
+      "custom": "Personalizado",
+      "desc": "Si el precio cambia de forma desfavorable superando el porcentaje de deslizamiento, tu transacción de swap se cancelará.",
+      "footer": "Si el deslizamiento es mayor, puede que favorezca que la tasa de transacciones exitosas sea más elevada, pero quizás te exponga a inversiones ventajistas o a ataques sándwich.",
+      "save": "Guardar",
+      "title": "Ajustes de deslizamiento",
+      "warningHigh": "Si el deslizamiento es superior al {amount}%, se considera alto",
+      "warningSmall": "Si el deslizamiento es inferior al {amount}%, puede que el swap falle",
+      "warningUnsupported": "No se admite un deslizamiento superior al {amount}%"
+    },
+    "sourceListHeader": "Tus activos",
+    "sourceSearchPlaceholder": "Seleccionar activo que se desea intercambiar",
+    "targetSearchPlaceholder": "Seleccionar activo que se desea recibir",
+    "title": "Swap",
+    "unsupportedAssetsHidden": "Nuestros proveedores de swap aún no son compatibles con {count} de tu(s) otro(s) activo(s)",
+    "yourAssets": "Tus activos"
+  },
+  "test": {
+    "key": "Prueba"
+  },
+  "tokenLists": {
+    "blacklisted": "Lista de bloqueados",
+    "description": "Las listas de tokens son listas basadas en reputación cuyo objetivo es identificar los tokens en los que confían varios exchanges y otros participantes de Web3.",
+    "help": "¿Qué son las listas de token?",
+    "likelySpam": "Spam probable",
+    "likelySpamDescription": "Tenga muchísima precaución al interactuar con este token. Podría ser dañino.",
+    "likelySpamHelp": "¿Qué son los token spam?",
+    "likelySpamInfo": "Es probable que las comunidades públicas o uno de nuestros socios haya alertado de que los token spam son spam, fraudulentos o dañinos.",
+    "likelySpamTitle": "Spam probable",
+    "likelySpamUseCaution": "Actúa con la máxima precaución posible",
+    "notListed": "No en lista",
+    "openDocs": "Open docs",
+    "tokenLists": "Listas de token",
+    "tokens": "{tokenListCount} token",
+    "unverified": "No en lista",
+    "unverifiedButtonLink": "¿Por qué no está en la lista?",
+    "unverifiedDescription": "Este token no está en ninguna de las listas de token admitidos. Tenga precaución.",
+    "unverifiedExplainerDescription": "En esta lista se incluirán los tokens que no aparezcan en la lista de alguno de los proyectos admitidos ni se hayan marcado como spam.",
+    "unverifiedHelp": "¿Por qué no está en la lista?",
+    "unverifiedWarning": "Actúa con precaución",
+    "verified": "Incluido en lista",
+    "verifiedDescription": "Los token que se incluyen en esta lista se han verificado y están disponibles actualmente en el exchange de Kraken.",
+    "verifiedInfoKraken": "Los token que se incluyen en esta lista están disponibles actualmente en el exchange de Kraken.",
+    "verifiedKraken": "Token incluidos en lista de Kraken"
+  },
+  "transactionDetails": {
+    "amount": "Cantidad",
+    "confirmation": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "fee": "Tarifa de red:"
+    },
+    "contractAddress": "Dirección del contrato",
+    "copyToClipboard": "Copiado al portapapeles",
+    "description": {
+      "approval": {
+        "failed": "Error al aprobar {amount} en {address}",
+        "pending": "{amount} pendiente de aprobación en {address}",
+        "succeeded": "Se aprobó {amount} en {address}"
+      },
+      "approvals": {
+        "failed": "Error al aprobar {amount} en {address}",
+        "pending": "{amount} pendiente de aprobación en {address}",
+        "succeeded": "Se aprobó {amount} en {address}",
+        "success": "Se aprobó {amount} en {address}"
+      },
+      "contractInteraction": {
+        "failed": "Interacción con {address} fallida",
+        "pending": "Interacción con {address} pendiente",
+        "succeeded": "Interacción con {address}"
+      },
+      "contractInteractionFundsReceived": {
+        "pending": "Se están recibiendo fondos de {address}",
+        "succeeded": "Se recibieron fondos mediante {address}"
+      },
+      "contractInteractions": {
+        "failed": "Interacción con {address} fallida",
+        "pending": "Interacción con {address} pendiente",
+        "succeeded": "Interacción con {address}"
+      },
+      "deposit": {
+        "failed": "Error al depositar {amount} en {address}",
+        "pending": "Se está depositando {amount} en {address}",
+        "succeeded": "Se depositó {amount} en {address}"
+      },
+      "nftBuy": {
+        "failed": "Error al comprar {nftName} mediante {address}",
+        "pending": "Se está comprando {nftName} mediante {address}",
+        "succeeded": "Se compró {nftName} mediante {address}"
+      },
+      "nftMint": {
+        "failed": "Error al acuñar {nftName} mediante {address}",
+        "pending": "Se está acuñando {nftName} mediante {address}",
+        "succeeded": "Se acuñó {nftName} mediante {address}"
+      },
+      "nftReceive": {
+        "pending": "Se está recibiendo {nftName} de {address}",
+        "succeeded": "Se recibió {nftName} de {address}"
+      },
+      "nftSell": {
+        "failed": "Error al vender {nftName} mediante {address}",
+        "pending": "Se está vendiendo {nftName} mediante {address}",
+        "succeeded": "Se vendió {nftName} mediante {address}"
+      },
+      "nftSend": {
+        "failed": "Error al enviar {nftName} a {address}",
+        "pending": "Se está enviado {nftName} a {address}",
+        "succeeded": "Se envió {nftName} a {address}"
+      },
+      "receive": {
+        "pending": "Se está recibiendo {amount} de {address}",
+        "succeeded": "Se recibió {amount} de {address}"
+      },
+      "receiveUtxo": {
+        "pending": "Se está recibiendo {amount}",
+        "succeeded": "Se recibió {amount}"
+      },
+      "send": {
+        "failed": "Error al enviar {amount} a {address}",
+        "pending": "Se está enviando {amount} a {address}",
+        "succeeded": "Se envió {amount} a {address}"
+      },
+      "sendUtxo": {
+        "failed": "Error al enviar {amount}",
+        "pending": "Se está enviando {amount}",
+        "succeeded": "Se envió {amount}"
+      },
+      "swap": {
+        "failed": "Error al intercambiar {amountSent} por {amountReceived} mediante {address}",
+        "pending": "Se está intercambiando {amountSent} por {amountReceived} mediante {address}",
+        "succeeded": "Se intercambió {amountSent} por {amountReceived} mediante {address}"
+      }
+    },
+    "free": "Gratis",
+    "from": "De",
+    "genericNetworkFee": "Tarifa de red",
+    "input": "Entrada",
+    "inputs": "Entradas",
+    "krakenConnect": {
+      "fromKraken": "De: Kraken",
+      "transferredIn": "Se ha transferido en"
+    },
+    "networkFee": "Tarifa de red {network}",
+    "networkFee_": "Tarifa de red",
+    "notes": "Descripción",
+    "notes_edit": "Editar",
+    "notes_empty": "Sin descripción",
+    "notesCaption": "Las descripciones se guardan de forma local en su dispositivo",
+    "open_explorer": "Ver en explorador",
+    "openExplorer": "Ver en explorador",
+    "output": "Salida",
+    "outputs": "Salidas",
+    "recipient": "Enviando a",
+    "saveNotes": "Guardar",
+    "state": {
+      "failed": "Fallida",
+      "pending": "Pendiente",
+      "success": "Éxito"
+    },
+    "status": "Estado",
+    "status_confirmed": "Confirmado",
+    "status_pending": "Pendiente",
+    "time": "Tiempo",
+    "title": "Detalles de la transacción",
+    "to": "A",
+    "toBTC": "A:",
+    "transaction_id": "Identificador de transacción",
+    "unlimited": "Ilimitado"
+  },
+  "transactions": {
+    "activity": "Actividad",
+    "no_transactions_yet": "No hay transacciones todavía. Arrastre para actualizar",
+    "pending": "Enviando...",
+    "receive": "Recibir",
+    "send": "Enviar",
+    "transactions": "Transacciones"
+  },
+  "transactionTile": {
+    "activity": "Actividad",
+    "address": {
+      "from": "De: ",
+      "to": "A: "
+    },
+    "balance": "balance",
+    "nativeAssetView": {
+      "approval": "Aprobación",
+      "contractInteraction": "Interacción del contrato",
+      "send": "Enviar {assetSymbol}"
+    },
+    "networkFee": "Tarifa de red",
+    "no_transactions_description": "Añada algunos activos a su monedero",
+    "no_transactions_title": "Las transacciones aparecerán aquí",
+    "no_transactions_yet": "No hay transacciones todavía. Arrastre para actualizar",
+    "noTransactionsDescription": "Añada algunos {0} a su monedero",
+    "noTransactionsTitle": "Las transacciones aparecerán aquí",
+    "pending": "Enviando...",
+    "transactions": "Transacciones",
+    "type": {
+      "contractInteraction": "Interacción del contrato",
+      "contractInteractionAffected": "Se han recibido los fondos",
+      "deposit": "Depositar",
+      "mint": "Mint de NFT",
+      "NFTBuy": "Compra de NFT",
+      "NFTReceive": "Recepción de NFT",
+      "NFTSell": "Venta de NFT",
+      "NFTsend": "Envío de NFT",
+      "receive": "Recibir",
+      "send": "Enviar",
+      "swap": "Swap",
+      "tokenApproval": "Aprobación"
+    }
+  },
+  "universalReceive": {
+    "buttonTitle": "Recibir",
+    "copied": "Dirección copiada",
+    "crypto": "Criptomoneda",
+    "cryptoAndNft": "NFT y cripto",
+    "ethereumAddressLabel": "Incluye redes compatibles de Ethereum",
+    "ethereumExplainerBody": "El sistema de direcciones de Ethereum se extiende a redes compatibles de Ethereum, como Polygon, Arbitrum, OP Mainnet, Base, Blast, Linea y Avalanche, lo que garantiza que tu única dirección funcione en todas partes",
+    "ethereumExplainerHeading": "Tu dirección de Ethereum",
+    "tokenAddress": "Dirección de {token}"
+  },
+  "universalSend": {
+    "assetBTCEmptyDesc": "Tu monedero actual no incluye bitcoin.",
+    "assetBTCEmptyTitle": "No hay bitcoin disponible.",
+    "assetDogeEmptyDesc": "Tu monedero actual no incluye Dogecoin.",
+    "assetDogeEmptyTitle": "No hay Dogecoin disponible.",
+    "assetEthereumaEmptyDesc": "Tu monedero no tiene ningún activo disponible en redes de Ethereum ni de capa 2.",
+    "assetEthereumEmptyTitle": "No hay Ethereum disponible.",
+    "assetsEmptyDesc": "Tu monedero actual no incluye ningún activo, trata de ingresar fondos.",
+    "assetsEmptyTitle": "No hay activos disponibles.",
+    "assetSolanaEmptyDesc": "Tu monedero actual no incluye ningún activo disponible de Solana.",
+    "assetSolanaEmptyTitle": "No hay activos disponibles de Solana.",
+    "buttonTitle": "Enviar",
+    "clearSearch": "Borrar búsqueda",
+    "continue": "Continuar",
+    "goBack": "Volver",
+    "myWallets": "Mis monederos",
+    "searchEmptyDesc": "Trata de ampliar tu búsqueda",
+    "searchEmptyTitle": "No hay resultados",
+    "searchPlaceholder": "Selecciona lo que quieras enviar.",
+    "sendAsset": "Enviar activo",
+    "sendTo": "Enviar a"
+  },
+  "url": {
+    "licenses": "https://www.kraken.com/legal",
+    "privacyPolicy": "https://www.kraken.com/wallet/privacy",
+    "releaseNotes": "https://blog.kraken.com",
+    "termsOfService": "https://kraken.com"
+  },
+  "view_nft": {
+    "gallery": "Galería",
+    "lives_on": "Lives on:"
+  },
+  "view_token": {
+    "lives_on": "Lives on:"
+  },
+  "walletBackup": {
+    "backup": "Respaldar",
+    "backupYourWallet": "Respalde su monedero",
+    "backupYourWalletDescription": "Asegúrese de poder recuperar sus cripto si pierde su dispositivo o cambia a otro monedero.",
+    "cloudWarning": {
+      "button": "Copia de seguridad con iCloud",
+      "desc": "Asegúrate de poder recuperar tu monedero incluso si pierdes tu frase de recuperación secreta",
+      "title": "Copia de seguridad en la nube recomendada"
+    },
+    "manualWarning": {
+      "button": "Copia de seguridad manual",
+      "desc": "Asegúrate de poder recuperar tu monedero incluso si pierdes tu acceso a la cuenta de iCloud.",
+      "title": "Copia de seguridad manual recomendada"
+    },
+    "secondaryBackup": {
+      "iCloud": "Para mejorar las posibilidades de recuperación, crea una copia de seguridad cifrada con contraseña en iCloud. El cifrado significa que ni siquiera Apple podrá verla",
+      "manual": "Para facilitar la recuperación, crea una copia de seguridad manual de tu frase secreta de recuperación y guárdala en un lugar seguro",
+      "title": "Crear una copia de seguridad secundaria"
+    },
+    "secretRecoveryPhrase": "Su frase de recuperación secreta",
+    "tapHereToView": "Pulse aquí para ver"
+  },
+  "walletBackupPrompt": {
+    "backUpNow": "Realizar copia de seguridad ahora",
+    "body": "Aún no has hecho una copia de seguridad de tu frase de recuperación secreta. Te recomendamos que hagas una copia de seguridad para que no pierdas el acceso a tus fondos.",
+    "header": "Antes de recibir fondos en este monedero, haz una copia de seguridad"
+  },
+  "walletBackupSelection": {
+    "backupManually": "Copia de seguridad manual",
+    "backupManuallyCompleted": "Copia de seguridad manual",
+    "backupWithICloud": "Copia de seguridad con iCloud",
+    "backupWithICloudCompleted": "Copia de seguridad con iCloud",
+    "caption": "Si no haces una copia de seguridad de tu monedero, te arriesgas a perder tus criptomonedas. No tenemos acceso a tu frase de recuperación y no podemos ayudarte a recuperarlas sin una copia de seguridad.",
+    "explainer": {
+      "desc": "Perder una frase secreta de recuperación es una forma habitual en la que la gente pierde sus criptomonedas. Kraken Wallet minimiza este riesgo al ofrecer más de un método seguro de copia de seguridad.",
+      "title": "Aumento de las posibilidades de recuperación para reducir la probabilidad de pérdidas"
+    },
+    "iCloudDescCompletedShort": "Frase de recuperación secreta cifrada",
+    "iCloudDescLong": "Cifrar con una clave de paso y almacenar en iCloud",
+    "iCloudDescShort": "Cifrar y almacenar en iCloud",
+    "manualBackupDescLong": "Guardar manualmente en un lugar seguro de tu elección",
+    "manualBackupDescShort": "Guardar en un lugar seguro de tu elección",
+    "manualBackupDescShortCompleted": "La he guardado en un lugar seguro",
+    "prompt": "Asegúrate de que puedes acceder en cualquier momento a tu monedero incluso si pierdes tu dispositivo.",
+    "recoverability": {
+      "desc": "Podría ser más compleja",
+      "title": "Posibilidad de recuperación"
+    },
+    "skipButton": "Quizás más tarde",
+    "subtitle": "su monedero",
+    "title": "Respaldar",
+    "titleWithSubtitle": "Respalde su monedero",
+    "tooltip": {
+      "iCloud": "Una copia de seguridad de iCloud garantiza que puedas recuperar tu monedero si pierdes tu frase secreta de recuperación.",
+      "manual": "Una copia de seguridad manual garantiza que puedas recuperar tu monedero si pierdes el acceso a iCloud o pierdes tu dispositivo."
+    }
+  },
+  "walletCloudBackup": {
+    "createPasskey": "Crear una clave de paso",
+    "hints": {
+      "part1": "Mayor seguridad que en el caso de contraseñas estándar",
+      "part2": "Cifrado mediante biometría o dispositivo de seguridad",
+      "part3": "Recuperable aunque pierdas este dispositivo"
+    },
+    "passkeyDescription": "Haz el cifrado con clave de paso para crear tu copia de seguridad. De esta forma, solo tú puedes restaurar la copia de seguridad. (El cifrado garantiza que ni siquiera Apple pueda verlo)",
+    "secureYourBackup": "Protege tu copia de seguridad",
+    "success": "Copia de seguridad correcta del monedero en iCloud"
+  },
+  "walletCloudBackupDelete": {
+    "cancel": "Cancelar",
+    "caption": "Asegúrate de tener tu frase secreta de recuperación guardada en algún lugar seguro para poder recuperar tu monedero en caso de que pierdas tu dispositivo.",
+    "check1": "Comprendo que si pierdo mi teléfono o elimino la aplicación, necesitaré la frase de recuperación secreta para restaurar mi monedero.",
+    "check2": "Confirmo que he guardado mi frase secreta de 12 palabras en un lugar seguro.",
+    "delete": "Eliminar",
+    "header": "¿Seguro que quiere eliminar esta copia de seguridad?",
+    "title": "Eliminar copia de seguridad"
+  },
+  "walletCloudBackupError": {
+    "deleteBackupConfirmation": {
+      "cancel": "Cancelar",
+      "description": "Al eliminarla, estás confirmando que la clave de paso ya se ha eliminado. Esta acción eliminará de la aplicación cualquier referencia a la clave de paso eliminada.",
+      "header": "Eliminar copia de seguridad de la clave de paso",
+      "remove": "Eliminar",
+      "title": "¿Seguro que quieres eliminar esta copia de seguridad de la clave de paso?"
+    },
+    "ensureICloudKeychainOn": "En las Opciones de contraseña de tu dispositivo, asegúrate de que iCloud Keychain esté activado para utilizarse con contraseñas y claves de paso:",
+    "errorCreatingBackup": {
+      "cancel": "Cancelar",
+      "description": "Algo salió mal al intentar crear la copia de seguridad.",
+      "title": "Se ha producido un error al crear la copia de seguridad",
+      "tryAgainBold": "no es posible guardar la copia de seguridad en otros dispositivos.",
+      "tryAgainButton": "Intentarlo de nuevo",
+      "tryAgainFormatted": "Cuando lo vuelvas a intentar, recuerda que <b>no permitimos que se guarden copias de seguridad en otros dispositivos.</b>",
+      "tryAgainRegular": "Al intentarlo de nuevo, ten en cuenta que "
+    },
+    "errorCreatingPasskey": {
+      "description": "En las Opciones de contraseña de tu dispositivo, asegúrate de que iCloud Keychain esté activado para utilizarse con contraseñas y claves de paso:",
+      "title": "Se ha producido un error al crear la copia de seguridad"
+    },
+    "errorDeletingPasskey": {
+      "cancel": "Cancelar",
+      "deletedPasskeyPossibility": "Otra posibilidad es que la clave de paso que contiene la copia de seguridad ya se haya eliminado. Si estás seguro de que la clave está borrada, podemos marcarla como tal y eliminarla del monedero.",
+      "removeItButton": "Sí, eliminar",
+      "title": "Se ha producido un error al eliminar la copia de seguridad de la clave de paso"
+    },
+    "errorInactive": {
+      "description": "Si ya has creado varias claves de paso, puedes intentar importar otra copia de seguridad. De lo contrario, puedes importar tu monedero mediante la frase secreta de recuperación de 12-24 palabras",
+      "subtitle": "Esta clave de paso está inactiva, lo que significa que procede de una copia de seguridad eliminada manualmente.",
+      "title": "Clave de paso inactiva"
+    },
+    "keychainSteps": {
+      "formatted": {
+        "ios17": {
+          "tips": {
+            "one": {
+              "stepOne": "Accede a: <b>Configuración → Contraseñas → Opciones de contraseña</b>",
+              "stepTwo": "Activar: <b>llavero de iCloud</b>",
+              "title": "<b>Consejo 1:</b> Asegúrate de que el llavero de iCloud esté activado para usarse con contraseñas y claves de paso:"
+            },
+            "two": {
+              "stepOne": "Accede a: <b>Ajustes → AppleID → iCloud → Contraseñas</b>",
+              "stepTwo": "Activa: <b>Sincronizar este iPhone</b>",
+              "title": "<b>Consejo 2:</b> Activar Contraseñas y llavero de iCloud"
+            }
+          },
+          "title": "Asegúrate de que estás usando el <b>llavero de iCloud</b> para crear la clave de paso. <b>De momento, no se admiten otros gestores de contraseñas.</b>"
+        },
+        "ios18": {
+          "tips": {
+            "one": {
+              "stepOne": "Accede a: <b>Ajustes → General → Autocompletar y contraseñas</b>",
+              "stepTwo": "Activa: <b>Contraseñas</b>",
+              "title": "<b>Consejo 1:</b> Asegúrate de que Contraseñas está activado con estos pasos:"
+            },
+            "two": {
+              "stepOne": "Accede a: <b>Ajustes → iCloud → Contraseñas</b>",
+              "stepTwo": "Activa: <b>Sincronizar este iPhone</b>",
+              "title": "<b>Consejo 2:</b> Activar Contraseñas y llavero de iCloud"
+            }
+          },
+          "title": "Cuando vuelvas a intentarlo, asegúrate de que estás usando <b>Contraseñas</b> de iCloud para crear la clave de paso. <b>De momento, no se admiten otros gestores de contraseñas.</b>"
+        }
+      },
+      "one": {
+        "bold": "Configuración → Contraseñas → Opciones de contraseña",
+        "regular": "1. Accede a: "
+      },
+      "two": {
+        "bold": "iCloud Keychain",
+        "regular": "2. Activa: "
+      }
+    },
+    "noPasskeyFound": {
+      "description": "No hemos podido encontrar ninguna clave de paso. Es posible que no hayas creado uno o que iCloud Keychain esté desactivado en los ajustes. Asegúrate de que iCloud Keychain está activado con estos pasos:",
+      "descriptioniOS17": "No hemos podido encontrar ninguna clave de paso. Es posible que no hayas creado una o que el <b>llavero de iCloud</b> esté desactivado en los ajustes.",
+      "descriptioniOS18": "No hemos podido encontrar ninguna clave de paso. Es posible que no hayas creado una o que <b>Contraseñas</b> esté desactivado en los ajustes.",
+      "title": "No se ha encontrado ninguna clave de paso"
+    },
+    "supportHint": {
+      "link": "Servicio de Atención al cliente de Kraken Wallet ↗",
+      "regular": "Si eso no resuelve tu problema, puedes obtener ayuda visitando ",
+      "regularWithManualBackup": "Si eso no resuelve tu problema, puedes importar tu frase secreta de recuperación de 12-24 palabras u obtener ayuda visitando "
+    },
+    "userCanceledBackup": {
+      "cancel": "Cancelar",
+      "description": "Para hacer una copia de seguridad de tu monedero, debes iniciar sesión una segunda vez; de lo contrario, no podremos cifrar de forma segura tu monedero utilizando la clave de paso.",
+      "title": "Se necesita iniciar sesión con la clave de paso"
+    }
+  },
+  "walletConnect": {
+    "account_not_found": "WalletConnect: cuenta no encontrada",
+    "action_cancelled": "Acción cancelada",
+    "action_in_progress": "Trabajando en su acción de WalletConnect...",
+    "app_details": {
+      "disconnect": "Desconectar",
+      "disconnect_decscription": "Al desconectar esta aplicación, se eliminará todo el acceso a su monedero",
+      "error": "Error al desconectar",
+      "open": "Abierto"
+    },
+    "auth": {
+      "cancel": "Cancelar",
+      "connect": "Conectar"
+    },
+    "back_to_dapp": "Volver al navegador para continuar",
+    "failedToConnect": "La aplicación no se conectó",
+    "failedToDisconnect": "La aplicación no se desconectó",
+    "feeEstimate": "Estimación de tarifas",
+    "invalid_request_params": "WalletConnect: request.params no válidos",
+    "list": {
+      "disconnect_all": "Desconectar todos ({0})",
+      "error_all": "Error al desconectar todas las aplicaciones",
+      "title": "Aplicaciones"
+    },
+    "method_not_implemented": "WalletConnect: método {method} no implementado",
+    "request_fulfilled": "WalletConnect: solicitud realizada",
+    "response_rejected": "WalletConnect: Solicitud de aplicación denegada",
+    "response_rejected_prepare_transaction_failure": "WalletConnect: respuesta rechazada, fallo de transacción de preparación",
+    "title": "Wallet Connect",
+    "topic_not_found": "WalletConnect: tema no encontrado",
+    "unsupported_network": "Esta red no es compatible",
+    "wallet_no_account": "WalletConnect: el monedero relacionado no tiene un número de cuenta asociado",
+    "wallet_not_found": "WalletConnect: el monedero relacionado no se ha encontrado"
+  },
+  "walletConnectExplainer": {
+    "firstPage": {
+      "boldDescription": "accede de forma segura a miles de aplicaciones descentralizadas",
+      "buttonText": "Me gusta",
+      "description": "Con tu monedero puedes {boldDescription} usar WalletConnect.",
+      "title": "¡Sirve para mucho más que para almacenar cripto!"
+    },
+    "fourthPage": {
+      "aaveDescription": "Toma prestado y haz préstamos de cripto en Aave",
+      "buttonText": "Cerrar",
+      "ensDescription": "Registra tu nombre on-chain antes de que desaparezca",
+      "mintDescription": "Usa tu monedero para reclamar NFT gratuitos en {url}",
+      "title": "Pruébalo:",
+      "website": "Sitio web: "
+    },
+    "secondPage": {
+      "buttonText": "Continuar",
+      "part1": "Toca Conectar monedero",
+      "part2": "Selecciona WalletConnect",
+      "part3": "Toca la pantalla de tu teléfono",
+      "part4": "Escanee código QR",
+      "title": "Conecta tu monedero a aplicaciones Web3",
+      "titlePart1": "1. Haz clic en Conectar monedero",
+      "titlePart2": "2. Selecciona WalletConnect",
+      "titlePart3": "3. Toca la pantalla de tu teléfono",
+      "titlePart4": "4. Escanee código QR",
+      "titleWithEllipsis": "Para conectar tu monedero a aplicaciones Web3..."
+    },
+    "thirdPage": {
+      "buttonText": "Continuar",
+      "description1": "Toca en WalletConnect",
+      "description2": "Selecciona Kraken Wallet",
+      "subtitle": "No hace falta escanear:",
+      "title": "A la hora de usar aplicaciones Web3 en tu teléfono"
+    }
+  },
+  "walletConnectTutorialPrompt": {
+    "firstPage": {
+      "boldDescription": "accede de forma segura a miles de aplicaciones descentralizadas",
+      "buttonText": "Me gusta",
+      "description": "Con tu monedero puedes {boldDescription} usar WalletConnect.",
+      "title": "¡Sirve para mucho más que para almacenar cripto!"
+    },
+    "fourthPage": {
+      "aaveDescription": "Toma prestado y haz préstamos de cripto en Aave",
+      "aaveWebsite": "app.aave.com",
+      "buttonText": "Cerrar",
+      "ensDescription": "Registra tu nombre on-chain antes de que desaparezca",
+      "ensWebsite": "app.ens.domains",
+      "mintDescription": "Usa tu monedero para reclamar NFT gratuitos en {website}",
+      "mintWebsite": "mint.fun",
+      "title": "Pruébalo:",
+      "website": "Sitio web: "
+    },
+    "secondPage": {
+      "buttonText": "Continuar",
+      "step1": "Toca Conectar monedero",
+      "step1title": "1. Haz clic en Conectar monedero",
+      "step2": "Selecciona WalletConnect",
+      "step2title": "2. Selecciona WalletConnect",
+      "step3": "Toca la pantalla de tu teléfono",
+      "step3title": "3. Toca la pantalla de tu teléfono",
+      "step4": "Escanee código QR",
+      "step4title": "4. Escanee código QR",
+      "title": "Conecta tu monedero a aplicaciones Web3"
+    },
+    "thirdPage": {
+      "buttonText": "Continuar",
+      "description1": "Copia el enlace de WalletConnect",
+      "description2": "Pega la dirección en tu monedero",
+      "subtitle": "No hace falta escanear:",
+      "title": "A la hora de usar aplicaciones Web3 en tu teléfono"
+    }
+  },
+  "walletDetails": {
+    "derivationPath": "Ruta de derivación",
+    "title": "Más información",
+    "type": "Tipo",
+    "wallet_information": "Información de monedero",
+    "xpub": "Clave pública ampliada",
+    "xpubKeyCopied": "Copiado al portapapeles"
+  },
+  "wallets": {
+    "import_title": "Importar",
+    "list_tryagain": "Intentarlo de nuevo",
+    "pending": "Pendiente"
+  },
+  "whatsNew": {
+    "assetMarketData": {
+      "buttonText": "Compruébalo",
+      "part1": "Ya puedes hacer un seguimiento de tus inversiones, el rendimiento de los activos y los cambios de precio directamente desde el monedero.",
+      "part2": "Ahonda en la información detallada de los activos, infórmate de las posibles amenazas y accede fácilmente a la información esencial, como los contratos de token y las tarifas de red actuales.",
+      "title": "Información exhaustiva sobre los activos al alcance de tu mano"
+    },
+    "longPress": {
+      "buttonText": "Me gusta",
+      "part1": "¡Nos hace mucha ilusión presentar las nuevas acciones para tus activos y NFT! Ahora, con tan solo mantener pulsada la pantalla puedes realizar tareas como enviar, recibir y ocultar elementos fácilmente. Ya no tendrás que moverte por distintas pantallas.",
+      "part2": "Disfruta hoy mismo de una experiencia más cómoda e intuitiva en tu monedero.",
+      "title": "Acciones rápidas para facilitar la experiencia"
+    },
+    "swaps": {
+      "buttonText": "Haz swap ahora",
+      "part1": "Haz swap con casi cualquiera de tus activos por otros tokens y criptomonedas populares usando algunos de los protocolos de swap on-chain más robustos. Independientemente de si quieres hacer swaps con una sola red o usar de forma sencilla alguna de las cadenas compatibles, podrás asentar la mayoría de las operaciones en cuestión de segundos.",
+      "part2": "Intercambia tokens de forma rápida, segura y flexible desde tu monedero.",
+      "title": "Swaps rápidos y versátiles al alcance de tu mano"
+    }
+  }
+}

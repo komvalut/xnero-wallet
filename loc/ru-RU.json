@@ -1,0 +1,2182 @@
+{
+  "_": {
+    "add": "Добавить",
+    "appName": "Kraken Wallet",
+    "balance": "Баланс {0}",
+    "cancel": "Отмена",
+    "confirm": "Подтвердить",
+    "continue": "Продолжить",
+    "copied": "Скопировано",
+    "copy": "Копировать",
+    "copyToClipboard": "Скопировано в буфер обмена",
+    "details": "Подробные сведения",
+    "done": "Готово",
+    "high": "Высокие:",
+    "low": "Низкие:",
+    "ok": "ОК",
+    "period": {
+      "all": "Все",
+      "day": "Д",
+      "month": "М",
+      "week": "Еженед.",
+      "year": "Г."
+    },
+    "plus": "+{count}",
+    "receive": "Получать",
+    "reconnecting": "Повторное подключение",
+    "remove": "Удалить",
+    "send": "Отправить",
+    "showLess": "Показать меньше",
+    "showMore": "Показать больше",
+    "TEST_KEY": "deleteMeLaterMOdifiedTest",
+    "today": "Сегодня",
+    "updating": "Обновление",
+    "upToDate": "Обновлено",
+    "view": "Просмотр",
+    "yes": "Да",
+    "yesterday": "Вчера"
+  },
+  "about": {
+    "blog": "Блог",
+    "licenses": "Лицензии",
+    "privacyPolicy": "Политика конфиденциальности",
+    "releaseNotes": "Примечания к выпуску",
+    "termsOfService": "Условия предоставления услуг"
+  },
+  "accountSwitch": {
+    "createWallet": "Создать кошелек",
+    "createWalletError": "Не удалось создать кошелек. Повторите попытку",
+    "createWalletSuccess": "Кошелек создан",
+    "creatingNewWallet": "Создание нового кошелька",
+    "manage": "Управлять",
+    "menu": {
+      "advanced_info": "Расширенная информация",
+      "connected_apps": "Подключенные приложения",
+      "delete": "Удалить",
+      "edit": "Настроить",
+      "exchange_connect": "Подключить к Kraken",
+      "exchange_disconnect": "Отключить от Kraken"
+    },
+    "walletDelete": {
+      "error": "Не удалось удалить кошелек. Повторите попытку",
+      "success": "Ваш кошелек удален"
+    },
+    "wallets": "Кошельки"
+  },
+  "advanced_account_info": {
+    "derivation_path": "Путь извлечения",
+    "path_copied": "Путь скопирован",
+    "title": "Информация о {walletName}",
+    "type": "Тип",
+    "wallet_information": "Информация о кошельке",
+    "xpub": "Расширенный открытый ключ",
+    "xpub_key_copied": "Скопировано в буфер обмена"
+  },
+  "advancedAccountInfo": {
+    "derivationPath": "Путь извлечения",
+    "ethereumDerivationPath": "Путь извлечения Ethereum",
+    "ethereumDerivationPathContent": "Путь извлечения Ethereum используется совместно с сетями, совместимыми с Ethereum, такими как Polygon, Arbitrum, OP Mainnet, Base, Linea и Avalanche, то есть для всех них используется один и тот же путь извлечения.",
+    "extendedPublicKey": "Расширенный открытый ключ",
+    "includesCompatibleNetworks": "Включает совместимые с Ethereum сети",
+    "includesLayer2Networks": "Включает сети второго уровня",
+    "pathCopied": "Путь скопирован",
+    "title": "Информация о {walletName}",
+    "walletInformation": "Информация о кошельке",
+    "xpub": "Расширенный открытый ключ",
+    "xpubCopied": "xPub скопирован",
+    "xpubHidden": "xPub скрыт",
+    "xpubKeyCopied": "Скопировано в буфер обмена"
+  },
+  "appLock": {
+    "appLockIsRequiredWhen": "App Lock требуется, когда:",
+    "authenticationCancelled": "Аутентификация отменена",
+    "authenticationCancelledDescription": "Биометрическая аутентификация отменена.",
+    "authSignConnectedApps": "Подключенные приложения для входа и аутентификации",
+    "authType": {
+      "faceId": "Face ID",
+      "generic": "настройки конфиденциальности, такие как разблокировка с помощью PIN-кода или биометрии",
+      "passcode": "пароль",
+      "touchId": "Touch ID"
+    },
+    "description": "App Lock обеспечивает дополнительную безопасность, используя {authType} вашего устройства, что позволяет выполнять следующие действия:",
+    "missingAuth": {
+      "biometrics": "Блокировка с помощью биометрии или PIN-кода",
+      "description": "Для защиты вашего кошелька вам необходимо установить {authType} в настройках вашего устройства.",
+      "faceId": "Face ID или пароль",
+      "ok": "Oк",
+      "settings": "Откройте приложение настроек",
+      "setupPin": "Настройте разблокировку с помощью PIN-кода или биометрии",
+      "tapFaceId": "Нажмите «Face ID и пароль»",
+      "tapSecurityPivacy": "Нажмите «Безопасность и конфиденциальность»",
+      "tapTouchId": "Нажмите «Touch ID и пароль»",
+      "title": "Во-первых, включите {authType} в настройках",
+      "touchId": "Touch ID или пароль",
+      "turnOn": "Включить {authType}"
+    },
+    "openTheApp": "Откройте приложение",
+    "sendCryptoAndNfts": "Отправить криптовалюту или NFT",
+    "signTransactions": "Подписать транзакции",
+    "title": "App Lock",
+    "turnOnAppLock": "Включить App Lock",
+    "viewSecret": "Просмотреть секретную фразу для восстановления",
+    "whatIs": "Что такое App Lock? "
+  },
+  "appSignRequest": {
+    "allowAccess": "Разрешить доступ к {tokenSymbol}?",
+    "allowAccessDescription": "Это позволит {dappName} автоматизировать транзакции и расходовать {tokenSymbol}.",
+    "amount": "Сумма",
+    "approve": "Подтвердить",
+    "approveSpendingCap": "Подтвердить ограничение расходов",
+    "balance": "Баланс",
+    "cancel": "Отмена",
+    "claim": "Заявка",
+    "confirm": "Подтвердить",
+    "contractAddress": "Адрес контракта",
+    "contractInteraction": "Взаимодействие по контракту",
+    "declinedRequest": "Пользователь отклонил запрос",
+    "deposit": "Пополнение",
+    "from": "С",
+    "message": "Сообщение",
+    "message_signing_request": "Сообщение с запросом на подписание",
+    "messageSigningRequest": "Подписать сообщение",
+    "mint": "Создать",
+    "nonce": "Одноразовое случайное число",
+    "scrollToBottomToConfirm": "Прокрутите вниз, чтобы подтвердить",
+    "setSpendingCap": "Установить ограничение расходов",
+    "sign": "Подписать",
+    "swap": "Обмен",
+    "to": "На",
+    "transactionBase64": "{index}. Транзакция (Base64)",
+    "typed_message_signing_request": "Запрос на подписание {type}",
+    "typedMessageSigningRequest": "Запрос на подписание {type}",
+    "unknownApp": "Неизвестное приложение",
+    "verifyingContract": "Проверка контракта",
+    "withdrawal": "Вывод средств"
+  },
+  "assetOptions": {
+    "copied": "Адрес контракта скопирован!",
+    "copyContractAddress": "Копировать адрес контракта",
+    "hideAsset": "Скрыть актив",
+    "receive": "Получить",
+    "send": "Отправить",
+    "viewDetails": "Подробнее",
+    "viewOn": "Просмотр на {explorer}"
+  },
+  "avaxLineaWelcoming": {
+    "buttonText": "Отлично",
+    "part1": "Теперь ваш кошелек поддерживает Avalanche – высокомасштабируемую блокчейн-платформу с молниеносной скоростью завершения транзакций, а также Linea – блокчейн Ethereum второго уровня (L2), разработанный для безопасных и недорогих транзакций.",
+    "part2": "Благодаря этим новым интеграциям вы можете просматривать балансы активов, публиковать информацию о транзакциях, коллекционировать NFT, отслеживать позиции DeFi и подключаться к приложениям dApp в обеих сетях.",
+    "title": "Теперь мы поддерживаем Avalanche и Linea!"
+  },
+  "backupWallet": {
+    "backup": "Резервное копирование",
+    "backupYourWallet": "Выполнить резервное копирование кошелька",
+    "backupYourWalletDescription": "Убедитесь, что вы сможете восстановить свою криптовалюту, если потеряете устройство или перейдете на другой кошелек.",
+    "secretRecoveryPhrase": "Секретная фраза для восстановления",
+    "tapHereToView": "Нажмите здесь для просмотра"
+  },
+  "backupWalletPrompt": {
+    "backUpNow": "Выполнить резервное копирование",
+    "body": "Вы не выполнили резервное копирование секретной фразы для восстановления. Рекомендуем вам выполнить резервное копирование, чтобы избежать потери доступа к своим средствам.",
+    "header": "Выполните резервное копирование, прежде чем получать средства на этот кошелек"
+  },
+  "blastWelcoming": {
+    "boldBlastNetwork": "Сеть Blast",
+    "buttonText": "Отлично",
+    "part1": "Теперь ваш кошелек поддерживает {boldBlastNetwork}. Ethereum L2 с нативным доходом для ETH и стейблкоинов.",
+    "part2": "Благодаря этой интеграции мы подготовили почву для быстрого добавления большего количества сетей уровня 2, сохранив при этом наиболее высокий уровень безопасности для мобильного кошелька.",
+    "title": "Kraken Wallet приветствует Blast!"
+  },
+  "broadcast": {
+    "sent": "Отправлено"
+  },
+  "browser": {
+    "clearSearch": "Очистить",
+    "downloadFile": {
+      "failed": "Не удалось скачать файл",
+      "success": "Файл скачан"
+    },
+    "loadingError": {
+      "description": "Проверьте URL-адрес на наличие опечаток или отсутствие символов",
+      "title": "URL-адрес не найден"
+    },
+    "noSearch": {
+      "description": "Введите или вставьте полную ссылку для поиска",
+      "title": "Начать поиск"
+    },
+    "quickActions": {
+      "connectedApps": "Посмотреть подключенные приложения",
+      "disconnect": "Отключить",
+      "refresh": "Обновить",
+      "share": "Поделиться"
+    },
+    "searchOnChain": "Искать ончейн"
+  },
+  "browserExploreWelcome": {
+    "body": "Сделайте следующий шаг на своем пути в мире криптовалюты уже сегодня. Теперь вы можете искать децентрализованные приложения (dApp) и подключаться в ним в своем Kraken Wallet.",
+    "buttonText": "Отлично",
+    "part1": "Используйте новые опции меню в нижней части экрана для доступа к странице «Обзор»",
+    "part2": "Изучите популярные приложения dApp и новые возможности ончейн или воспользуйтесь строкой поиска для получения дополнительной информации.",
+    "part3": "Легко подключайтесь к приложениям dApp и совершайте транзакции, не выходя из приложения Kraken Wallet",
+    "title": "Откройте для себя мир ончейн"
+  },
+  "bugTracking": {
+    "allow": "Разрешить",
+    "content": "Возможность наблюдения позволяет нам отслеживать и совершенствовать ваш опыт использования кошелька, собирая необходимые данные. Это помогает нам находить проблемы, оптимизировать производительность и гарантировать комфортное использование кошелька. Ваши данные анонимизированы и надежно защищены! ",
+    "disallow": "Не разрешать",
+    "skip": "Спросить позже",
+    "title": "Помогите нам сделать Kraken Wallet лучше"
+  },
+  "coins": {
+    "allNetworks": "Все сети",
+    "filterAssets": "Фильтр активов",
+    "search_placeholder": "Поиск активов",
+    "showAssets": "Показать активы",
+    "testnet": "Тестовая сеть"
+  },
+  "collection": {
+    "title": "Коллекция:"
+  },
+  "config": {
+    "contract-approved-failed": {
+      "title": "👎 Ошибка подтверждения"
+    },
+    "contract-approved": {
+      "body": "{amount} {symbol} подтверждено на {contractAddress}",
+      "title": "🤝 Контракт подтвержден"
+    },
+    "contract-interaction-failed": {
+      "body": "Ошибка взаимодействия с {contractAddress}",
+      "title": "👎 Ошибка взаимодействия"
+    },
+    "contract-interaction": {
+      "body": "Взаимодействие с {contractAddress}",
+      "title": "🤝 Взаимодействие по контракту"
+    },
+    "funds-deposited-failed": {
+      "title": "👎 Ошибка пополнения"
+    },
+    "funds-deposited": {
+      "body": "{amount} {symbol} внесено на {address}",
+      "title": "🤝 {symbol} внесены"
+    },
+    "funds-withdrawn-failed": {
+      "title": "👎 Ошибка вывода средств"
+    },
+    "funds-withdrawn": {
+      "body": "Выведено на {address}",
+      "title": "+ {amount} {symbol}"
+    },
+    "generic-transaction": {
+      "body": "Последняя транзакция успешно обработана в {network}",
+      "title": "✅ Транзакция выполнена!"
+    },
+    "nft-failed": {
+      "title": "👎 Ошибка отправки NFT"
+    },
+    "nft-received": {
+      "body": "Получено на {address}",
+      "title": "Полученные NFT: {symbol}"
+    },
+    "nft-sent": {
+      "body": "{nftName} отправлено на {address}",
+      "title": "🖼️ Отправка {nftName} выполнена!"
+    },
+    "payment-debited": {
+      "body": "Списано по адресу {address}",
+      "title": "- {amount} {symbol}"
+    },
+    "payment-failed": {
+      "title": "👎 Ошибка отправки"
+    },
+    "payment-pending": {
+      "body": "Ожидается по адресу {address}"
+    },
+    "payment-received-pending": {
+      "bitcoin": {
+        "body": "Выполняется получение {amount} {symbol}",
+        "title": "🤌 Уже в пути"
+      },
+      "body": "Выполняется получение {amount} {symbol}",
+      "dogecoin": {
+        "body": "Выполняется получение {amount} {symbol}",
+        "title": "🤌 Уже в пути"
+      },
+      "title": "🤌 Уже в пути"
+    },
+    "payment-received": {
+      "bitcoin": {
+        "body": "Получено {amount} {symbol}"
+      },
+      "body": "Получено на {address}",
+      "dogecoin": {
+        "body": "Получено {amount} {symbol}"
+      },
+      "title": "+ {amount} {symbol}"
+    },
+    "payment-sent": {
+      "bitcoin": {
+        "body": "Отправлено {amount} {symbol}"
+      },
+      "body": "{amount} {symbol} отправлено на {address}",
+      "dogecoin": {
+        "body": "Отправлено {amount} {symbol}"
+      },
+      "title": "Отправка {symbol} выполнена"
+    },
+    "swap-complete": {
+      "body": "Выполнен обмен {amountOut} {symbolOut} на {amountIn} {symbolIn} через {facilitator}",
+      "title": "🫡 Aye Aye!"
+    },
+    "swap-failed": {
+      "title": "👎 Ошибка обмена"
+    },
+    "token-approved": {
+      "body": "{symbol} подтверждено на {operator}",
+      "title": "🫡 Aye Aye!"
+    },
+    "transaction-confirmed": {
+      "body": "Транзакция выполнена.",
+      "title": "🫡 Aye Aye!"
+    },
+    "transaction-failed": {
+      "body": "Произошел сбой транзакции.",
+      "title": "👎 О, нет!"
+    },
+    "utxo-payment-failed": {
+      "title": "👎 Ошибка отправки"
+    },
+    "utxo-payment-received-pending": {
+      "body": "Выполняется получение {amount} {symbol}",
+      "title": "🤌 Уже в пути"
+    },
+    "utxo-payment-received": {
+      "body": "Получено {amount} {symbol}",
+      "title": "🙌 {symbol} получены!"
+    },
+    "utxo-payment-sent-pending": {
+      "body": "Выполняется отправка {amount} {symbol}",
+      "title": "🤌 Уже в пути"
+    },
+    "utxo-payment-sent": {
+      "body": "Отправлено {amount} {symbol}",
+      "title": "🙌 Отправка {symbol} выполнена!"
+    }
+  },
+  "confirm": {
+    "no": "Отмена",
+    "title": "Все равно продолжить?",
+    "yes": "Да"
+  },
+  "connect_app_auth": {
+    "app_has_access_to": "У {app} есть доступ к:",
+    "connect_app": "Подключить приложение",
+    "network": "Сеть"
+  },
+  "connectApp": {
+    "all_networks": "Все сети",
+    "cancel": "Отмена",
+    "connect": "Подключить",
+    "connect_wallet": "Подключить кошелек",
+    "request_approval": "Запрос подтверждения для транзакций",
+    "see_balance": "Просмотрите свои балансы и активность",
+    "unsupportedNetwork": "Неподдерживаемая сеть",
+    "unsupportedNetworkDescription": "Приложение использует сеть {unsupportedNetwork}, которая не поддерживается в данный момент. Kraken Wallet в настоящее время поддерживает приложения в сетях Ethereum, Polygon, OP Mainnet, Arbitrum и Solana.",
+    "unsupportedNetworksDescription": "Приложение использует сети {unsupportedNetworks}, которые не поддерживаются в данный момент. Kraken Wallet в настоящее время поддерживает приложения в сетях Ethereum, Polygon, OP Mainnet, Arbitrum и Solana."
+  },
+  "connectedApps": {
+    "app_details": {
+      "disconnect": "Отключить",
+      "disconnect_decscription": "Отключение этого приложения приведет к удалению доступа к вашему кошельку",
+      "error": "Ошибка отключения",
+      "open": "Открыть"
+    },
+    "list": {
+      "connect_to_app": "Подключиться к приложению",
+      "disconnect_all": "Отключить все ({0})",
+      "error_all": "Ошибка отключения всех приложений",
+      "instructions": "Отсканируйте QR-коды, чтобы подключить приложения с WalletConnect",
+      "title": "Подключенные приложения",
+      "tutorial": "Как это работает?"
+    }
+  },
+  "currency": {
+    "australianDollar": "Австралийский доллар",
+    "bitcoin": "Bitcoin",
+    "britishPound": "Британский фунт",
+    "canadianDollar": "Канадский доллар",
+    "ether": "Ether",
+    "euro": "Евро",
+    "japaneseYen": "Японская иена",
+    "russianRuble": "Российский рубль",
+    "satoshis": "Сатоши",
+    "southKoreanWon": "Южнокорейская вона",
+    "swissFranc": "Швейцарский франк",
+    "usDollar": "Доллар США"
+  },
+  "defi": {
+    "allAssets": "Все активы",
+    "apr": "APR",
+    "apy": "APY",
+    "claimable": "Запрошенные",
+    "debt": "Задолженность",
+    "dept": "Dept",
+    "earnCTA": "Заработать",
+    "earnUpToApr": "До {apr}% APR",
+    "network": "сеть",
+    "onePosition": "1 позиция",
+    "positions": "Позиции: {numberOfPositions}",
+    "rewards": "Вознаграждения",
+    "tvl": "TVL",
+    "vaults": "Хранилища"
+  },
+  "deleteAccountConfirm": {
+    "cancel": "Отмена",
+    "caption": "Вы можете восстановить свой кошелек с помощью секретной фразы для восстановления",
+    "delete": "Удалить",
+    "header": "Вы действительно хотите удалить этот кошелек?",
+    "title": "Удалить кошелек"
+  },
+  "deleteAccountVerifyBalance": {
+    "balanceLabel": "Баланс",
+    "cancel": "Отмена",
+    "caption": "Перед удалением укажите баланс кошелька. Вы можете восстановить свой кошелек с помощью секретной фразы для восстановления",
+    "delete": "Удалить",
+    "header": "Баланс вашего кошелька",
+    "inputLabel": "Укажите баланс кошелька"
+  },
+  "deleteAllData": {
+    "iCloudInfo": {
+      "desc": "Если вы не удалили резервную копию вручную, ваш кошелек можно восстановить.",
+      "title": "Это не приведет к удалению вашей резервной копии iCloud."
+    }
+  },
+  "diagnostics": {
+    "running": "Выполняется диагностика..."
+  },
+  "discovery": {
+    "explore": "Обзор"
+  },
+  "earn": {
+    "allAssets": "Все активы",
+    "apy": "APY",
+    "balance": "Баланс",
+    "debt": "Задолженность",
+    "detailsSheet": {
+      "deposit": "Пополнение",
+      "depositCta": "Внесите {symbol} в {protocol}",
+      "from": "С:",
+      "high": "Высокие:",
+      "info": {
+        "about": "Подробнее о {symbol}",
+        "addressCopied": "Адрес скопирован",
+        "assetsLocked": "Активы заблокированы",
+        "composition": "Состав",
+        "contractAddress": "Адрес контракта",
+        "marketCap": "Рын. капит.",
+        "network": "Сеть",
+        "numberHolders": "Количество держателей",
+        "pool": "Пул",
+        "poolAddress": "Адрес пула",
+        "protocol": "Протокол",
+        "tokenEarned": "Токен заработан",
+        "tokenPrice": "Цена токена",
+        "type": "Тип"
+      },
+      "low": "Низкие:",
+      "openDapp": "Открыть dApp",
+      "period": {
+        "all": "Все",
+        "day": "Д",
+        "month": "М",
+        "week": "Еженед.",
+        "year": "Г."
+      },
+      "refreshChart": "Обновить график",
+      "to": "На:",
+      "transfer": "Перевод",
+      "withdraw": "Вывод"
+    },
+    "earnCTA": "Заработать",
+    "earnOnYourAssets": "Зарабатывайте на своих активах",
+    "earnSheet": {
+      "amountAvailable": "Доступно {balance} {symbol}",
+      "apy": "APY",
+      "earn": "Получите {symbol}",
+      "noBalanaceFound": "Нет средств. Внесите в свой кошелек {symbol}, чтобы получить возможность зарабатывать.",
+      "swapCta": "Обмен",
+      "tvl": "{tvl} TVL"
+    },
+    "earnUpToApr": "До {apy}% APY",
+    "earnUpToApy": "До {apy}% APY",
+    "earnWhileYouSleep": "Зарабатывайте в любое время",
+    "errors": {
+      "emptyCarousel": {
+        "detail": "Для получения доступа к возможностям заработка отправьте совместимые активы, такие как Ethereum или USDC, в свой кошелек.",
+        "heading": "Внесите ETH, чтобы начать зарабатывать",
+        "supportArticle": "Узнайте больше о поддерживаемых активах"
+      },
+      "explaination": "Проверьте соединение или попробуйте открыть эту страницу еще раз позже.",
+      "titlePlural": "При загрузке возможностей для заработка произошла ошибка",
+      "titleSingular": "При загрузке возможности для заработка произошла ошибка"
+    },
+    "heroAvailableBalance": "Доступно {balance} {symbol}",
+    "heroTitle": "Зарабатывайте {symbol} на {protocol}",
+    "liquidityPool": "Пул ликвидности",
+    "protocolType": {
+      "lending": "Кредитование"
+    },
+    "tvl": "TVL"
+  },
+  "editAccount": {
+    "rename": "Переименовать",
+    "save": "Сохранить",
+    "title": "Изменить кошелек",
+    "walletName": "Имя кошелька"
+  },
+  "editNote": {
+    "title": "Описание"
+  },
+  "errors": {
+    "connectionError": "Ошибка подключения",
+    "exploreSubpage": "Что-то пошло не так при попытке открыть материалы. Повторите попытку позже.",
+    "generalFetchError": "Ошибка, повторите попытку",
+    "generic": "Что-то пошло не так",
+    "genericTryAgainLater": "Произошла ошибка. Повторите попытку позже",
+    "invalidRequest": "Недействительный запрос {method}",
+    "network": "Ошибка сети",
+    "offline": "Офлайн",
+    "offlineRetry": "Вы не в сети. Повторите попытку, когда будете в сети.",
+    "permissionDenied": "В доступе отказано",
+    "seedMissing": "Серьезная ошибка! Секретная фраза для восстановления недоступна.",
+    "unauthorizedRequest": "Несанкционированный запрос",
+    "unsupportedChain": "Неподдерживаемая цепочка"
+  },
+  "explore": {
+    "continueAccessibilityHint": "Ознакомьтесь с отказом от ответственности, примите его и продолжите",
+    "disclaimerBody": "Обратите внимание, что эта функция содержит материалы, предоставленные третьими сторонами. См. соответствующие пункты в Условиях предоставления услуг.",
+    "disclaimerTitle": "Приветствуем в Explore!",
+    "earnBody": "Участвуйте в децентрализованных финансах",
+    "earnTitle": "Получайте доход с помощью DeFi",
+    "errorBody": "Приложение не может загрузить материалы на этой странице. Повторите попытку позже",
+    "errorTitle": "Что-то пошло не так",
+    "rewardPrefix": "Заработать"
+  },
+  "extendedPublicKey": {
+    "bitcoinXpub": "Bitcoin xPub",
+    "copyXpub": "Копировать xPub",
+    "summary": "Это ваш {summaryEmphasis}, главный открытый ключ, который использовался для создания всех публичных адресов Bitcoin для этого кошелька.",
+    "summaryEmphasis": "Расширенный открытый ключ Bitcoin (xPub)",
+    "type": "Тип: {type}"
+  },
+  "extension": {
+    "_": {
+      "off": "Выкл.",
+      "on": "Вкл.",
+      "timeAbbr": {
+        "days": "день",
+        "hours": "ч.",
+        "minutes": "мин.",
+        "months": "мес.",
+        "seconds": "сек.",
+        "weeks": "нед.",
+        "years": "г."
+      },
+      "unknown": "неизвестно"
+    },
+    "alt": {
+      "proceduralWalletImage": "Процедурно сгенерированное изображение кошелька"
+    },
+    "ariaLabel": {
+      "icon": "Icon",
+      "iconButton": "Кнопка с изображением",
+      "toggleSwitch": "Переключатель"
+    },
+    "assets": {
+      "logoAlt": "логотип актива",
+      "manageAssets": "Управление активами"
+    },
+    "customNetwork": {
+      "addCustomNetwork": "Добавить пользовательскую сеть",
+      "addNetwork": "Добавить сеть",
+      "blockExplorerUrl": "Ссылка URL на обозреватель блоков",
+      "chainId": "Идентификатор Chain",
+      "customNetwork": "Пользовательская сеть",
+      "customNetworks": "Пользовательские сети",
+      "decimals": "Десятичные знаки",
+      "editCustomNetwork": "Редактировать пользовательскую сеть",
+      "enterNetworkName": "Ввести имя сети",
+      "networkName": "Имя сети",
+      "remove": "Удалить",
+      "rpcUrl": "URL удаленного вызова процедур",
+      "symbol": "Symbol",
+      "updateNetwork": "Обновить сеть"
+    },
+    "enterPasswordDialog": {
+      "continue": "Продолжить",
+      "currentPasswordAriaLabel": "Текущий пароль",
+      "enterCurrentPassword": "Ввести текущий пароль",
+      "enterToDecrypt": "Введите текущий пароль, чтобы узнать, на какой стадии находится восстановление",
+      "lockGraphicsAlternativeText": "Заблокировать графику"
+    },
+    "home": {
+      "addWallet": "Добавить кошелек",
+      "manage": "Управлять",
+      "selectWallet": "Выбрать кошелек"
+    },
+    "lockWallet": "Заблокировать кошелек",
+    "manageAssets": {
+      "filter": "Фильтр активов",
+      "hiddenAssets": "Скрытые активы",
+      "manageAssets": "Управление активами",
+      "search": "Поиск среди более чем 5000 активов",
+      "searchResults": "Результаты поиска",
+      "unhideAll": "Отобразить все",
+      "visibleAssets": "Видимые активы"
+    },
+    "manageWallets": {
+      "viewRecoveryPhrase": "Просмотреть секретную фразу для восстановления"
+    },
+    "navigation": {
+      "activity": "Активность",
+      "assets": "Активы",
+      "nfts": "NFT"
+    },
+    "nft": {
+      "about": "Подробнее",
+      "addNfts": "Добавьте NFT в свой кошелек",
+      "send": "Отправить"
+    },
+    "onboarding_backup": {
+      "backUpWallet": "Выполнить резервное копирование кошелька"
+    },
+    "onboarding": {
+      "skip": "Пропустить",
+      "typeYourSecretRecoveryPhrase": "Введите вашу секретную фразу для восстановления",
+      "walletSupports": "Этот кошелек поддерживает Ethereum, Polygon, Optimism, Arbitrum и др."
+    },
+    "receive": {
+      "receiveCryptoOrNft": "Получение криптовалюты и NFT"
+    },
+    "send": {
+      "amountInput": {
+        "balance": "Баланс",
+        "errors": {
+          "exceedsBalance": "Введенная сумма превышает ваш баланс",
+          "greaterThanZero": "Введенная сумма должна быть больше 0",
+          "invalid": "Введенная сумма недействительна"
+        },
+        "label": "Сумма",
+        "placeholder": "Введите сумму"
+      },
+      "continue": "Продолжить",
+      "networkFee": "Комиссия сети",
+      "sending": {
+        "title": "Идет отправка"
+      },
+      "sendingTo": {
+        "search": "Выберите, что хотите отправить",
+        "title": "Отправка для"
+      },
+      "sendInput": {
+        "label": "Отправка для",
+        "paste": "Вставить",
+        "placeholder": "Введите адрес/домен ENS..."
+      },
+      "sendOn": {
+        "network": "сеть",
+        "title": "Отправить"
+      }
+    },
+    "settings": {
+      "build": "Версия {0}",
+      "changePassword": {
+        "caption": "Ввести пароль, чтобы защитить и заблокировать ваш кошелек",
+        "confirmPassword": "Подтвердить пароль",
+        "label": "Пароль",
+        "menuItemTitle": "Изменить пароль",
+        "setPassword": "Установить пароль",
+        "title": "Введите новый пароль",
+        "typePassword": "Введите пароль"
+      },
+      "lockWallet": "Заблокировать кошелек",
+      "privacy": "Конфиденциальность",
+      "version": "Расширение кошелька Kraken {0}",
+      "walletSettings": "Настройки кошелька"
+    },
+    "skip": "Пропустить",
+    "walletBackup": {
+      "couldNotRetrieveState": "Не удалось получить статус фразы для восстановления",
+      "unverified": "Секретная фраза для восстановления не подтверждена",
+      "verified": "Секретная фраза для восстановления подтверждена"
+    },
+    "walletSettings": "Настройки кошелька"
+  },
+  "floatingTransactionActivityButtons": {
+    "receive": "Получать",
+    "send": "Отправить"
+  },
+  "globalActivity": {
+    "addAssets": "Добавьте несколько активов в свой кошелек",
+    "allActivity": "Вся активность",
+    "emptySelection": {
+      "description": "В вашем кошельке 0 активов в выбранных сетях",
+      "title": "В выбранных сетях отсутствуют активы"
+    },
+    "noActivity": {
+      "description": "Добавьте несколько активов в свой кошелек",
+      "title": "Здесь будут отображаться транзакции"
+    },
+    "recentActivity": "Последние действия",
+    "title": "Активность",
+    "transactionFailedInfo": "Произошел сбой недавней транзакции {network}",
+    "transactionsWillAppearHere": "Здесь будут отображаться транзакции"
+  },
+  "home": {
+    "assets": "Активы",
+    "collection": "NFT",
+    "collection_see_all": "Показать все",
+    "collectionEmpty": "NFT пока нет. Когда ваши коллекционные предметы станут доступны, они отобразятся здесь. ",
+    "collectionEmptyCta": "Получить",
+    "defiEmpty": "Начните зарабатывать с помощью DeFi",
+    "defiEmptyCaption": "Позиций пока нет. Участвуйте в DeFi, чтобы получать доход от своих активов.",
+    "defiEmptyCta": "Начать зарабатывать",
+    "defiEmptyTitle": "DeFi",
+    "deposits": "DeFi",
+    "manage": "Управлять",
+    "total_balance": "Баланс"
+  },
+  "krakenConnect": {
+    "appLock": {
+      "description": "Для защиты своих средств включите {authType}, прежде чем подключаться к бирже.",
+      "title": "Защитите свой кошелек перед подключением"
+    },
+    "appLockWarning": {
+      "ctaCancel": "Отмена",
+      "ctaTurnOff": "Выключить",
+      "description": "Отключение App Lock приведет к отключению соединения с Kraken. Если вы хотите мгновенно переводить свои средства, вам потребуется настроить его повторно.",
+      "title": "Отключить App Lock?"
+    },
+    "availableBalanceInfo": {
+      "description": "Почему активы удерживаются?",
+      "title": "Часть ваших активов на бирже Kraken может быть недоступна для вывода в связи с временным удержанием."
+    },
+    "balanceOnKraken": "на Kraken",
+    "connected": {
+      "alert": "Только текущий кошелек «<b>{walletName}</b>» был подключен к Kraken.",
+      "cta": "Переместить в кошелек",
+      "feature0": "Возможность <b>быстро получать средства</b> путем их перевода из аккаунта Kraken",
+      "feature1": "Отслеживайте <b>баланс ончейн и баланс на бирже Kraken</b> прямо в своем кошельке",
+      "featuresTitle": "Вы разблокировали:",
+      "success": "Аккаунт Kraken подключен!"
+    },
+    "connecting": "Подключение к Kraken",
+    "connectingFailed": "Ошибка при подключении к Kraken ",
+    "errors": {
+      "createAddress": "Не удалось создать адрес для перевода.",
+      "fetchBalance": "Не удалось получить баланс биржи Kraken.",
+      "getFee": "Не удалось получить точную сумму комиссии.",
+      "transferAppLockFailure": "Перевод не был инициирован."
+    },
+    "exchangeBalance": "Баланс обмена",
+    "fundCta": {
+      "body": "Подключите свой аккаунт Kraken к",
+      "bodyBold": "переводите криптовалюту в свой кошелек",
+      "heading": "Пополните ваш кошелек"
+    },
+    "noData": {
+      "description": "Аккаунт на бирже Kraken не содержит активы для перевода.",
+      "title": "Нет активов для перевода"
+    },
+    "pendingTransactionId": "Идентификатор транзакции Kraken",
+    "receiveCta": {
+      "body": "Подключите свой аккаунт Kraken Exchange",
+      "headline": "Быстрые переводы с Kraken"
+    },
+    "selectNetwork": {
+      "description": "Выберите сеть для зачисления {assetLabel} в ваш кошелек.",
+      "fee": "Комиссия в размере {assetValue}",
+      "minimum": "Минимум: {assetValue}",
+      "network": "Сеть {selectedNetworkName}",
+      "title": "Выбрать сеть"
+    },
+    "sendScreen": {
+      "title": "Перевод {assetSymbol}"
+    },
+    "settings": {
+      "benefits0": "Переводите криптовалюту с Kraken",
+      "benefits1": "Смотреть балансы биржи Kraken",
+      "benefitsHeadline": "Подключение к аккаунту Kraken позволяет:",
+      "cancel": "Отмена",
+      "connect": "Подключить",
+      "disconnect": "Отключить",
+      "disconnectScreen": {
+        "alert": "После отключения вашего кошелька ключ API останется действительным в настройках API биржи Kraken в течение 6 месяцев.",
+        "description": "Вы действительно хотите отключить этот кошелек от Kraken?",
+        "title": "Отключить от Kraken",
+        "warningMessage": "Вы больше не сможете мгновенно переводить средства между вашим кошельком <b>«{walletName}»</b> и вашим аккаунтом на бирже Kraken."
+      },
+      "walletsListTitle": "Ваши кошельки"
+    },
+    "stepsToConnect": {
+      "hasAccount": "У меня есть аккаунт",
+      "heading": "Для подключения к Kraken выполните следующие шаги:",
+      "step1": {
+        "description": "Настройте свой аккаунт Kraken",
+        "label": "Шаг 1"
+      },
+      "step2": {
+        "description": "Перейдите в кошелек",
+        "label": "Шаг 2"
+      },
+      "step3": {
+        "description": "Подключите свой аккаунт Kraken",
+        "label": "Шаг 3"
+      }
+    },
+    "transfer": {
+      "available": "Доступно {value}",
+      "confirm": "Подтвердить перевод",
+      "network": "Сеть",
+      "selectAsset": "Выберите актив для перевода",
+      "selectAssetDescription": "Перевод с биржи Kraken на ваш кошелек",
+      "title": "Перевод",
+      "transferFee": "Комиссия за перемещение",
+      "transferringTo": "Перевод на",
+      "unsupportedAssets": "Неподдерживаемые активы",
+      "unsupportedAssetsDescription": "{assets} в настоящее время не поддерживается Kraken Wallet"
+    },
+    "transferCta": {
+      "body": "Подключите свой аккаунт Kraken для быстрых переводов криптовалюты в ваш кошелек",
+      "heading": "Перевод с Kraken"
+    },
+    "unconnected": {
+      "alert": "Только текущий кошелек «<b>{walletName}</b>» будет подключен к Kraken.",
+      "body": "Подключите свой аккаунт на бирже Kraken, чтобы мгновенно переводить средства в свой кошелек",
+      "cta": "Подключить биржу Kraken",
+      "noAccount": "У меня нет аккаунта",
+      "title": "Переведите криптовалюту в свой кошелек с помощью Kraken"
+    }
+  },
+  "manageWallets": {
+    "title": "Управление кошельками"
+  },
+  "marketData": {
+    "about": "Подробнее о {assetSymbol}",
+    "allTimeHigh": {
+      "details": "Самая высокая цена, по которой торговалась криптовалюта с момента ее создания.",
+      "title": "Самые высокие за все время"
+    },
+    "allTimeLow": {
+      "details": "Самая низкая цена, по которой торговалась криптовалюта с момента ее создания.",
+      "title": "Самые низкие за все время"
+    },
+    "circulatingSupply": {
+      "details": "Количество монет или токенов, которые активно доступны на рынке и в руках широкой публики.",
+      "title": "Количество единиц в обращении"
+    },
+    "contract": "Контракт",
+    "contractAddressCopied": "Адрес контракта скопирован!",
+    "explorers": "Обозреватели",
+    "fullyDilutedValuation": {
+      "details": "Рыночная капитализация, если бы в обращении находилось максимальное количество единиц, рассчитанная путем умножения текущей цены на максимальное количество единиц.",
+      "short": "FDV",
+      "title": "Полностью разбавленная оценка"
+    },
+    "high": "Высокие:",
+    "links": "Ссылки",
+    "low": "Низкие:",
+    "marketCap": {
+      "details": "Общая рыночная стоимость криптовалюты, рассчитываемая путем умножения текущей цены на количество единиц в обращении.",
+      "short": "Рыночная капитализация",
+      "title": "Рыночная капитализация"
+    },
+    "maxSupply": {
+      "details": "Максимальное количество монет или токенов криптовалюты, которые когда-либо будут существовать, как определено протоколом проекта.",
+      "title": "Макс. предложение"
+    },
+    "networkFee": {
+      "current": "Текущая комиссия",
+      "duration": "Продолжительность",
+      "title": "Комиссия сети"
+    },
+    "period": {
+      "all": "Все",
+      "day": "24 ч",
+      "month": "1 мес.",
+      "week": "1 нед.",
+      "year": "1 г."
+    },
+    "price": "Цена",
+    "priceNotAvailable": "Цена (недоступно)",
+    "readMore": "Развернуть",
+    "showLess": "Показать меньше",
+    "terminology": "Терминология",
+    "tokenContract": "Контракт токена",
+    "tokenContractWarning": {
+      "boldDescription": "Никогда не отправляйте средства на скопированный адрес.",
+      "description": "{boldDescription} Это НЕ ваш адрес для получения средств. Это адрес смарт-контракта, используемый для определения токена на блокчейне.",
+      "header": "Вы только что скопировали адрес контракта токена"
+    },
+    "totalSupply": {
+      "details": "Количество монет или токенов, существующих на данный момент, включая заблокированные, зарезервированные или еще не выпущенные.",
+      "title": "Общее предложение"
+    },
+    "volume24h": {
+      "details": "Общая стоимость криптовалюты, торговавшейся за последние 24 часа на всех биржах.",
+      "short": "24ч объем",
+      "title": "Объем (24 ч.)"
+    },
+    "website": "Веб-сайт"
+  },
+  "network": {
+    "arbitrum": "Arbitrum",
+    "avalanche": "Avalanche",
+    "base": "Базовый",
+    "bitcoin": "Bitcoin",
+    "blast": "Blast",
+    "dogecoin": "Dogecoin",
+    "ethereum": "Ethereum",
+    "ethereum_goerli": "Ethereum – тестовая сеть Goerli",
+    "ethereum_sepolia": "Ethereum – Sepolia",
+    "ink": "Ink",
+    "ink_sepolia": "Ethereum – Ink Sepolia",
+    "linea": "Linea",
+    "matic": "Matic",
+    "optimism": "OP Mainnet",
+    "polygon": "Polygon",
+    "solana": "Solana",
+    "solana_devnet": "Solana – Devnet",
+    "tezos": "Tezos",
+    "unknown": "неизвестная ошибка"
+  },
+  "nftCollection": {
+    "archiveCollectionDetailsSubtitle": "Все архивированные NFT",
+    "archiveCollectionDetailsTitle": "Архив",
+    "archiveCollectionSubtitle": "Все архивированные NFT",
+    "archiveCollectionTitle": "Архивированные NFT",
+    "archivedDaysInfo": "{days} дн. назад",
+    "archivedOneDayInfo": "1 день назад",
+    "heading": "Предметы"
+  },
+  "nftGallery": {
+    "favorite": "Избранное"
+  },
+  "nftList": {
+    "collections": "Коллекции",
+    "collectionsEmptyState": {
+      "allNetworks": {
+        "heading": "В этом кошельке еще нет коллекций",
+        "subheading": "В вашем кошельке 0 коллекций во всех поддерживаемых сетях"
+      },
+      "selectedNetworks": {
+        "heading": "В выбранных сетях отсутствуют коллекции",
+        "subheading": "В вашем кошельке 0 коллекций NFT в выбранных сетях"
+      }
+    },
+    "everything": "Все",
+    "everythingEmptyState": {
+      "allNetworks": {
+        "heading": "В этом кошельке пока нет NFT",
+        "subheading": "В вашем кошельке 0 NFT во всех поддерживаемых сетях"
+      },
+      "selectedNetworks": {
+        "blastHeading": "Blast NFT появятся совсем скоро",
+        "blastSubheading": "Этот кошелек пока не поддерживает просмотр NFT в сети Blast",
+        "heading": "В выбранных сетях отсутствуют NFT",
+        "subheading": "В вашем кошельке 0 NFT в выбранных сетях"
+      }
+    },
+    "title": "NFT"
+  },
+  "nftManage": {
+    "archive": "Архив",
+    "copy_id": "Копировать идентификатор",
+    "favorite": "Избранное",
+    "title": "Управлять NFT",
+    "unArchive": "Отменить архивирование",
+    "unArchiveSuccess": "Отменить архивирование NFT",
+    "unfavorite": "Удалить из избранного"
+  },
+  "nftOptions": {
+    "archive": "Архив",
+    "favorite": "Избранное",
+    "send": "Отправить",
+    "unarchive": "Отменить архивирование",
+    "unfavorite": "Удалить из избранного",
+    "viewDetails": "Подробнее",
+    "viewOn": "Просмотр на {explorer}"
+  },
+  "nftView": {
+    "about": "Подробнее",
+    "ens": {
+      "description": "Домены Ethereum Name Service (ENS) – это безопасные доменные имена для децентрализованного мира. Домены ENS предоставляют пользователю возможность сопоставлять читаемые имена с ресурсами блокчейна и не только, такими как адреса Ethereum, хэши IPFS или URL-адреса веб-сайтов. Домены ENS можно покупать и продавать на вторичных рынках.",
+      "links": {
+        "label": "Просмотр на"
+      },
+      "ownership": {
+        "label": "Владение",
+        "manager": "Менеджер",
+        "owner": "Владелец"
+      },
+      "traits": {
+        "created": "Дата создания",
+        "expiration": "Срок действия истекает"
+      }
+    },
+    "failedMedia": {
+      "desc": "Возможно, тип медиафайла пока не поддерживается.",
+      "title": "Не удается загрузить медиафайл"
+    },
+    "links": {
+      "label": "Просмотр на"
+    },
+    "manage": "Управлять",
+    "noName": "Название отсутствует",
+    "properties": "Свойства",
+    "show_less": "Показать меньше",
+    "show_more": "Показать больше"
+  },
+  "onboarding_backup_prompt": {
+    "caption": "Если вы потеряете свое устройство или перейдете на другой кошелек, чтобы восстановить вашу криптовалюту вам потребуется {recoveryPhrase}. {neverShare}",
+    "continue": "Показать фразу",
+    "recovery_phrase": "секретная фраза для восстановления",
+    "skip": "Пропустить",
+    "skipWarning": {
+      "back": "Назад",
+      "checkOne": "Я понимаю, что если я потеряю свой телефон или удалю приложение, не сделав резервную копию, у меня не будет возможности восстановить свой кошелек.",
+      "checkTwo": "Я понимаю, что я несу полную ответственность за любую потерю активов в результате отсутствия резервной копии для восстановления.",
+      "confirm": "Подтвердить",
+      "title": "Продолжить без резервной копии кошелька?"
+    },
+    "subtitle": "ваш кошелек",
+    "title": "Резервное копирование"
+  },
+  "onboarding_backup_verify": {
+    "caption": "Коснитесь слов ниже по очереди в правильном порядке, чтобы подтвердить, что вы сохранили секретную фразу для восстановления.",
+    "failed": "Фраза недействительна",
+    "paste": "Вставить",
+    "retry": "Повторите попытку",
+    "title": "Подтвердите, что вы сохранили ее правильно",
+    "verified": "Верифицировано",
+    "verify": "Верифицировать"
+  },
+  "onboarding_backup": {
+    "caption": "Запишите эти 12 слов по порядку и храните их в надежном месте. {neverShare}",
+    "continue": "Далее",
+    "copy": "Копировать",
+    "title": "Ваша секретная фраза для восстановления"
+  },
+  "onboarding_import_wallet": {
+    "caption": "Для импорта кошелька введите свою секретную фразу для восстановления или закрытый ключ.",
+    "import": "Импортировать",
+    "paste": "Вставить",
+    "title": "Импортируйте свой кошелек"
+  },
+  "onboarding_secure_wallet": {
+    "authBiometric": "Биометрическая аутентификация",
+    "authFaceID": "FaceID",
+    "authPasscode": "Пароль",
+    "authTouchID": "TouchID",
+    "caption": "Используйте {authType}, чтобы защитить криптовалюту от людей, которые могут получить доступ к вашему телефону.",
+    "secureWallet": "Защита кошелька",
+    "skip": "Пропустить",
+    "subtitle": "ваш кошелек",
+    "title": "Высокая"
+  },
+  "onboarding": {
+    "create_wallet": "Создать кошелек",
+    "import_error": "Невозможно импортировать кошелек",
+    "import_wallet": "Импортировать",
+    "intro_pages": {
+      "1": {
+        "subtitle": "Kraken Wallet",
+        "text": "Владейте криптовалютой, открывайте для себя блокчейны и обеспечьте свое финансовое будущее.",
+        "title": "Добро пожаловать в"
+      },
+      "2": {
+        "subtitle": "систему защиты",
+        "text": "Надежно храните свою криптовалюту в защищенном кошельке, доступ к которому есть только у вас.",
+        "title": "Ваша криптовалюта"
+      },
+      "3": {
+        "subtitle": "блокчейны",
+        "text": "Kraken Wallet поддерживает Bitcoin, Ethereum, Polygon, Doge и другие криптовалюты. ",
+        "title": "Узнать больше"
+      },
+      "4": {
+        "subtitle": "и хранить NFT",
+        "text": "Покупайте, продавайте и обменивайте криптовалюту, а также храните NFT из своих любимых коллекций.",
+        "title": "Купить криптовалюту"
+      },
+      "settingUp": {
+        "subtitle": "вашего кошелька...",
+        "text": "Это займет всего минуту",
+        "title": "Настройка"
+      }
+    },
+    "never_share": "Никому не сообщайте эту информацию.",
+    "scroll_note": "Прокрутите, чтобы узнать больше"
+  },
+  "onboardingBackupVerify": {
+    "caption": "Коснитесь слов ниже по очереди в правильном порядке, чтобы подтвердить, что вы сохранили секретную фразу для восстановления.",
+    "failed": "Фраза недействительна",
+    "paste": "Вставить",
+    "pasteWarning": {
+      "back": "Назад",
+      "checkOne": "Я понимаю, что если я потеряю свой телефон или удалю приложение, мне потребуется секретная фраза для восстановления моего кошелька.",
+      "checkTwo": "Я понимаю, что в случае утери фразы для восстановления, я несу полную ответственность за любую потерю активов.",
+      "confirm": "Подтвердить",
+      "title": "Подтвердите, что вы сохранили ее в надежном месте"
+    },
+    "retry": "Повторите попытку",
+    "title": "Подтвердите, что вы сохранили ее правильно",
+    "verified": "Верифицировано",
+    "verify": "Верифицировать"
+  },
+  "onboardingImportCloudBackup": {
+    "desc": "Для импорта кошелька из резервной копии используйте ключ доступа для дешифровки.",
+    "selection": {
+      "desc": "Вы создали несколько резервных копий, выберите резервную копию кошелька, которую вы хотите импортировать",
+      "recent": "Самые последние",
+      "title": "Выберите резервную копию кошелька, которую вы хотите импортировать"
+    },
+    "title": "Импорт из резервной копии",
+    "usePasskey": "Использовать мой ключ доступа"
+  },
+  "onboardingImportMethod": {
+    "methodICloud": {
+      "desc": "Импорт из резервной копии iCloud, созданной для Kraken Wallet",
+      "title": "Импорт из iCloud"
+    },
+    "methodManual": {
+      "desc": "Импорт с помощью секретной фразы для восстановления из 12–24 слов.",
+      "title": "Введите секретную фразу"
+    },
+    "subtitle": "свой кошелек",
+    "title": "Импортировать"
+  },
+  "onboardingImportSubWallets": {
+    "addByIndex": {
+      "addWallet": "Добавить кошелек",
+      "addWallets": "Добавить кошельки",
+      "button": "Добавить по индексу",
+      "description": "Введите номер индекса кошелька, который вы хотите импортировать.",
+      "placeholder": "Введите номер индекса кошелька",
+      "title": "Введите индекс кошелька"
+    },
+    "findingWallets": {
+      "caption": "Это может занять несколько секунд",
+      "foundWallets": "Найдено кошельков: {count}",
+      "title": "Поиск подкошельков"
+    },
+    "findSubWallets": {
+      "caption": "Это может занять несколько секунд",
+      "foundWallets": "Найдено кошельков: {count}",
+      "title": "Поиск подкошельков"
+    },
+    "importSubWallets": {
+      "addByIndex": "Добавить по индексу",
+      "hasABalance": "С балансом",
+      "hasBalance": "Содержит средства",
+      "importingWallets": "Выполняется импорт кошельков ({subWalletsCount})",
+      "importingWalletsOne": "Выполняется импорт 1 кошелька",
+      "importWallets": "Импорт {subWalletsCount} кошельков",
+      "importWalletsOne": "Импорт 1 кошелька",
+      "skip": "Пропустить",
+      "subtitle": "Количество найденных кошельков со средствами: {subWalletsWithBalanceCount}. Выберите все кошельки, которые хотите импортировать.",
+      "subtitleOneWallet": "Найден 1 кошелек со средствами.",
+      "title": "Выберите кошельки для импорта",
+      "wallet": "Кошелек",
+      "walletsFound": "Найдено кошельков: {subWalletsCount}",
+      "walletsFoundOne": "Найден 1 кошелек"
+    },
+    "importSubWalletsSuccess": {
+      "continue": "Продолжить",
+      "subtitle": "Кошельки добавлены. Вы в любое время можете добавить больше.",
+      "subtitleOneWallet": "Кошелек добавлен. Вы в любое время можете добавить больше.",
+      "title": "Импортировано кошельков: {subWalletsCount}",
+      "titleOneWallet": "Импортирован 1 кошелек"
+    },
+    "loadingSubWallets": {
+      "caption": "Это может занять несколько секунд",
+      "foundWallets": "Найдено кошельков: {subWalletsCount}",
+      "foundWalletsOne": "Найден 1 кошелек",
+      "subtitle": "Это может занять несколько секунд",
+      "title": "Поиск подкошельков"
+    }
+  },
+  "onboardingImportWallet": {
+    "caption": "Для импорта кошелька введите свою секретную фразу для восстановления.",
+    "disclaimer": "Если другому лицу известна секретная фраза для восстановления, у этого лица есть доступ к данному кошельку, а значит средства не защищены.",
+    "disclaimerTitle": "Внимание!",
+    "header": "Импортируйте свой кошелек",
+    "headerInvalid": "Проверьте свою секретную фразу",
+    "import": "Импортировать",
+    "invalid": "Фраза недействительна",
+    "loading": "Выполняется импорт кошелька...",
+    "paste": "Вставить",
+    "valid": "Импортировано"
+  },
+  "onboardingOutro": {
+    "button": "Принять и продолжить",
+    "caption": "Кошелек поддерживает Bitcoin, Ethereum, Polygon, Solana и другие криптовалюты.",
+    "footer": "Продолжая, вы соглашаетесь с\n",
+    "termsOfService": "условиями предоставления услуг Kraken Wallet",
+    "title": "Ваш кошелек готов"
+  },
+  "onboardingPushNotifications": {
+    "allow": "Разрешить",
+    "content": "Получайте важные оповещения о транзакциях и других взаимодействиях с кошельком. Для этого вам необходимо разрешить отправку уведомлений.",
+    "skip": "Спросить позже",
+    "title": "Для получения информации разрешите отправку уведомлений.",
+    "titleEnd": "разрешите отправку уведомлений",
+    "titleStart": "Для получения информации "
+  },
+  "onChainSecurity": {
+    "analysingApp": "Выполняется анализ приложения",
+    "appConnectCriticalWarning": "Мы считаем, что это вредоносное приложение, использовать которое небезопасно. Утверждение может привести к потере средств.",
+    "appConnectMediumWarning": "Невозможно верифицировать приложение, отправляющее запрос.",
+    "appFlagged": "Приложение отмечено!",
+    "appSafetyNotVerified": "Уровень безопасности приложения не проверен",
+    "appSafetyNotVerifiedMessage": "Нам не удалось проверить безопасность приложения, к которому вы пытаетесь подключиться, из-за временной ошибки или сбоя в работе нашей службы проверки приложений. Продолжайте с осторожностью.",
+    "appSignMessageCriticalWarning": "Мы считаем, что это вредоносное приложение, и подписывать сообщение небезопасно. Утверждение может привести к потере средств.",
+    "appSignMessageMediumWarning": "Невозможно верифицировать приложение, отправляющее запрос.",
+    "appSignTransactionCriticalWarning": "Мы считаем, что это вредоносное приложение, и подписывать транзакцию небезопасно. Утверждение может привести к потере средств.",
+    "appSignTransactionMediumWarning": "Невозможно верифицировать приложение, отправляющее запрос.",
+    "appWarning": "Мы считаем, что это вредоносное приложение, использовать которое небезопасно. Утверждение может привести к потере средств",
+    "criticalWarning": "Предупреждение",
+    "domainMatch": "Совпадение доменов",
+    "domainMatchInfo": "Домен, связанный с этим запросом, был подтвержден как домен этого приложения.",
+    "domainMismatch": "Несовпадение доменов",
+    "domainMismatchInfo": "Домен этого веб-сайта не соответствует отправителю этого запроса. Утверждение может привести к потере средств.",
+    "domainMismatchMessage": "Домен приложения не соответствует отправителю этого запроса. Утверждение может привести к потере средств.",
+    "domainMismatchWarning": "Предупреждение! Несовпадение доменов",
+    "ignoreWarningAndProceed": "Игнорировать предупреждение и продолжить",
+    "knownSecurityRisk": "Известная угроза безопасности",
+    "knownSecurityRisk!": "Известная угроза безопасности!",
+    "knownSecurityRiskExclaimed": "Известная угроза безопасности!",
+    "knownSecurityRiskExclamation": "Известная угроза безопасности!",
+    "knownSecurityRiskInfo": "Этот веб-сайт помечен как небезопасный несколькими поставщиками поддержки безопасности. Защитите свои активы – не подключайтесь к нему.",
+    "knownSecurityRiskMessage": "Этот веб-сайт помечен как небезопасный несколькими поставщиками поддержки безопасности. Покиньте веб-сайт, чтобы защитить свои активы от утечки",
+    "messageFlagged": "Сообщение отмечено!",
+    "punycodeDomainRiskMessage": "Адрес этого веб-сайта содержит нестандартные символы. Это распространенный прием, используемый мошенниками для имитации законных веб-сайтов. Для вашей безопасности рекомендуется не вводить конфиденциальную информацию и не продолжать работу с этим веб-сайтом.",
+    "returnToSafety": "Вернуться к странице безопасности",
+    "signTransactionCriticalWarning": "Мы считаем, что это подозрительная транзакция, подписывать которую небезопасно. Утверждение может привести к потере средств.",
+    "transactionFlagged": "Транзакция отмечена!",
+    "transactionWarning": "Мы считаем, что это подозрительная транзакция, подписывать которую небезопасно. Утверждение может привести к потере средств",
+    "unverifiedApp": "Невозможно верифицировать приложение, отправляющее запрос.",
+    "warning": "Предупреждение"
+  },
+  "passwordProtection": {
+    "authFailed": "Сбой аутентификации",
+    "authFailedDescription": "Повторите попытку или полностью очистите и сбросьте приложение.",
+    "biometricDescriptionAndroid": "даже если вы настроили блокировку с помощью биометрии в App Lock",
+    "biometricDescriptionIOS": "даже если вы настроили FaceID или TouchID в App Lock",
+    "confirm": "Подтвердить",
+    "confirmPassword": "Подтвердить пароль",
+    "confirmResetApp": "Подтвердить сброс приложения",
+    "connectedApps": "Подключенные приложения для входа и аутентификации",
+    "createPassword": "Создать пароль",
+    "dataLoss1": "Я понимаю, что полный сброс приложения приведет к тому, что оно вернется к исходному состоянию.",
+    "dataLoss2": "Я понимаю, что после восстановления приложения для доступа к кошелькам мне понадобятся секретные фразы для восстановления.",
+    "dataLoss3": "Я понимаю, что если я сброшу приложение и у меня не будет секретных фраз для восстановления моих кошельков, восстановить мои кошельки будет невозможно.",
+    "dataLoss4": "Я понимаю, что в случае утери фраз для восстановления, я несу полную ответственность за любую потерю активов.",
+    "dataLossWarning": "Предупреждение о потере данных!",
+    "disable": "Отключить",
+    "disablePassword": "Отключить пароль",
+    "disablePasswordDescription": "Введите пароль, чтобы отключить защиту паролем",
+    "doubleEncryptsData": "Двойное шифрование данных вашего приложения",
+    "enablePasswordProtection": "Включить защиту паролем",
+    "enterPassword": "Введите пароль",
+    "lockout": "Слишком много неудачных попыток. Пожалуйста, попробуйте позже",
+    "openApp": "Откройте приложение (необязательно)",
+    "password": "Пароль",
+    "passwordHintLetters": "Попробуйте использовать заглавные и строчные буквы",
+    "passwordHintLonger": "Попробуйте использовать более длинный пароль",
+    "passwordHintNumbers": "Попробуйте использовать буквы и цифры",
+    "passwordHintSpecialChars": "Попробуйте использовать специальные символы: !@#$%^&*?_~",
+    "passwordIncorrect": "Неверный пароль",
+    "passwordLengthError": "Необходимо ввести не менее 6 символов",
+    "passwordMatchError": "Пароли не совпадают",
+    "passwordStrength": "Надежность пароля:",
+    "passwordStrengthAverage": "Средняя",
+    "passwordStrengthSecure": "Высокая",
+    "passwordStrengthStrong": "Очень высокая",
+    "passwordStrengthVeryWeak": "Очень низкая",
+    "passwordStrengthWeak": "Низкая",
+    "passwordSupersedesAppLock": "App Lock не заменяет пароль",
+    "passwordSupersedesAppLockDescription": "Если вы создадите пароль, он будет требоваться для совершения транзакций ({biometricDescription}). В целях безопасности необходимо использовать и то и другое.",
+    "protectYourData": "Защитите свои данные с помощью дополнительного шифрования",
+    "rationaleCreateWallet": "Для создания нового кошелька необходим ваш пароль",
+    "rationaleGetXPub": "Для просмотра расширенного открытого ключа требуется ввести ваш пароль",
+    "rationaleSeeRecoveryPhrase": "для просмотра секретной фразы для восстановления",
+    "rationaleSignTransaction": "Для подписания транзакций необходим ваш пароль",
+    "requiredToAccess": "Требуется для доступа к вашему кошельку",
+    "requireOnOpen": "Спрашивать каждый раз при открытии приложения?",
+    "requireOnOpenDesc": "Повышает безопасность за счет двойного шифрования данных вашего приложения, но вам нужно будет вводить пароль при каждом открытии приложения",
+    "resetHintModalConfirm": "ОК",
+    "resetHintModalDesc": "Чтобы настроить параметры пароля, вам необходимо отключить защиту паролем и снова включить ее после внесения изменений.",
+    "resetHintModalTitle": "Сброс пароля для изменения настроек",
+    "retry": "Повторить попытку",
+    "sendCrypto": "Отправить криптовалюту или NFT",
+    "signTransactions": "Подписать транзакции",
+    "title": "Защита паролем",
+    "typePassword": "Введите пароль",
+    "unlock": "Разблокировать",
+    "viewPhrase": "Просмотреть секретную фразу для восстановления",
+    "walletLocked": "Кошелек заблокирован",
+    "walletLockedDescription": "Введите пароль для разблокировки",
+    "warning": "Предупреждение: не потеряйте пароль",
+    "warningDescription": "Храните пароль в надежном месте. Он локально зашифрован на вашем устройстве, поэтому Kraken не сможет его восстановить, если он будет потерян или забыт.",
+    "whatIs": "Что такое защита паролем? ",
+    "whatIsDescription": "Пароль требуется для обеспечения дополнительной безопасности при выполнении следующих действий:",
+    "wipeAndReset": "Очистить и сбросить приложение",
+    "wrongPassword": "Это не сработало",
+    "wrongPasswordDescription": "Проверьте пароль и повторите попытку"
+  },
+  "pushNotificationsPrompt": {
+    "allow": "Разрешить",
+    "content": "Получайте важные оповещения о транзакциях и других взаимодействиях с кошельком. Для этого вам необходимо разрешить отправку уведомлений.",
+    "disallow": "Не разрешать",
+    "skip": "Спросить позже",
+    "title": "Для получения информации разрешите отправку уведомлений.",
+    "titleEnd": "разрешите отправку уведомлений",
+    "titleStart": "Для получения информации "
+  },
+  "receive": {
+    "addressCopied": "Адрес скопирован",
+    "addressError": "Адрес получения может быть неактуальным. Обновите и повторите попытку",
+    "copied": "Скопировано",
+    "copy": "Копировать",
+    "share": "Предоставить доступ",
+    "warning": "Это ваш адрес {networkName}.",
+    "warning_nft": "Это ваш адрес {networkName}. Используйте для получения криптовалюты и NFT, совместимых с этой сетью."
+  },
+  "reputation": {
+    "likelySpam": "Отмечено как спам",
+    "likelySpamDescription": "Этот токен внесен в черный список. Будьте осторожны при взаимодействии с любым токеном, который вы не можете проверить. Не доверяйте, а проверяйте.",
+    "likelySpamHelp": "Что такое токены в черном списке?",
+    "onTokenLists": "В {count} списках токенов",
+    "openDocs": "Открыть документы",
+    "title": "Репутация",
+    "tokenLists": "Списки токенов",
+    "tokenListsDescription": "Списки токенов (Token Lists) – это инициатива сообщества, направленная на улучшение видимости, репутации и доверия к токенам ERC20.",
+    "tokenListsHelp": "Что такое списки токенов?",
+    "unverified": "Не в списке",
+    "unverifiedDescription": "Этот токен не добавлен в список. Будьте осторожны при взаимодействии с любым токеном, который вы не можете проверить. Не доверяйте, а проверяйте.",
+    "unverifiedHelp": "Почему он не добавлен в список?",
+    "verified": "Добавлено в список",
+    "verifiedDescription": "Списки токенов (Token Lists) – это списки, основанные на репутации, предназначенные для выявления и выделения для вас надежных и высококачественных токенов.",
+    "verifiedHelp": "Что такое списки токенов?"
+  },
+  "scan": {
+    "apps": "Приложения",
+    "connected_to": "Подключено к {appName}",
+    "instructions": "Подключитесь к приложениям dApp, отсканировав QR-код",
+    "manage": "Управлять",
+    "missingPermission": "Чтобы использовать камеру, перейдите в настройки телефона и разрешите использование камеры для приложения Super Wallet.",
+    "paste": "Вставить адрес",
+    "wallet_connect_failed": "QR-код не отсканирован. Повторите попытку",
+    "wallet_connect_initialization_failure": "Ошибка инициализации WalletConnect",
+    "wallet_connect_invalid_qr_code": "Недействительный QR-код",
+    "wallet_connect_previously_submitted_qr_code": "Недействительный QR-код. Обновите страницу и повторите попытку",
+    "wallet_connect_version_deprecated": "Несовместимое приложение"
+  },
+  "send": {
+    "address": "Введите адрес...",
+    "addressHeader": "Отправка для",
+    "addressOrENS": "Введите адрес или домен ENS...",
+    "amountHeader": "Сумма",
+    "available": "Доступно {0}",
+    "balance": "Баланс {0}",
+    "confirm": "Подтвердить",
+    "confirmSend": "Подтвердить отправку",
+    "create": "Создать",
+    "enterAmount": "Введите сумму {symbol}",
+    "evm_fee_fast": "Быстрые",
+    "evm_fee_normal": "Стандартный",
+    "evm_fee_urgent": "Срочные",
+    "exceedsBalance": "Введенная сумма превышает доступный баланс",
+    "exceedsFee": "Недостаточно {token} для комиссии сети",
+    "failed": "Сбой",
+    "failedPriceAlert": {
+      "desc": "В настоящий момент не удалось получить данные о цене для этого токена.",
+      "title": "Цена USD для {token} недоступна"
+    },
+    "fee": "Комиссия",
+    "fee_fast": "Быстрые",
+    "fee_medium": "Средний",
+    "fee_slow": "Медленно",
+    "feeWarning": "Текущая комиссия сети составляет {feeAmount}, что превышает {percentage}% от суммы перевода.",
+    "invalidAddress": "Недействительный адрес, проверьте и попробуйте снова",
+    "max": "Макс.",
+    "minAmount": "Мин. размер перевода: {minAmount} {token}",
+    "network_fee": "Комиссия сети",
+    "networkWarning": {
+      "alertBody": "Убедитесь, что у получателя есть кошелек, поддерживающий {networkName}.",
+      "alertTitle": "Отправка в сеть {networkName}"
+    },
+    "no_note": "Примечание отсутствует",
+    "note": "Примечание",
+    "note_to_self": "Личное примечание",
+    "pending": "В ожидании",
+    "polygonWarning": {
+      "alertBody": "Убедитесь, что у получателя есть кошелек, поддерживающий Polygon",
+      "alertTitle": "Отправка в сеть Polygon",
+      "label": "Отправка в сеть Polygon"
+    },
+    "priority": "Приоритет",
+    "recipient": "Получатель",
+    "scan": "Сканировать",
+    "send": "Отправить",
+    "sendError": "Невозможно завершить транзакцию. Пожалуйста, повторите попытку",
+    "sending": "Идет отправка...",
+    "sent": "Отправлено",
+    "successEstimation": "Расчетное время завершения: ~{time}",
+    "successLabel": "Транзакция инициирована!",
+    "suspiciousCharWarning": {
+      "desc": "Адрес содержит символы, не являющиеся ASCII. Помните, что существуют символы, которые выглядят идентично или напоминают английские буквы.",
+      "title": "Внимание!"
+    },
+    "technicalIssues": "Возникла проблема. Повторите попытку позже",
+    "timeStampabbreviation": {
+      "day": "день",
+      "days": " дн.",
+      "hour": "час",
+      "hours": "ч.",
+      "minute": "мин.",
+      "minutes": "мин.",
+      "second": "сек.",
+      "seconds": "сек."
+    },
+    "title": "Отправить {ticker}",
+    "title_nft": "Отправить NFT",
+    "transaction_id": "Номер транзакции",
+    "transfer_token": "Перевести токен",
+    "undo": "Отменить",
+    "warning": {
+      "firstTimeSending": "Отправляю на этот адрес впервые",
+      "nthTimeSending": "Отправлено на этот адрес: {count} раз(-а)",
+      "title": "Предупреждение",
+      "titleCritical": "Предупреждение"
+    }
+  },
+  "settings": {
+    "about": "Подробнее",
+    "about_release_notes": "Примечания к выпуску",
+    "about_selftest": "Провести диагностику",
+    "advanced": "Расширенные",
+    "appLock": "App Lock",
+    "backup": "Резервная копия",
+    "backup_mnemonic_seed": "Резервная мнемоническая секретная фраза для восстановления",
+    "connections": "Подключения",
+    "currency": "Валюта",
+    "deleteAll": "Удалить все данные",
+    "electrum_error_connect": "Не удается подключиться к указанному серверу Electrum",
+    "electrum_reset": "Сбросить до значения по умолчанию",
+    "electrum_reset_to_default": "Вы уверены, что хотите сбросить настройки Electrum до значения по умолчанию?",
+    "electrum_saved": "Ваши изменения сохранены. Для вступления изменений в силу может потребоваться перезапуск приложения.",
+    "electrum_unable_to_connect": "Не удалось подключиться к {server}.",
+    "enableTracking": "Включить отслеживание ошибок",
+    "enableTrackingDescription": "Включив эту функцию, вы помогаете делать наше приложение лучше",
+    "general": "Общие сведения",
+    "header": "Настройки",
+    "hideBalances": "Скрыть балансы",
+    "krakenConnect": "Kraken Connect",
+    "krakenExchange": "Биржа Kraken",
+    "language": "Язык",
+    "manageWallets": "Управление кошельками",
+    "notifications": "Push-уведомления",
+    "passwordProtection": "Защита паролем",
+    "pn_account_activity": "Активность аккаунта",
+    "pn_auth_n_sign_connected_apps": "Подключенные приложения для входа и аутентификации",
+    "pn_connected_app_interactions": "Взаимодействия с подключенным приложением",
+    "pn_incoming_transactions": "Входящие транзакции",
+    "pn_incoming_transactions_pending": "Входящие транзакции в ожидании",
+    "pn_levelAll": "Включить активность аккаунта",
+    "pn_outgoing_transactions": "Исходящие транзакции",
+    "pn_outgoing_transactions_complete": "Завершенные исходящие транзакции",
+    "pn_outgoing_transactions_pending": "Исходящие транзакции в ожидании",
+    "pn_types_of_notifications_youll_receive": "Вы будете получать следующие типы уведомлений:",
+    "pn_would_you_like_to_receive_notifications": "Вы хотели бы получать уведомления?",
+    "privacy": "Конфиденциальность",
+    "pushNotifications": "Push-уведомления",
+    "refreshAll": "Обновить метаданные",
+    "refreshAllDesc": "Очистить кэш для всех NFT и активов",
+    "secretRecoveryPhrase": "Секретная фраза для восстановления",
+    "security": "Безопасность",
+    "support": "Поддержка",
+    "testnet": "Тестовая сеть",
+    "testnetDescription": "Если эта функция включена, вы можете выбрать свою тестовую сеть и активы на экране управления активами.",
+    "view_list_of_connected_dapps": "Просмотр списка подключенных приложений dApp",
+    "wallets": "Кошельки",
+    "walletsAndBackups": "Кошельки и резервные копии"
+  },
+  "storeReview": {
+    "alertMessage": "Мы хотели бы убедиться, что у вас остались хорошие впечатления.",
+    "alertTitle": "Вам нравится приложение Kraken Wallet?",
+    "nagativeAlertTitle": "Сожалеем, что опыт использования этого приложения не принес вам хороших впечатлений.",
+    "negativeAlertMessage": "Не могли бы вы рассказать, что мы можем улучшить?",
+    "notReally": "Не совсем",
+    "sendFeedback": "Отправить отзыв",
+    "yes": "Да"
+  },
+  "support": {
+    "contactUs": "Связаться с нами",
+    "getInTouch": "Связаться",
+    "knowledgeBaseDesc": "Находите документацию, читайте часто задаваемые вопросы и связывайтесь с нами",
+    "knowledgeBaseTitle": "База знаний",
+    "visitSupportCenter": "Посетить Центр поддержки"
+  },
+  "swap": {
+    "amountExceedingBalance": "Введенная сумма превышает доступный баланс",
+    "amountPlaceholder": "Введите сумму {symbol}",
+    "balance": "Баланс {0}",
+    "buttonTitle": "Обмен",
+    "confirmation": {
+      "cancel": "Отмена",
+      "confirm": "Подтвердить",
+      "initiated": "Обмен инициирован!",
+      "swapFlagged": "Обмен отмечен!"
+    },
+    "emptyState": {
+      "assetsEmptyDesc": "В данный момент в вашем кошельке нет активов. Попробуйте пополнить свой кошелек",
+      "assetsEmptyTitle": "Нет доступных активов",
+      "clearSearch": "Очистить поиск",
+      "goBack": "Назад",
+      "okay": "ОК",
+      "searchAllNetworks": "Поиск во всех сетях",
+      "searchEmptyDesc": "Попробуйте расширить поиск",
+      "searchEmptyTitle": "Нет результатов",
+      "swappableAssetsEmptyDesc": "В этом кошельке нет активов, поддерживаемых нашими провайдерами обмена. В данный момент поддерживаются только сети, совместимые с Ethereum и EVM.",
+      "swappableAssetsEmptyNetworkDesc": "В вашем текущем кошельке в выбранной сети нет активов, поддерживаемых нашими провайдерами обмена",
+      "swappableAssetsEmptyNetworkTitle": "В выбранной сети нет доступных активов для обмена",
+      "swappableAssetsEmptyTitle": "Нет доступных активов для обмена",
+      "targetAssetEmptyDesc": "Ни один из наших поставщиков не поддерживает обмен для актива, который вы выбрали",
+      "targetAssetEmptyTitle": "Нет доступных активов для обмена"
+    },
+    "error": {
+      "insufficientGas": "Недостаточный баланс {symbol} для покрытия транзакций обмена"
+    },
+    "findingBestRote": "Поиск наилучшего маршрута",
+    "otherAssets": "Токены",
+    "route": {
+      "bridgeCost": {
+        "hint": "Стоимость моста – это комиссия, взимаемая организатором обмена за перевод активов между различными блокчейнами во время обмена.",
+        "title": "Стоимость моста"
+      },
+      "krakenFee": {
+        "hint": "Kraken Wallet не взимает комиссии за обмен. Мы предлагаем эту услугу бесплатно для поддержки внедрения технологий криптовалют и блокчейна.",
+        "title": "Комиссия Kraken",
+        "value": "Бесплатно"
+      },
+      "minumumOutput": {
+        "hint": "Если возникнет проскальзывание, это будет минимальная сумма целевого актива, которую вы получите при успешной транзакции.",
+        "title": "Минимальный вывод"
+      },
+      "networkFee": {
+        "hint": "Комиссия сети – это плата, уплачиваемая валидаторам блокчейна за обработку и подтверждение вашей транзакции.",
+        "title": "Комиссия сети"
+      },
+      "priceImpact": {
+        "hint": "Колебание цены – это разница между рыночной ценой и ценой обмена. Оно зависит от размера вашей сделки относительно ликвидности в пуле.",
+        "title": "Колебание цены"
+      },
+      "rate": "Ставка",
+      "slippage": {
+        "hint": "Проскальзывание обмена – это разница между ожидаемой и окончательной ценой актива. Если цена изменяется и выходит за пределы установленного допуска проскальзывания, транзакция отменяется. Проскальзывание обмена применяется только к обмену в пределах одной цепочки, за исключением проскальзывания мостов.",
+        "title": "Проскальзывание обмена"
+      },
+      "swapRate": "Курс обмена",
+      "transactionFees": "Комиссии транзакции",
+      "typeSelection": {
+        "bestValue": {
+          "desc": "Лучшая общая стоимость",
+          "name": "Лучшая стоимость"
+        },
+        "fastest": {
+          "desc": "Самая высокая скорость транзакции",
+          "name": "Самый быстрый обмен"
+        },
+        "title": "Найти маршрут обмена с помощью"
+      },
+      "unsupportedRoute": {
+        "desc": "Вы также можете попробовать сначала обменять его на крупный токен, а затем обменять его на желаемый актив.",
+        "title": "Для введенной транзакции нет доступных маршрутов. Повышение уровня допустимого проскальзывания в настройках может привести к увеличению количества маршрутов."
+      }
+    },
+    "routePath": {
+      "bridge": "Мост с {name}",
+      "swap": "Обмен с {name}",
+      "title": "Маршрут обмена"
+    },
+    "selectAsset": "Выбрать актив",
+    "slippageSettings": {
+      "custom": "Пользовательская настройка",
+      "desc": "Если цена изменится неблагоприятно более чем на процент проскальзывания, ваша транзакция обмена будет отменена.",
+      "footer": "Более высокое проскальзывание может повысить шансы на успешное выполнение транзакции, но может подвергнуть вас фронтраннингу и сэндвич-атакам.",
+      "save": "Сохранить",
+      "title": "Настройки проскальзывания",
+      "warningHigh": "Проскальзывание выше {amount}% считается высоким",
+      "warningSmall": "Проскальзывание ниже {amount}% может привести к ошибке обмена",
+      "warningUnsupported": "Проскальзывание выше {amount}% не поддерживается"
+    },
+    "sourceListHeader": "Ваши активы",
+    "sourceSearchPlaceholder": "Выберите актив для обмена",
+    "targetSearchPlaceholder": "Выберите актив для получения",
+    "title": "Обмен",
+    "unsupportedAssetsHidden": "Наши провайдеры обмена пока не поддерживают {count} из ваших активов",
+    "yourAssets": "Ваши активы"
+  },
+  "test": {
+    "key": "Проверка"
+  },
+  "tokenLists": {
+    "blacklisted": "Список блокировки",
+    "description": "Списки токенов (Token Lists) – это списки, основанные на репутации, предназначенные для выявления токенов, признанных надежными различными биржами и другими участниками Web3.",
+    "help": "Что такое списки токенов (Token Lists)?",
+    "likelySpam": "Отмечено как спам",
+    "likelySpamDescription": "Соблюдайте осторожность при взаимодействии с этим токеном. Он может нанести вред.",
+    "likelySpamHelp": "Что такое токены, отмеченные как спам?",
+    "likelySpamInfo": "Токены, отмеченные как спам, были помечены общественными сообществами или одним из наших партнеров как спам, мошеннические или вредоносные токены.",
+    "likelySpamTitle": "Отмечено как спам",
+    "likelySpamUseCaution": "Соблюдайте особую осторожность",
+    "notListed": "Не в списке",
+    "openDocs": "Открыть документы",
+    "tokenLists": "Списки токенов",
+    "tokens": "Токены: {tokenListCount}",
+    "unverified": "Не в списке",
+    "unverifiedButtonLink": "Почему он не добавлен в список?",
+    "unverifiedDescription": "Этот токен не представлен ни в одном из поддерживающихся списков токенов. Будьте осторожны.",
+    "unverifiedExplainerDescription": "В этом списке будут представлены токены, которые не размещены ни в одном из списков поддерживаемых проектов и не помечены как спам.",
+    "unverifiedHelp": "Почему он не добавлен в список?",
+    "unverifiedWarning": "Соблюдайте осторожность",
+    "verified": "В списке",
+    "verifiedDescription": "Перечисленные здесь токены прошли проверку и в настоящее время доступны на бирже Kraken.",
+    "verifiedInfoKraken": "Перечисленные здесь токены в настоящее время доступны на бирже Kraken.",
+    "verifiedKraken": "Токены в списке Kraken"
+  },
+  "transactionDetails": {
+    "amount": "Сумма",
+    "confirmation": {
+      "cancel": "Отмена",
+      "confirm": "Подтвердить",
+      "fee": "Комиссия сети:"
+    },
+    "contractAddress": "Адрес контракта",
+    "copyToClipboard": "Скопировано в буфер обмена",
+    "description": {
+      "approval": {
+        "failed": "Не удалось подтвердить {amount} на {address}",
+        "pending": "{amount} ожидает подтверждения на {address}",
+        "succeeded": "{amount} подтверждено на {address}"
+      },
+      "approvals": {
+        "failed": "Не удалось подтвердить {amount} на {address}",
+        "pending": "{amount} ожидает подтверждения на {address}",
+        "succeeded": "{amount} подтверждено на {address}",
+        "success": "{amount} подтверждено на {address}"
+      },
+      "contractInteraction": {
+        "failed": "Ошибка взаимодействия с {address}",
+        "pending": "В ожидании взаимодействия с {address}",
+        "succeeded": "Взаимодействие с {address}"
+      },
+      "contractInteractionFundsReceived": {
+        "pending": "Средства поступают из {address}",
+        "succeeded": "Средства поступили через {address}"
+      },
+      "contractInteractions": {
+        "failed": "Ошибка взаимодействия с {address}",
+        "pending": "В ожидании взаимодействия с {address}",
+        "succeeded": "Взаимодействие с {address}"
+      },
+      "deposit": {
+        "failed": "Не удалось внести {amount} на {address}",
+        "pending": "Выполняется внесение {amount} на {address}",
+        "succeeded": "{amount} внесено на {address}"
+      },
+      "nftBuy": {
+        "failed": "Не удалось приобрести {nftName} через {address}",
+        "pending": "Выполняется приобретение {nftName} через {address}",
+        "succeeded": "{nftName} приобретено через {address}"
+      },
+      "nftMint": {
+        "failed": "Не удалось создать {nftName} через {address}",
+        "pending": "Выполняется создание {nftName} через {address}",
+        "succeeded": "{nftName} создано через {address}"
+      },
+      "nftReceive": {
+        "pending": "Выполняется получение {nftName} из {address}",
+        "succeeded": "{nftName} получено из {address}"
+      },
+      "nftSell": {
+        "failed": "Не удалось продать {nftName} через {address}",
+        "pending": "Выполняется продажа {nftName} через {address}",
+        "succeeded": "{nftName} продано через {address}"
+      },
+      "nftSend": {
+        "failed": "Не удалось отправить {nftName} на {address}",
+        "pending": "Выполняется отправка {nftName} на {address}",
+        "succeeded": "{nftName} отправлено на {address}"
+      },
+      "receive": {
+        "pending": "Выполняется получение {amount} из {address}",
+        "succeeded": "{amount} получено из {address}"
+      },
+      "receiveUtxo": {
+        "pending": "Выполняется получение {amount}",
+        "succeeded": "Получено {amount}"
+      },
+      "send": {
+        "failed": "Не удалось отправить {amount} на {address}",
+        "pending": "Выполняется отправка {amount} на {address}",
+        "succeeded": "{amount} отправлено на {address}"
+      },
+      "sendUtxo": {
+        "failed": "Не удалось отправить {amount}",
+        "pending": "Выполняется отправка {amount}",
+        "succeeded": "Отправлено {amount}"
+      },
+      "swap": {
+        "failed": "Не удалось обменять {amountSent} на {amountReceived} через {address}",
+        "pending": "Выполняется обмен {amountSent} на {amountReceived} через {address}",
+        "succeeded": "Выполнен обмен {amountSent} на {amountReceived} через {address}"
+      }
+    },
+    "free": "Бесплатно",
+    "from": "С",
+    "genericNetworkFee": "Комиссия сети",
+    "input": "Ввод",
+    "inputs": "Введенные данные",
+    "krakenConnect": {
+      "fromKraken": "С: Kraken",
+      "transferredIn": "Переведено в"
+    },
+    "networkFee": "Комиссия сети {network}",
+    "networkFee_": "Комиссия сети",
+    "notes": "Описание",
+    "notes_edit": "Редактировать",
+    "notes_empty": "Описание отсутствует",
+    "notesCaption": "Описания сохраняются локально на вашем устройстве",
+    "open_explorer": "См. в обозревателе",
+    "openExplorer": "Просмотр в обозревателе",
+    "output": "Вывод",
+    "outputs": "Выходные данные",
+    "recipient": "Отправка для",
+    "saveNotes": "Сохранить",
+    "state": {
+      "failed": "Сбой",
+      "pending": "В ожидании",
+      "success": "Успешно"
+    },
+    "status": "Статус",
+    "status_confirmed": "Подтверждено",
+    "status_pending": "В ожидании",
+    "time": "Время",
+    "title": "Детали транзакции",
+    "to": "На",
+    "toBTC": "На:",
+    "transaction_id": "Номер транзакции",
+    "unlimited": "Без ограничений"
+  },
+  "transactions": {
+    "activity": "Активность",
+    "no_transactions_yet": "Транзакций пока нет. Потяните, чтобы обновить",
+    "pending": "Идет отправка...",
+    "receive": "Получать",
+    "send": "Отправить",
+    "transactions": "Транзакции"
+  },
+  "transactionTile": {
+    "activity": "Активность",
+    "address": {
+      "from": "С: ",
+      "to": "На: "
+    },
+    "balance": "Баланс",
+    "nativeAssetView": {
+      "approval": "Подтверждение",
+      "contractInteraction": "Взаимодействие по контракту",
+      "send": "Отправить {assetSymbol}"
+    },
+    "networkFee": "Комиссия сети",
+    "no_transactions_description": "Добавьте несколько активов в свой кошелек",
+    "no_transactions_title": "Здесь будут отображаться транзакции",
+    "no_transactions_yet": "Транзакций пока нет. Потяните, чтобы обновить",
+    "noTransactionsDescription": "Добавьте несколько {0} в свой кошелек",
+    "noTransactionsTitle": "Здесь будут отображаться транзакции",
+    "pending": "Идет отправка...",
+    "transactions": "Транзакции",
+    "type": {
+      "contractInteraction": "Взаимодействие по контракту",
+      "contractInteractionAffected": "Полученные средства",
+      "deposit": "Пополнение",
+      "mint": "Создать NFT",
+      "NFTBuy": "Купить NFT",
+      "NFTReceive": "Получить NFT",
+      "NFTSell": "Продажа NFT",
+      "NFTsend": "Отправить NFT",
+      "receive": "Получать",
+      "send": "Отправить",
+      "swap": "Обмен",
+      "tokenApproval": "Подтверждение"
+    }
+  },
+  "universalReceive": {
+    "buttonTitle": "Получать",
+    "copied": "Адрес скопирован",
+    "crypto": "Криптовалюта",
+    "cryptoAndNft": "NFT и криптовалюта",
+    "ethereumAddressLabel": "Включает совместимые с Ethereum сети",
+    "ethereumExplainerBody": "Адресная система Ethereum распространяется на сети, совместимые с Ethereum, такие как Polygon, Arbitrum, OP Mainnet, Base, Blast, Linea и Avalanche, гарантируя, что ваш единый адрес будет работать везде.",
+    "ethereumExplainerHeading": "Адрес Ethereum",
+    "tokenAddress": "Адрес {token}"
+  },
+  "universalSend": {
+    "assetBTCEmptyDesc": "В данный момент в вашем кошельке нет Bitcoin",
+    "assetBTCEmptyTitle": "Нет доступных Bitcoin",
+    "assetDogeEmptyDesc": "В данный момент в вашем кошельке нет Dogecoin",
+    "assetDogeEmptyTitle": "Нет доступных Dogecoin",
+    "assetEthereumaEmptyDesc": "В вашем кошельке нет доступных активов в сетях второго уровня или Ethereum",
+    "assetEthereumEmptyTitle": "Нет доступных Ethereum",
+    "assetsEmptyDesc": "В данный момент в вашем кошельке нет активов. Попробуйте пополнить свой кошелек",
+    "assetsEmptyTitle": "Нет доступных активов",
+    "assetSolanaEmptyDesc": "В данный момент в вашем кошельке нет доступных активов Solana",
+    "assetSolanaEmptyTitle": "Нет доступных активов Solana",
+    "buttonTitle": "Отправить",
+    "clearSearch": "Очистить поиск",
+    "continue": "Продолжить",
+    "goBack": "Назад",
+    "myWallets": "Мои кошельки",
+    "searchEmptyDesc": "Попробуйте расширить поиск",
+    "searchEmptyTitle": "Нет результатов",
+    "searchPlaceholder": "Выберите, что вы хотите отправить",
+    "sendAsset": "Отправить актив",
+    "sendTo": "Отправить"
+  },
+  "url": {
+    "licenses": "https://www.kraken.com/legal",
+    "privacyPolicy": "https://www.kraken.com/wallet/privacy",
+    "releaseNotes": "https://blog.kraken.com",
+    "termsOfService": "https://kraken.com"
+  },
+  "view_nft": {
+    "gallery": "Галерея",
+    "lives_on": "Lives on:"
+  },
+  "view_token": {
+    "lives_on": "Lives on:"
+  },
+  "walletBackup": {
+    "backup": "Резервное копирование",
+    "backupYourWallet": "Выполнить резервное копирование кошелька",
+    "backupYourWalletDescription": "Убедитесь, что вы сможете восстановить свою криптовалюту, если потеряете устройство или перейдете на другой кошелек.",
+    "cloudWarning": {
+      "button": "Резервное копирование с iCloud",
+      "desc": "Убедитесь, что вы можете восстановить свой кошелек даже без секретной фразы для восстановления",
+      "title": "Рекомендуется создать облачную резервную копию"
+    },
+    "manualWarning": {
+      "button": "Резервное копирование вручную",
+      "desc": "Убедитесь, что вы можете восстановить свой кошелек даже без доступа к аккаунту iCloud.",
+      "title": "Рекомендуется создать резервную копию вручную"
+    },
+    "secondaryBackup": {
+      "iCloud": "Чтобы повысить возможность восстановления, создайте зашифрованную паролем резервную копию на iCloud. Зашифрованная копия означает, что даже Apple не может увидеть ее",
+      "manual": "Чтобы повысить возможность восстановления, вручную создайте резервную копию вашей секретной фразы для восстановления и храните ее в безопасном месте",
+      "title": "Создать вторую резервную копию"
+    },
+    "secretRecoveryPhrase": "Ваша секретная фраза для восстановления",
+    "tapHereToView": "Нажмите здесь для просмотра"
+  },
+  "walletBackupPrompt": {
+    "backUpNow": "Выполнить резервное копирование",
+    "body": "Вы не выполнили резервное копирование секретной фразы для восстановления. Рекомендуем вам выполнить резервное копирование, чтобы избежать потери доступа к своим средствам.",
+    "header": "Выполните резервное копирование, прежде чем получать средства на этот кошелек"
+  },
+  "walletBackupSelection": {
+    "backupManually": "Резервное копирование вручную",
+    "backupManuallyCompleted": "Резервное копирование выполнено вручную",
+    "backupWithICloud": "Резервное копирование с iCloud",
+    "backupWithICloudCompleted": "Выполнено резервное копирование с iCloud",
+    "caption": "Если вы не сделаете резервную копию своего кошелька, вы рискуете лишиться своей криптовалюты. У нас нет доступа к вашей секретной фразе для восстановления и мы не сможем помочь вам восстановить ее без резервной копии.",
+    "explainer": {
+      "desc": "Люди часто теряют свою криптовалюту из-за утраты секретной фразы для восстановления. Kraken Wallet сводит этот риск к минимуму, предлагая несколько надежных методов резервного копирования.",
+      "title": "Повысьте возможность восстановления, чтобы снизить вероятность потери криптовалюты"
+    },
+    "iCloudDescCompletedShort": "Зашифрованная секретная фраза для восстановления",
+    "iCloudDescLong": "Зашифровать с помощью ключа доступа и сохранить в iCloud",
+    "iCloudDescShort": "Зашифровать и сохранить в iCloud",
+    "manualBackupDescLong": "Сохраните вручную в выбранном безопасном месте",
+    "manualBackupDescShort": "Сохраните в выбранном безопасном месте",
+    "manualBackupDescShortCompleted": "Я сохранил(-а) ее в безопасном месте",
+    "prompt": "Убедитесь, что вы сохраните доступ к кошельку даже в случае утери устройства.",
+    "recoverability": {
+      "desc": "Лучше укрепить",
+      "title": "Возможность восстановления"
+    },
+    "skipButton": "Не сейчас",
+    "subtitle": "кошелька",
+    "title": "Резервное копирование",
+    "titleWithSubtitle": "Выполнить резервное копирование кошелька",
+    "tooltip": {
+      "iCloud": "С резервной копией в iCloud вы можете восстановить свой кошелек даже без секретной фразы для восстановления.",
+      "manual": "С резервной копией, созданной вручную, вы можете восстановить свой кошелек даже без секретной фразы для восстановления."
+    }
+  },
+  "walletCloudBackup": {
+    "createPasskey": "Создать ключ доступа",
+    "hints": {
+      "part1": "Более надежно, чем стандартные пароли",
+      "part2": "Зашифровано с использованием биометрии или устройства безопасности",
+      "part3": "Восстановление даже в случае утери устройства"
+    },
+    "passkeyDescription": "Для создания резервной копии зашифруйте ее с помощью ключа доступа. Таким образом никто кроме вас не сможет восстановить резервную копию. (Шифрование обеспечит защиту от всех, включая Apple)",
+    "secureYourBackup": "Защитите свою резервную копию",
+    "success": "Резервная копия кошелька сохранена в iCloud"
+  },
+  "walletCloudBackupDelete": {
+    "cancel": "Отмена",
+    "caption": "Обязательно сохраните свою секретную фразу для восстановления в надежном месте, чтобы вы могли восстановить свой кошелек в случае утери устройства.",
+    "check1": "Я понимаю, что если я потеряю свой телефон или удалю приложение, мне потребуется секретная фраза для восстановления моего кошелька.",
+    "check2": "Я подтверждаю, что моя секретная фраза для восстановления из 12 слов сохранена в надежном месте.",
+    "delete": "Удалить",
+    "header": "Вы уверены, что хотите удалить эту резервную копию?",
+    "title": "Удалить резервную копию"
+  },
+  "walletCloudBackupError": {
+    "deleteBackupConfirmation": {
+      "cancel": "Отмена",
+      "description": "Удаляя ее вы подтверждаете, что ключ доступа уже удален. Это действие приведет к удалению из приложения любых ссылок на удаленный ключ доступа.",
+      "header": "Удалить резервную копию ключа доступа",
+      "remove": "Удалить",
+      "title": "Вы действительно хотите удалить эту резервную копию ключа доступа?"
+    },
+    "ensureICloudKeychainOn": "В параметрах пароля на вашем устройстве необходимо включить использование iCloud Keychain для паролей и ключей доступа.",
+    "errorCreatingBackup": {
+      "cancel": "Отмена",
+      "description": "При создании резервной копии произошла ошибка.",
+      "title": "Ошибка при создании резервной копии",
+      "tryAgainBold": "мы не поддерживаем сохранение резервной копии на другом устройстве.",
+      "tryAgainButton": "Повторите попытку",
+      "tryAgainFormatted": "При повторной попытке помните, что <b>мы не поддерживаем сохранение резервной копии на других устройствах.</b>",
+      "tryAgainRegular": "При повторении попытки, помните: "
+    },
+    "errorCreatingPasskey": {
+      "description": "В параметрах пароля на вашем устройстве необходимо включить использование iCloud Keychain для паролей и ключей доступа.",
+      "title": "Ошибка при создании резервной копии"
+    },
+    "errorDeletingPasskey": {
+      "cancel": "Отмена",
+      "deletedPasskeyPossibility": "Возможно, ключ доступа, содержащий вашу резервную копию, уже был удален. Если вы уверены, что ключ доступа удален, мы можем пометить его как удаленный и удалить из кошелька.",
+      "removeItButton": "Да, удалить",
+      "title": "Ошибка при удалении резервной копии ключа доступа"
+    },
+    "errorInactive": {
+      "description": "Если вы создали несколько ключей доступа, попробуйте импортировать другую резервную копию. В противном случае вы можете вы можете импортировать свой кошелек, используя секретную фразу для восстановления из 12-24 слов.",
+      "subtitle": "Этот ключ доступа неактивен, то есть он относится к резервной копии, которая была удалена вручную.",
+      "title": "Неактивный ключ доступа"
+    },
+    "keychainSteps": {
+      "formatted": {
+        "ios17": {
+          "tips": {
+            "one": {
+              "stepOne": "Перейти к: <b>Настройки → Пароли → Параметры пароля</b>",
+              "stepTwo": "Включить: <b>iCloud Keychain</b>",
+              "title": "<b>Совет 1.</b> Включите использование iCloud Keychain для паролей и ключей доступа."
+            },
+            "two": {
+              "stepOne": "Перейти к: <b>Настройки → AppleID → iCloud → Пароли</b>",
+              "stepTwo": "Включить: <b>Синхронизировать этот iPhone</b>",
+              "title": "<b>Совет 2.</b> Включите «Пароли и связка ключей iCloud»"
+            }
+          },
+          "title": "Убедитесь, что вы используете <b>Связку ключей iCloud</b> для создания ключа доступа. <b>Другие менеджеры паролей пока не поддерживаются.</b>"
+        },
+        "ios18": {
+          "tips": {
+            "one": {
+              "stepOne": "Перейти к: <b>Настройки → Общие → Автозаполнение и пароли</b>",
+              "stepTwo": "Включить: <b>Пароли</b>",
+              "title": "<b>Совет 1.</b> Убедитесь, что параметр «Пароли» включен, выполнив следующие шаги:"
+            },
+            "two": {
+              "stepOne": "Перейти к: <b>Настройки → iCloud → Пароли</b>",
+              "stepTwo": "Включить: <b>Синхронизировать этот iPhone</b>",
+              "title": "<b>Совет 2.</b> Включите «Пароли и связка ключей iCloud»"
+            }
+          },
+          "title": "При повторной попытке убедитесь, что вы используете <b>Пароли</b> iCloud для создания ключа доступа. <b>Другие менеджеры паролей пока не поддерживаются.</b>"
+        }
+      },
+      "one": {
+        "bold": "Настройки → Пароли → Параметры пароля",
+        "regular": "1. Перейти к: "
+      },
+      "two": {
+        "bold": "iCloud Keychain",
+        "regular": "2. Включить: "
+      }
+    },
+    "noPasskeyFound": {
+      "description": "Нам не удалось найти ключ доступа. Возможно, вы не создали его или в настройках отключен параметр iCloud Keychain. Убедитесь, что параметр iCloud Keychain включен, выполнив следующие шаги:",
+      "descriptioniOS17": "Нам не удалось найти ключ доступа. Возможно, вы не создали его, или в настройках отключен параметр <b>iCloud Keychain</b>.",
+      "descriptioniOS18": "Нам не удалось найти ключ доступа. Возможно, вы не создали его, или в настройках отключен параметр <b>Пароли</b>.",
+      "title": "Ключ доступа не найден"
+    },
+    "supportHint": {
+      "link": "Служба поддержки Kraken Wallet ↗",
+      "regular": "Если это не решит проблему, обратитесь за помощью, посетив ",
+      "regularWithManualBackup": "Если это не решит проблему, вы можете импортировать свою секретную фразу для восстановления из 12-24 слов или обратитесь за помощью, посетив "
+    },
+    "userCanceledBackup": {
+      "cancel": "Отмена",
+      "description": "Чтобы создать резервную копию вашего кошелька, вам необходимо повторно войти в систему, в противном случае мы не сможем надежно защитить ваш кошелек с помощью ключа доступа.",
+      "title": "Требуется вход с ключом доступа"
+    }
+  },
+  "walletConnect": {
+    "account_not_found": "WalletConnect: аккаунт не найден",
+    "action_cancelled": "Действие отменено",
+    "action_in_progress": "Выполняется действие WalletConnect...",
+    "app_details": {
+      "disconnect": "Отключить",
+      "disconnect_decscription": "Отключение этого приложения приведет к удалению доступа к вашему кошельку",
+      "error": "Ошибка отключения",
+      "open": "Открыть"
+    },
+    "auth": {
+      "cancel": "Отмена",
+      "connect": "Подключить"
+    },
+    "back_to_dapp": "Вернитесь в браузер, чтобы продолжить",
+    "failedToConnect": "Приложение не подключилось",
+    "failedToDisconnect": "Приложение не отключилось",
+    "feeEstimate": "Оценка комиссии",
+    "invalid_request_params": "WalletConnect: ошибка request.params",
+    "list": {
+      "disconnect_all": "Отключить все ({0})",
+      "error_all": "Ошибка отключения всех приложений",
+      "title": "Приложения"
+    },
+    "method_not_implemented": "WalletConnect: способ {method} не применен",
+    "request_fulfilled": "WalletConnect: запрос выполнен",
+    "response_rejected": "WalletConnect: Запрос приложения отклонен",
+    "response_rejected_prepare_transaction_failure": "WalletConnect: ответ отклонен, подготовка к отмене транзакции",
+    "title": "Wallet Connect",
+    "topic_not_found": "WalletConnect: тема не найдена",
+    "unsupported_network": "Эта сеть не поддерживается",
+    "wallet_no_account": "WalletConnect: связанный кошелек не привязан к номеру аккаунта",
+    "wallet_not_found": "WalletConnect: не удается найти связанный кошелек"
+  },
+  "walletConnectExplainer": {
+    "firstPage": {
+      "boldDescription": "безопасный доступ ко множеству децентрализованных приложений",
+      "buttonText": "Отлично",
+      "description": "Ваш кошелек позволяет получать {boldDescription} с помощью WalletConnect.",
+      "title": "Не просто хранилище криптовалюты!"
+    },
+    "fourthPage": {
+      "aaveDescription": "Занимайте и одалживайте криптовалюту в Aave",
+      "buttonText": "Закрыть",
+      "ensDescription": "Зарегистрируйте свое ончейн имя, пока это возможно",
+      "mintDescription": "Используйте свой кошелек для отправки заявок на получение бесплатных NFT на {url}",
+      "title": "Попробуйте:",
+      "website": "Веб-сайт: "
+    },
+    "secondPage": {
+      "buttonText": "Продолжить",
+      "part1": "Нажмите «Подключить кошелек»",
+      "part2": "Выберите WalletConnect",
+      "part3": "На своем телефоне нажмите",
+      "part4": "Отсканируйте QR-код",
+      "title": "Для подключения вашего кошелька к приложениям Web3",
+      "titlePart1": "1. Нажмите «Подключить кошелек»",
+      "titlePart2": "2. Выберите WalletConnect",
+      "titlePart3": "3. На своем телефоне нажмите",
+      "titlePart4": "4. Отсканируйте QR-код",
+      "titleWithEllipsis": "Для подключения вашего кошелька к приложениям Web3..."
+    },
+    "thirdPage": {
+      "buttonText": "Продолжить",
+      "description1": "Нажмите «WalletConnect»",
+      "description2": "Выберите Kraken Wallet",
+      "subtitle": "Вместо сканирования:",
+      "title": "При использовании приложений Web3 на вашем телефоне"
+    }
+  },
+  "walletConnectTutorialPrompt": {
+    "firstPage": {
+      "boldDescription": "безопасный доступ ко множеству децентрализованных приложений",
+      "buttonText": "Отлично",
+      "description": "Ваш кошелек позволяет получать {boldDescription} с помощью WalletConnect.",
+      "title": "Не просто хранилище криптовалюты!"
+    },
+    "fourthPage": {
+      "aaveDescription": "Занимайте и одалживайте криптовалюту в Aave",
+      "aaveWebsite": "app.aave.com",
+      "buttonText": "Закрыть",
+      "ensDescription": "Зарегистрируйте свое ончейн имя, пока это возможно",
+      "ensWebsite": "app.ens.domains",
+      "mintDescription": "Используйте свой кошелек для отправки заявок на получение бесплатных NFT на {website}",
+      "mintWebsite": "mint.fun",
+      "title": "Попробуйте:",
+      "website": "Веб-сайт: "
+    },
+    "secondPage": {
+      "buttonText": "Продолжить",
+      "step1": "Нажмите «Подключить кошелек»",
+      "step1title": "1. Нажмите «Подключить кошелек»",
+      "step2": "Выберите WalletConnect",
+      "step2title": "2. Выберите WalletConnect",
+      "step3": "На своем телефоне нажмите",
+      "step3title": "3. На своем телефоне нажмите",
+      "step4": "Отсканируйте QR-код",
+      "step4title": "4. Отсканируйте QR-код",
+      "title": "Для подключения вашего кошелька к приложениям Web3"
+    },
+    "thirdPage": {
+      "buttonText": "Продолжить",
+      "description1": "Копировать ссылку WalletConnect",
+      "description2": "Вставьте адрес в свой кошелек",
+      "subtitle": "Вместо сканирования:",
+      "title": "При использовании приложений Web3 на вашем телефоне"
+    }
+  },
+  "walletDetails": {
+    "derivationPath": "Путь извлечения",
+    "title": "Подробнее",
+    "type": "Тип",
+    "wallet_information": "Информация о кошельке",
+    "xpub": "Расширенный открытый ключ",
+    "xpubKeyCopied": "Скопировано в буфер обмена"
+  },
+  "wallets": {
+    "import_title": "Импортировать",
+    "list_tryagain": "Повторите попытку",
+    "pending": "В ожидании"
+  },
+  "whatsNew": {
+    "assetMarketData": {
+      "buttonText": "Подробнее",
+      "part1": "Теперь вы можете отслеживать эффективность своих вкладов, а также изменения цен прямо в кошельке!",
+      "part2": "Ознакомьтесь с подробной информацией об активах, узнавайте о потенциальных угрозах и беспрепятственно получайте доступ к важной информации, такой как токен-контракты и текущие комиссии сетей.",
+      "title": "Подробная информация об активах у вас под рукой"
+    },
+    "longPress": {
+      "buttonText": "Отлично",
+      "part1": "Мы рады представить действия длительного нажатия для ваших активов и NFT! С легкостью выполняйте такие задачи, как отправка, получение и скрытие, без необходимости использовать несколько экранов.",
+      "part2": "Управление кошельком стало еще более комфортным и интуитивным.",
+      "title": "Быстрые действия для вашего удобства"
+    },
+    "swaps": {
+      "buttonText": "Обменять сейчас",
+      "part1": "Обменивайте практически любые свои активы на другие популярные токены и криптовалюту, используя самые надежные протоколы обмена в цепочке. Будь то обмен в пределах одной сети или создание моста между восемью поддерживаемыми цепочками – большинство сделок закрываются всего за несколько секунд!",
+      "part2": "Оцените быстроту, безопасность и гибкость обмена токенами напрямую в вашем кошельке.",
+      "title": "Воспользуйтесь универсальными и быстрыми протоколами обмена"
+    }
+  }
+}

@@ -1,0 +1,2182 @@
+{
+  "_": {
+    "add": "Додати",
+    "appName": "Kraken Wallet",
+    "balance": "Баланс {0}",
+    "cancel": "Скасування",
+    "confirm": "Підтвердити",
+    "continue": "Продовжити",
+    "copied": "Скопійовано",
+    "copy": "Копіювати",
+    "copyToClipboard": "Скопійовано в буфер обміну",
+    "details": "Деталі",
+    "done": "Виконано",
+    "high": "Максимум:",
+    "low": "Мінімум:",
+    "ok": "OK",
+    "period": {
+      "all": "Усі",
+      "day": "Д",
+      "month": "М",
+      "week": "Тижд.",
+      "year": "Р"
+    },
+    "plus": "+{count}",
+    "receive": "Отримати",
+    "reconnecting": "Повторне підключення",
+    "remove": "Видалити",
+    "send": "Надіслати",
+    "showLess": "Показати менше",
+    "showMore": "Показати більше",
+    "TEST_KEY": "deleteMeLaterMOdifiedTest",
+    "today": "Сьогодні",
+    "updating": "Оновлення",
+    "upToDate": "Оновлено",
+    "view": "Показати",
+    "yes": "Так",
+    "yesterday": "Учора"
+  },
+  "about": {
+    "blog": "Блог",
+    "licenses": "Ліцензії",
+    "privacyPolicy": "Політика конфіденційності",
+    "releaseNotes": "Примітки до випуску",
+    "termsOfService": "Умови надання послуг"
+  },
+  "accountSwitch": {
+    "createWallet": "Створити гаманець",
+    "createWalletError": "Не вдалося створити гаманець, спробуйте ще раз",
+    "createWalletSuccess": "Гаманець успішно створено",
+    "creatingNewWallet": "Створення нового гаманця",
+    "manage": "Керувати",
+    "menu": {
+      "advanced_info": "Розширена інформація",
+      "connected_apps": "Підключені застосунки",
+      "delete": "Видалити",
+      "edit": "Налаштувати",
+      "exchange_connect": "Під’єднати до Kraken",
+      "exchange_disconnect": "Від’єднати від Kraken"
+    },
+    "walletDelete": {
+      "error": "Гаманець не було видалено, спробуйте ще раз",
+      "success": "Ваш гаманець видалено"
+    },
+    "wallets": "Гаманці"
+  },
+  "advanced_account_info": {
+    "derivation_path": "Шлях виведення",
+    "path_copied": "Шлях скопійовано",
+    "title": "{walletName} – інформація",
+    "type": "Тип",
+    "wallet_information": "Інформація про гаманець",
+    "xpub": "Розширений публічний ключ",
+    "xpub_key_copied": "Скопійовано в буфер обміну"
+  },
+  "advancedAccountInfo": {
+    "derivationPath": "Шлях виведення",
+    "ethereumDerivationPath": "Шлях виведення Ethereum",
+    "ethereumDerivationPathContent": "Шлях виведення Ethereum використовується спільно з сумісними з Ethereum мережами, такими як Polygon, Arbitrum, OP Mainnet, Base, Linea і Avalanche, тобто для всіх них використовується той самий шлях виведення.",
+    "extendedPublicKey": "Розширений публічний ключ",
+    "includesCompatibleNetworks": "Включає мережі, сумісні з Ethereum",
+    "includesLayer2Networks": "Включає мережі рівня 2",
+    "pathCopied": "Шлях скопійовано",
+    "title": "{walletName} – інформація",
+    "walletInformation": "Інформація про гаманець",
+    "xpub": "Розширений публічний ключ",
+    "xpubCopied": "xPub скопійовано",
+    "xpubHidden": "xPub приховано",
+    "xpubKeyCopied": "Скопійовано в буфер обміну"
+  },
+  "appLock": {
+    "appLockIsRequiredWhen": "App Lock потрібен, коли:",
+    "authenticationCancelled": "Автентифікацію скасовано",
+    "authenticationCancelledDescription": "Біометричну автентифікацію скасовано.",
+    "authSignConnectedApps": "Пройти автентифікацію й увійти в підключені застосунки",
+    "authType": {
+      "faceId": "Face ID",
+      "generic": "налаштування конфіденційності, як-от PIN-код або розблокування за допомогою біометричних даних",
+      "passcode": "код-пароль",
+      "touchId": "Touch ID"
+    },
+    "description": "App Lock забезпечує додатковий захист завдяки функції {authType} на вашому пристрої, що дозволяє виконувати наведені далі дії:",
+    "missingAuth": {
+      "biometrics": "Біометричні дані або PIN-код",
+      "description": "Для захисту гаманця вам потрібно активувати {authType} у налаштуваннях вашого пристрою.",
+      "faceId": "Face ID або код-пароль",
+      "ok": "OK",
+      "settings": "Відкрити налаштування застосунку",
+      "setupPin": "Налаштування PIN-коду або розблокування за допомогою біометричних даних",
+      "tapFaceId": "Торкніться «Face ID і код-пароль»",
+      "tapSecurityPivacy": "Торкніться «Безпека і приватність»",
+      "tapTouchId": "Торкніться «Touch ID і код-пароль»",
+      "title": "Спочатку увімкніть {authType} у налаштуваннях",
+      "touchId": "Touch ID або код-пароль",
+      "turnOn": "Увімкніть {authType}"
+    },
+    "openTheApp": "Відкрийте застосунок",
+    "sendCryptoAndNfts": "Надсилайте криптовалюту й NFT",
+    "signTransactions": "Підписуйте транзакції",
+    "title": "App Lock",
+    "turnOnAppLock": "Увімкнути App Lock",
+    "viewSecret": "Переглянути секретну фразу для відновлення",
+    "whatIs": "Що таке App Lock? "
+  },
+  "appSignRequest": {
+    "allowAccess": "Дозволити доступ до ваших {tokenSymbol} ?",
+    "allowAccessDescription": "Це дозволить {dappName} автоматизувати транзакції й витрачати ваші {tokenSymbol}.",
+    "amount": "Сума",
+    "approve": "Схвалити",
+    "approveSpendingCap": "Схвалити обмеження витрат",
+    "balance": "Баланс",
+    "cancel": "Скасування",
+    "claim": "Вимога",
+    "confirm": "Підтвердити",
+    "contractAddress": "Адреса контракту",
+    "contractInteraction": "Взаємодія в межах контракту",
+    "declinedRequest": "Користувач відхилив запит",
+    "deposit": "Внести",
+    "from": "З",
+    "message": "Повідомлення",
+    "message_signing_request": "Повідомлення із запитом на вхід",
+    "messageSigningRequest": "Підписати повідомлення",
+    "mint": "Створити",
+    "nonce": "Nonce",
+    "scrollToBottomToConfirm": "Прокрутіть донизу, щоб підтвердити",
+    "setSpendingCap": "Встановіть обмеження на витрати",
+    "sign": "Увійти",
+    "swap": "Обмін",
+    "to": "До",
+    "transactionBase64": "{index}. Транзакція (Base64)",
+    "typed_message_signing_request": "{type} Запит на вхід",
+    "typedMessageSigningRequest": "{type} Запит на вхід",
+    "unknownApp": "Невідомий застосунок",
+    "verifyingContract": "Верифікація контракту",
+    "withdrawal": "Виведення"
+  },
+  "assetOptions": {
+    "copied": "Адресу контракту скопійовано!",
+    "copyContractAddress": "Скопіювати адресу контракту",
+    "hideAsset": "Приховати актив",
+    "receive": "Отримати",
+    "send": "Надіслати",
+    "viewDetails": "Переглянути деталі",
+    "viewOn": "Переглянути на {explorer}"
+  },
+  "avaxLineaWelcoming": {
+    "buttonText": "Звучить непогано",
+    "part1": "Ваш гаманець тепер підтримує Avalanche, високомасштабований blockchain із блискавично швидкою закінченістю транзакцій, і Linea, Ethereum L2,призначений для безпечних і дешевих транзакцій.",
+    "part2": "Завдяки цим новим інтеграціям ви можете переглядати баланси активів, транслювати транзакції, збирати NFT, відстежувати DeFi-позиції й підключатися до DApp у обох мережах.",
+    "title": "Служба підтримки Avalanche і Linea тут!"
+  },
+  "backupWallet": {
+    "backup": "Резервне копіювання",
+    "backupYourWallet": "Створіть резервну копію свого гаманця",
+    "backupYourWalletDescription": "Переконайтеся в тому, що ви зможете відновити свою криптовалюту, якщо втратите пристрій або перейдете на інший гаманець.",
+    "secretRecoveryPhrase": "Секретна фраза для відновлення",
+    "tapHereToView": "Торкніться тут для перегляду"
+  },
+  "backupWalletPrompt": {
+    "backUpNow": "Негайне резервне копіювання",
+    "body": "Ви не створили резервну копію секретної фрази для відновлення. Ми рекомендуємо створити резервну копію, щоб уникнути втрати доступу до ваших коштів.",
+    "header": "Перш ніж отримати кошти на цей гаманець, зробіть його резервну копію"
+  },
+  "blastWelcoming": {
+    "boldBlastNetwork": "Мережа Blast",
+    "buttonText": "Звучить непогано",
+    "part1": "Ваш гаманець тепер підтримує {boldBlastNetwork}. Ethereum L2 з власним доходом для ETH і стейблкоїнів.",
+    "part2": "Завдяки цій інтеграції ми створили передумови для швидкого додавання нових мереж 2-го рівня, зберігаючи при цьому найбезпечніше робоче середовище мобільного гаманця.",
+    "title": "Kraken Wallet представляє Blast!"
+  },
+  "broadcast": {
+    "sent": "Надіслано"
+  },
+  "browser": {
+    "clearSearch": "Очистити",
+    "downloadFile": {
+      "failed": "Не вдалося завантажити файл",
+      "success": "Файл завантажено"
+    },
+    "loadingError": {
+      "description": "Перевірте URL-адресу на наявність помилок або відсутніх частин",
+      "title": "URL-адресу не знайдено"
+    },
+    "noSearch": {
+      "description": "Введіть або вставте повну URL-адресу для пошуку",
+      "title": "Почніть пошук"
+    },
+    "quickActions": {
+      "connectedApps": "Подивитися підключені застосунки",
+      "disconnect": "Від’єднати",
+      "refresh": "Оновити",
+      "share": "Поділитися"
+    },
+    "searchOnChain": "Шукати ончейн"
+  },
+  "browserExploreWelcome": {
+    "body": "Зробіть наступний крок у вашій подорожі світом криптовалют уже сьогодні. Тепер ви можете ознайомлюватись із децентралізованими застосунками (DApp) і підключатися до них, не виходячи зі свого Kraken Wallet.",
+    "buttonText": "Звучить непогано",
+    "part1": "Скористайтеся новими пунктами меню в нижній частині екрана, щоб отримати доступ до сторінки ознайомлення",
+    "part2": "Ознайомтеся з популярними застосунками DApp і новими ончейн-можливостями або скористайтеся рядком пошуку для отримання додаткової інформації",
+    "part3": "Легко підключайтеся до застосунків DApp і здійснюйте транзакції, не виходячи із застосунку Kraken Wallet",
+    "title": "Дізнавайся більше про ончейн-світ"
+  },
+  "bugTracking": {
+    "allow": "Дозволити",
+    "content": "Спостережуваність дозволяє нам здійснювати моніторинг вашої взаємодії з гаманцем і покращувати її завдяки збору важливих даних. Це допомагає нам виявляти проблеми, оптимізувати результативність і забезпечувати безперебійне функціонування вашого гаманця. Ваші дані безпечно зберігаються в анонімізованому вигляді! ",
+    "disallow": "Не дозволяти",
+    "skip": "Запитайте мене пізніше",
+    "title": "Допоможіть нам удосконалити Kraken Wallet"
+  },
+  "coins": {
+    "allNetworks": "Усі мережі",
+    "filterAssets": "Фільтрувати активи",
+    "search_placeholder": "Пошук активів",
+    "showAssets": "Показати активи",
+    "testnet": "Тестова мережа"
+  },
+  "collection": {
+    "title": "Колекція"
+  },
+  "config": {
+    "contract-approved-failed": {
+      "title": "👎 Не вдалося схвалити"
+    },
+    "contract-approved": {
+      "body": "{amount} {symbol} було схвалено в {contractAddress}",
+      "title": "🤝 Контракт схвалено"
+    },
+    "contract-interaction-failed": {
+      "body": "Взаємодія з {contractAddress} не вдалася",
+      "title": "👎 Взаємодія не вдалася"
+    },
+    "contract-interaction": {
+      "body": "Взаємодія з {contractAddress}",
+      "title": "🤝 Взаємодія з контрактом"
+    },
+    "funds-deposited-failed": {
+      "title": "👎 Не вдалося внести кошти"
+    },
+    "funds-deposited": {
+      "body": "{amount} {symbol} було внесено на {address}",
+      "title": "🤝 {symbol} внесено"
+    },
+    "funds-withdrawn-failed": {
+      "title": "👎 Виведення не вдалося"
+    },
+    "funds-withdrawn": {
+      "body": "Виведено на {address}",
+      "title": "+ {amount} {symbol}"
+    },
+    "generic-transaction": {
+      "body": "Остання транзакція була успішно оброблена {network}",
+      "title": "✅Транзакція успішна!"
+    },
+    "nft-failed": {
+      "title": "👎 Не вдалося надіслати NFT"
+    },
+    "nft-received": {
+      "body": "Отримано на {address}",
+      "title": "NFT отримано: {symbol}"
+    },
+    "nft-sent": {
+      "body": "{nftName} було надіслано на {address}",
+      "title": "🖼️ {nftName} надіслано!"
+    },
+    "payment-debited": {
+      "body": "Списано з {address}",
+      "title": "- {amount} {symbol}"
+    },
+    "payment-failed": {
+      "title": "👎 Не вдалося надіслати"
+    },
+    "payment-pending": {
+      "body": "В очікуванні на {address}"
+    },
+    "payment-received-pending": {
+      "bitcoin": {
+        "body": "{amount} {symbol} надходить",
+        "title": "🤌 Вже на шляху"
+      },
+      "body": "{amount} {symbol} надходить",
+      "dogecoin": {
+        "body": "{amount} {symbol} надходить",
+        "title": "🤌 Вже на шляху"
+      },
+      "title": "🤌 Вже на шляху"
+    },
+    "payment-received": {
+      "bitcoin": {
+        "body": "{amount} {symbol} було отримано"
+      },
+      "body": "Отримано на {address}",
+      "dogecoin": {
+        "body": "{amount} {symbol} було отримано"
+      },
+      "title": "+ {amount} {symbol}"
+    },
+    "payment-sent": {
+      "bitcoin": {
+        "body": "{amount} {symbol} було надіслано"
+      },
+      "body": "{amount} {symbol} було надіслано до {address}",
+      "dogecoin": {
+        "body": "{amount} {symbol} було надіслано"
+      },
+      "title": "{symbol} надіслано"
+    },
+    "swap-complete": {
+      "body": "{amountOut} {symbolOut} було замінено на {amountIn} {symbolIn} через {facilitator}",
+      "title": "🫡 Так-так!"
+    },
+    "swap-failed": {
+      "title": "👎 Не вдалося виконати заміну"
+    },
+    "token-approved": {
+      "body": "{symbol} було схвалено на {operator}",
+      "title": "🫡 Так-так!"
+    },
+    "transaction-confirmed": {
+      "body": "Ваша транзакція пройшла успішно.",
+      "title": "🫡 Так-так!"
+    },
+    "transaction-failed": {
+      "body": "Не вдалося виконати вашу транзакцію.",
+      "title": "👎 Охххххх..."
+    },
+    "utxo-payment-failed": {
+      "title": "👎 Не вдалося надіслати"
+    },
+    "utxo-payment-received-pending": {
+      "body": "{amount} {symbol} надходить",
+      "title": "🤌 Вже на шляху"
+    },
+    "utxo-payment-received": {
+      "body": "{amount} {symbol} було отримано",
+      "title": "🙌 {symbol} отримано!"
+    },
+    "utxo-payment-sent-pending": {
+      "body": "{amount} {symbol} надсилається",
+      "title": "🤌 Вже на шляху"
+    },
+    "utxo-payment-sent": {
+      "body": "{amount} {symbol} було надіслано",
+      "title": "🙌 {symbol} надіслано!"
+    }
+  },
+  "confirm": {
+    "no": "Скасування",
+    "title": "Ви впевнені?",
+    "yes": "Так"
+  },
+  "connect_app_auth": {
+    "app_has_access_to": "{app} має доступ до:",
+    "connect_app": "Підключити застосунок",
+    "network": "Мережа"
+  },
+  "connectApp": {
+    "all_networks": "Усі мережі",
+    "cancel": "Скасування",
+    "connect": "Підключити",
+    "connect_wallet": "Підключити гаманець",
+    "request_approval": "Надіслати запит на схвалення транзакцій",
+    "see_balance": "Перегляньте свої баланси й активність",
+    "unsupportedNetwork": "Непідтримувана мережа",
+    "unsupportedNetworkDescription": "Цей застосунок використовує мережу {unsupportedNetwork}, що наразі не підтримується. Наразі Kraken Wallet підтримує застосунки в мережах Ethereum, Polygon, OP Mainnet, Arbitrum і Solana.",
+    "unsupportedNetworksDescription": "Цей застосунок використовує мережі {unsupportedNetworks}, що наразі не підтримуються. Наразі Kraken Wallet підтримує застосунки в мережах Ethereum, Polygon, OP Mainnet, Arbitrum і Solana."
+  },
+  "connectedApps": {
+    "app_details": {
+      "disconnect": "Від’єднати",
+      "disconnect_decscription": "Відключення цього застосунку повністю видалить доступ до вашого гаманця",
+      "error": "Помилка відключення",
+      "open": "Відкрито"
+    },
+    "list": {
+      "connect_to_app": "Підключитися до застосунку",
+      "disconnect_all": "Відключити все ({0})",
+      "error_all": "Помилка відключення всіх застосунків",
+      "instructions": "Скануйте QR-коди, щоб підключити застосунки до WalletConnect",
+      "title": "Підключені застосунки",
+      "tutorial": "Як це працює?"
+    }
+  },
+  "currency": {
+    "australianDollar": "Австралійський долар",
+    "bitcoin": "Bitcoin",
+    "britishPound": "Британський фунт",
+    "canadianDollar": "Канадський долар",
+    "ether": "Ether",
+    "euro": "Євро",
+    "japaneseYen": "Японська єна",
+    "russianRuble": "Російський рубль",
+    "satoshis": "Satoshi",
+    "southKoreanWon": "Південнокорейська вона",
+    "swissFranc": "Швейцарський франк",
+    "usDollar": "Долар США"
+  },
+  "defi": {
+    "allAssets": "Усі активи",
+    "apr": "APR",
+    "apy": "APY",
+    "claimable": "З можливістю запиту",
+    "debt": "Борг",
+    "dept": "Відділ",
+    "earnCTA": "Заробити",
+    "earnUpToApr": "До {apr} % APR",
+    "network": "Мережа",
+    "onePosition": "1 позиція ",
+    "positions": "{numberOfPositions} позиц. ",
+    "rewards": "Нагороди",
+    "tvl": "TVL",
+    "vaults": "Сховища"
+  },
+  "deleteAccountConfirm": {
+    "cancel": "Скасування",
+    "caption": "Ви можете відновити свій гаманець за допомогою секретної фрази відновлення",
+    "delete": "Видалити",
+    "header": "Дійсно видалити цей гаманець?",
+    "title": "Видалити гаманець"
+  },
+  "deleteAccountVerifyBalance": {
+    "balanceLabel": "Баланс",
+    "cancel": "Скасування",
+    "caption": "Перед видаленням введіть баланс свого гаманця. Ви можете відновити гаманець за допомогою секретної фрази відновлення",
+    "delete": "Видалити",
+    "header": "Ваш гаманець має баланс",
+    "inputLabel": "Введіть баланс гаманця"
+  },
+  "deleteAllData": {
+    "iCloudInfo": {
+      "desc": "Якщо ви не видалили резервну копію вручну, ваш гаманець можна відновити.",
+      "title": "Це не призведе до видалення резервної копії iCloud."
+    }
+  },
+  "diagnostics": {
+    "running": "Здійснюється діагностика..."
+  },
+  "discovery": {
+    "explore": "Більше"
+  },
+  "earn": {
+    "allAssets": "Усі активи",
+    "apy": "APY",
+    "balance": "Баланс",
+    "debt": "Борг",
+    "detailsSheet": {
+      "deposit": "Внести",
+      "depositCta": "Внесіть {symbol} у протоколі {protocol}",
+      "from": "З:",
+      "high": "Максимум:",
+      "info": {
+        "about": "Інформація про {symbol}",
+        "addressCopied": "Адресу скопійовано",
+        "assetsLocked": "Активи заблоковано",
+        "composition": "Склад",
+        "contractAddress": "Адреса контракту",
+        "marketCap": "Ринкова капіталізація",
+        "network": "Мережа",
+        "numberHolders": "Кількість власників",
+        "pool": "Пул",
+        "poolAddress": "Адреса пула",
+        "protocol": "Протокол",
+        "tokenEarned": "Зароблений токен",
+        "tokenPrice": "Ціна токена",
+        "type": "Тип"
+      },
+      "low": "Мінімум:",
+      "openDapp": "Відкрити DApp",
+      "period": {
+        "all": "Усі",
+        "day": "Д",
+        "month": "М",
+        "week": "Тижд.",
+        "year": "Р"
+      },
+      "refreshChart": "Оновити графік",
+      "to": "До:",
+      "transfer": "Перекази",
+      "withdraw": "Вивести"
+    },
+    "earnCTA": "Заробити",
+    "earnOnYourAssets": "Заробляйте на своїх активах",
+    "earnSheet": {
+      "amountAvailable": "Доступно {balance} {symbol}",
+      "apy": "APY",
+      "earn": "Заробити {symbol}",
+      "noBalanaceFound": "Баланс нульовий. Поповніть свій гаманець із {symbol}, щоб отримати можливість заробітку.",
+      "swapCta": "Обмін",
+      "tvl": "TVL {tvl}"
+    },
+    "earnUpToApr": "До {apy} % APY",
+    "earnUpToApy": "До {apy} % APY",
+    "earnWhileYouSleep": "Заробляйте, поки спите",
+    "errors": {
+      "emptyCarousel": {
+        "detail": "Щоб отримати можливості для заробітку, надішліть на свій гаманець сумісні активи, як-от Ethereum або USDC.",
+        "heading": "Внесіть ETH, щоб почати заробляти",
+        "supportArticle": "Докладніше про підтримувані активи"
+      },
+      "explaination": "Перевірте своє з’єднання або спробуйте відкрити цю сторінку пізніше",
+      "titlePlural": "Помилка під час завантаження можливостей для заробітку",
+      "titleSingular": "Помилка під час завантаження можливості для заробітку"
+    },
+    "heroAvailableBalance": "Доступно {balance} {symbol}",
+    "heroTitle": "Заробіть {symbol} на {protocol}",
+    "liquidityPool": "Пули ліквідності",
+    "protocolType": {
+      "lending": "Кредитування"
+    },
+    "tvl": "TVL"
+  },
+  "editAccount": {
+    "rename": "Перейменувати",
+    "save": "Зберегти",
+    "title": "Редагувати гаманець",
+    "walletName": "Назва гаманця"
+  },
+  "editNote": {
+    "title": "Опис"
+  },
+  "errors": {
+    "connectionError": "Помилка під час з’єднання",
+    "exploreSubpage": "Під час відкриття цього змісту виникла помилка. Спробуйте пізніше.",
+    "generalFetchError": "Помилка, спробуйте ще раз",
+    "generic": "Щось пішло не так",
+    "genericTryAgainLater": "Щось пішло не так, повторіть спробу пізніше",
+    "invalidRequest": "Недійсний запит {method}",
+    "network": "Помилка мережі",
+    "offline": "Офлайн",
+    "offlineRetry": "Підключення до Інтернету відсутнє. Спробуйте ще раз після відновлення підключення до Інтернету.",
+    "permissionDenied": "у дозволі відмовлено",
+    "seedMissing": "Критична помилка! Початкове значення недоступне.",
+    "unauthorizedRequest": "Несанкціонований запит",
+    "unsupportedChain": "Непідтримуваний ланцюг"
+  },
+  "explore": {
+    "continueAccessibilityHint": "Прийміть відмову від відповідальності й продовжуйте",
+    "disclaimerBody": "Зверніть увагу, що ця функція має вміст, наданий третіми сторонами. Перегляньте відповідні положення в Умовах надання послуг.",
+    "disclaimerTitle": "Ласкаво просимо до Explore!",
+    "earnBody": "Беріть участь у роботі децентралізованих фінансових сервісів",
+    "earnTitle": "Заробляйте з DeFi",
+    "errorBody": "Застосунку не вдалося завантажити вміст цієї сторінки. Спробуйте пізніше",
+    "errorTitle": "Щось пішло не так",
+    "rewardPrefix": "Заробити"
+  },
+  "extendedPublicKey": {
+    "bitcoinXpub": "Bitcoin xPub",
+    "copyXpub": "Скопіювати xPub",
+    "summary": "Це ваш {summaryEmphasis}. Він являє собою головний публічний ключ, який використовувався для створення всіх публічних адрес Bitcoin для цього гаманця.",
+    "summaryEmphasis": "Розширений публічний ключ Bitcoin (xPub)",
+    "type": "Тип: {type}"
+  },
+  "extension": {
+    "_": {
+      "off": "Вимк.",
+      "on": "Увімк.",
+      "timeAbbr": {
+        "days": "день",
+        "hours": "год.",
+        "minutes": "мін.",
+        "months": "міс",
+        "seconds": "секунда",
+        "weeks": "тиж.",
+        "years": "рік"
+      },
+      "unknown": "невідомо"
+    },
+    "alt": {
+      "proceduralWalletImage": "Зображення процедурного гаманця"
+    },
+    "ariaLabel": {
+      "icon": "Значок",
+      "iconButton": "Кнопка зі значком",
+      "toggleSwitch": "Перемикач"
+    },
+    "assets": {
+      "logoAlt": "логотип активу",
+      "manageAssets": "Керувати активами"
+    },
+    "customNetwork": {
+      "addCustomNetwork": "Додати користувацьку мережу",
+      "addNetwork": "Додати мережу",
+      "blockExplorerUrl": "URL-адреса Block Explorer",
+      "chainId": "Ідентифікатор ланцюга",
+      "customNetwork": "Користувацька мережа",
+      "customNetworks": "Користувацькі мережі",
+      "decimals": "Десяткові знаки",
+      "editCustomNetwork": "Редагувати користувацьку мережу",
+      "enterNetworkName": "Введіть назву мережі",
+      "networkName": "Назва мережі",
+      "remove": "Видалити",
+      "rpcUrl": "URL-адреса RPC",
+      "symbol": "Символ",
+      "updateNetwork": "Оновити мережу"
+    },
+    "enterPasswordDialog": {
+      "continue": "Продовжити",
+      "currentPasswordAriaLabel": "Поточний пароль",
+      "enterCurrentPassword": "Введіть поточний пароль",
+      "enterToDecrypt": "Введіть поточний пароль, щоб побачити фразу для відновлення",
+      "lockGraphicsAlternativeText": "Заблокувати графіку"
+    },
+    "home": {
+      "addWallet": "Додати гаманець",
+      "manage": "Керувати",
+      "selectWallet": "Вибрати гаманець"
+    },
+    "lockWallet": "Заблокувати гаманець",
+    "manageAssets": {
+      "filter": "Фільтрувати активи",
+      "hiddenAssets": "Приховати активи",
+      "manageAssets": "Керувати активами",
+      "search": "Пошук 5000+ активів",
+      "searchResults": "Результати пошуку",
+      "unhideAll": "Показати всі",
+      "visibleAssets": "Видимі активи"
+    },
+    "manageWallets": {
+      "viewRecoveryPhrase": "Переглянути фразу для відновлення"
+    },
+    "navigation": {
+      "activity": "Активність",
+      "assets": "Активи",
+      "nfts": "NFT"
+    },
+    "nft": {
+      "about": "Про",
+      "addNfts": "Додайте NFT до свого гаманця",
+      "send": "Надіслати"
+    },
+    "onboarding_backup": {
+      "backUpWallet": "Створити резервну копію гаманця"
+    },
+    "onboarding": {
+      "skip": "Пропустити",
+      "typeYourSecretRecoveryPhrase": "Введіть свою секретну фразу для відновлення",
+      "walletSupports": "Цей гаманець підтримує Ethereum, Polygon, Optimism, Arbitrum тощо"
+    },
+    "receive": {
+      "receiveCryptoOrNft": "Отримуйте криптовалюту або NFT"
+    },
+    "send": {
+      "amountInput": {
+        "balance": "Баланс",
+        "errors": {
+          "exceedsBalance": "Введена сума перевищує ваш баланс",
+          "greaterThanZero": "Сума повинна перевищувати 0",
+          "invalid": "Ви ввели неприпустиму суму"
+        },
+        "label": "Сума",
+        "placeholder": "Уведіть суму"
+      },
+      "continue": "Продовжити",
+      "networkFee": "Комісія за користування мережею",
+      "sending": {
+        "title": "Триває надсилання"
+      },
+      "sendingTo": {
+        "search": "Виберіть, що ви хочете надіслати",
+        "title": "Надсилати на"
+      },
+      "sendInput": {
+        "label": "Надсилати на",
+        "paste": "Вставити",
+        "placeholder": "Введіть адресу або домен ENS..."
+      },
+      "sendOn": {
+        "network": "Мережа",
+        "title": "Надіслати"
+      }
+    },
+    "settings": {
+      "build": "Створити {0}",
+      "changePassword": {
+        "caption": "Введіть пароль, щоб захистити та заблокувати свій гаманець",
+        "confirmPassword": "Підтвердити пароль",
+        "label": "Пароль",
+        "menuItemTitle": "Змінити пароль",
+        "setPassword": "Установити пароль",
+        "title": "Ввести новий пароль",
+        "typePassword": "Введіть пароль"
+      },
+      "lockWallet": "Заблокувати гаманець",
+      "privacy": "Конфіденційність",
+      "version": "Розширення Kraken Wallet {0}",
+      "walletSettings": "Налаштування віджетів"
+    },
+    "skip": "Пропустити",
+    "walletBackup": {
+      "couldNotRetrieveState": "Не вдалося отримати дані щодо стану перевірки фрази для відновлення",
+      "unverified": "Фраза для відновлення не верифікована",
+      "verified": "Фраза для відновлення верифікована"
+    },
+    "walletSettings": "Налаштування віджетів"
+  },
+  "floatingTransactionActivityButtons": {
+    "receive": "Отримати",
+    "send": "Надіслати"
+  },
+  "globalActivity": {
+    "addAssets": "Поповніть свій гаманець активами",
+    "allActivity": "Немає активності",
+    "emptySelection": {
+      "description": "Ваш гаманець містить 0 активів у обраній мережі",
+      "title": "Немає активів у обраній мережі"
+    },
+    "noActivity": {
+      "description": "Поповніть свій гаманець активами",
+      "title": "Транзакції відображатимуться тут"
+    },
+    "recentActivity": "Недавня активність",
+    "title": "Активність",
+    "transactionFailedInfo": "Не вдалося виконати останню транзакцію в {network}",
+    "transactionsWillAppearHere": "Транзакції відображатимуться тут"
+  },
+  "home": {
+    "assets": "Активи",
+    "collection": "NFT",
+    "collection_see_all": "Показати все",
+    "collectionEmpty": "NFT поки що немає. Ваші колекції відображатимуться тут, щойно стануть доступними. ",
+    "collectionEmptyCta": "Отримати",
+    "defiEmpty": "Почніть заробляти з DeFi",
+    "defiEmptyCaption": "Позицій поки що немає. Беріть участь у DeFi, щоб отримувати дохід від своїх активів.",
+    "defiEmptyCta": "Почати заробляти",
+    "defiEmptyTitle": "DeFi",
+    "deposits": "DeFi",
+    "manage": "Керувати",
+    "total_balance": "Баланс"
+  },
+  "krakenConnect": {
+    "appLock": {
+      "description": "Щоб захистити свої кошти, увімкніть {authType} перед під’єднанням своєї біржі.",
+      "title": "Захистіть свій гаманець перед під’єднанням"
+    },
+    "appLockWarning": {
+      "ctaCancel": "Скасувати",
+      "ctaTurnOff": "Вимкнути",
+      "description": "Вимкнення App Lock призведе до відключення вашого з’єднання з Kraken. Для здійснення безперешкодного переказу коштів вам потрібно буде налаштувати його заново.",
+      "title": "Вимкнути App Lock?"
+    },
+    "availableBalanceInfo": {
+      "description": "Чому відбувається утримання?",
+      "title": "Частина ваших активів на біржі Kraken може бути недоступна для виведення через тимчасове утримання."
+    },
+    "balanceOnKraken": "на Kraken",
+    "connected": {
+      "alert": "Тільки поточний гаманець «<b>{walletName}</b>» підключено до Kraken.",
+      "cta": "Перемістити до гаманця",
+      "feature0": "Можливість <b>Швидко отримувати кошти</b> шляхом переказу з вашого акаунту Kraken",
+      "feature1": "Відстежуйте свої <b>баланси ончейн і на біржі Kraken</b> безпосередньо в гаманці",
+      "featuresTitle": "Ви розблокували:",
+      "success": "Обліковий запис Kraken підключений!"
+    },
+    "connecting": "Підключення до Kraken",
+    "connectingFailed": "Помилка підключення до Kraken ",
+    "errors": {
+      "createAddress": "Не вдалося створити адресу для переказів.",
+      "fetchBalance": "Не вдається отримати біржовий баланс Kraken.",
+      "getFee": "Не вдалося отримати точну суму комісії.",
+      "transferAppLockFailure": "Переказ не було ініційовано."
+    },
+    "exchangeBalance": "Біржовий баланс",
+    "fundCta": {
+      "body": "Підключіть свій акаунт Kraken до",
+      "bodyBold": "переказуйте криптовалюту на свій гаманець",
+      "heading": "Поповніть свій гаманець"
+    },
+    "noData": {
+      "description": "Ваш акаунт на біржі Kraken не містить активів, які можна переказати.",
+      "title": "Немає активів для переказу"
+    },
+    "pendingTransactionId": "Ідентифікатор транзакції Kraken",
+    "receiveCta": {
+      "body": "Під’єднайте свій акаунт біржі Kraken",
+      "headline": "Швидкий переказ із Kraken"
+    },
+    "selectNetwork": {
+      "description": "Виберіть, в якій мережі ви хочете отримати {assetLabel} на свій гаманець.",
+      "fee": "Комісія {assetValue}",
+      "minimum": "Мінімум {assetValue}",
+      "network": "Мережа {selectedNetworkName}",
+      "title": "Обрати мережу"
+    },
+    "sendScreen": {
+      "title": "Переказати {assetSymbol}"
+    },
+    "settings": {
+      "benefits0": "Переказати криптовалюту з Kraken",
+      "benefits1": "Переглянути баланси на біржі Kraken",
+      "benefitsHeadline": "Підключення до акаунту Kraken відкриває такі можливості:",
+      "cancel": "Скасувати",
+      "connect": "Підключити",
+      "disconnect": "Від’єднати",
+      "disconnectScreen": {
+        "alert": "Після відключення гаманця API-ключ залишається дійсним у налаштуваннях API біржі Kraken протягом 6 місяців.",
+        "description": "Дійсно від’єднати цей гаманець від Kraken?",
+        "title": "Від’єднати від Kraken",
+        "warningMessage": "Ви більше не матимете можливості безперешкодно здійснювати перекази між своїм гаманцем <b>«{walletName}»</b> і своїм акаунтом на біржі Kraken."
+      },
+      "walletsListTitle": "Ваші гаманці"
+    },
+    "stepsToConnect": {
+      "hasAccount": "Я створив(-ла) акаунт",
+      "heading": "Щоб підключитися до Kraken, виконайте наступні кроки:",
+      "step1": {
+        "description": "налаштуйте акаунт Kraken",
+        "label": "Крок 1"
+      },
+      "step2": {
+        "description": "Поверніться до гаманця",
+        "label": "Крок 2"
+      },
+      "step3": {
+        "description": "Підключіть свій акаунт Kraken",
+        "label": "Крок 3"
+      }
+    },
+    "transfer": {
+      "available": "Доступні {value}",
+      "confirm": "Схвалити переказ",
+      "network": "Мережа",
+      "selectAsset": "Оберіть актив для переказу",
+      "selectAssetDescription": "Переказуйте з біржі Kraken до свого гаманця",
+      "title": "Переміщення",
+      "transferFee": "Комісія за переміщення",
+      "transferringTo": "Переказування до",
+      "unsupportedAssets": "Непідтримувані активи",
+      "unsupportedAssetsDescription": "Наразі Kraken Wallet не підтримує {assets}"
+    },
+    "transferCta": {
+      "body": "Підключіть свій акаунт Kraken для швидкого переказу криптовалюти",
+      "heading": "Перевести з Kraken"
+    },
+    "unconnected": {
+      "alert": "Тільки поточний гаманець: «<b>{walletName}</b>» буде підключено до Kraken.",
+      "body": "Підключіть свій акаунт біржі Kraken для безперешкодного переказу на ваш гаманець",
+      "cta": "Підключіть біржу Kraken",
+      "noAccount": "У мене немає акаунту",
+      "title": "Отримайте криптовалюту у свій гаманець із Kraken"
+    }
+  },
+  "manageWallets": {
+    "title": "Керувати гаманцями"
+  },
+  "marketData": {
+    "about": "Про {assetSymbol}",
+    "allTimeHigh": {
+      "details": "Найвища ціна, за якою здійснювалася торгівля криптовалютою з моменту її появи.",
+      "title": "Найвищий показник за весь час"
+    },
+    "allTimeLow": {
+      "details": "Найнижча ціна, за якою здійснювалася торгівля криптовалютою з моменту її появи.",
+      "title": "Найнижчий показник за весь час"
+    },
+    "circulatingSupply": {
+      "details": "Кількість монет або токенів, які активно доступні на ринку та в руках широкого загалу.",
+      "title": "Обсяг обігу"
+    },
+    "contract": "Контракт",
+    "contractAddressCopied": "Адресу контракту скопійовано!",
+    "explorers": "Аналізатори",
+    "fullyDilutedValuation": {
+      "details": "Ринкова капіталізація, якщо в обігу була максимальна пропозиція, обчислюється множенням поточної ціни на максимальний обсяг.",
+      "short": "FDV",
+      "title": "Повністю розведена вартість"
+    },
+    "high": "Максимум:",
+    "links": "Посилання",
+    "low": "Мінімум:",
+    "marketCap": {
+      "details": "Загальна ринкова вартість криптовалюти, розрахована шляхом множення поточної ціни на обсяг обігу.",
+      "short": "Рин. капіталізація",
+      "title": "Рин. капіталізація"
+    },
+    "maxSupply": {
+      "details": "Максимальна кількість монет або токенів, яка коли-небудь існуватиме для криптовалюти, за протоколом проєкту.",
+      "title": "Макс. обсяг"
+    },
+    "networkFee": {
+      "current": "Поточна комісія",
+      "duration": "Тривалість",
+      "title": "Комісія за користування мережею"
+    },
+    "period": {
+      "all": "УСІ",
+      "day": "24Г",
+      "month": "1 хв.",
+      "week": "1 тижд.",
+      "year": "1 р."
+    },
+    "price": "Ціна",
+    "priceNotAvailable": "Ціна (недоступна)",
+    "readMore": "Докладніше",
+    "showLess": "Показати менше",
+    "terminology": "Термінологія",
+    "tokenContract": "Контракт токена",
+    "tokenContractWarning": {
+      "boldDescription": "Ніколи не надсилайте кошти на адресу, яку ви скопіювали.",
+      "description": "{boldDescription} Це НЕ ваша адреса для отримання коштів. Це адреса смарт-контракту, що використовується для ідентифікації токена в blockchain.",
+      "header": "Ви щойно скопіювали адресу контракту токена"
+    },
+    "totalSupply": {
+      "details": "Кількість монет або токенів, які існують на даний момент, включно з тими, які можуть бути заблоковані, зарезервовані або ще не випущені.",
+      "title": "Загальний обсяг"
+    },
+    "volume24h": {
+      "details": "Загальна вартість криптовалюти, торгівля якою була здійснена за останні 24 години на всіх біржах.",
+      "short": "24-год. обсяг",
+      "title": "24-год. обсяг"
+    },
+    "website": "Веб-сайт"
+  },
+  "network": {
+    "arbitrum": "Arbitrum",
+    "avalanche": "Avalanche",
+    "base": "Базовий",
+    "bitcoin": "Bitcoin",
+    "blast": "Blast",
+    "dogecoin": "Dogecoin",
+    "ethereum": "Ethereum",
+    "ethereum_goerli": "Ethereum – тестова мережа Goerli",
+    "ethereum_sepolia": "Ethereum – Sepolia",
+    "ink": "Ink",
+    "ink_sepolia": "Ethereum – Ink Sepolia",
+    "linea": "Linea",
+    "matic": "Matic",
+    "optimism": "Мережа OP Mainnet",
+    "polygon": "Polygon",
+    "solana": "Solana",
+    "solana_devnet": "Solana – Devnet",
+    "tezos": "Tezos",
+    "unknown": "Невідомо"
+  },
+  "nftCollection": {
+    "archiveCollectionDetailsSubtitle": "Усі архівні NFT",
+    "archiveCollectionDetailsTitle": "Архів",
+    "archiveCollectionSubtitle": "Усі архівні NFT",
+    "archiveCollectionTitle": "Архівні NFT",
+    "archivedDaysInfo": "{days} д. тому",
+    "archivedOneDayInfo": "1 день тому",
+    "heading": "Предмети"
+  },
+  "nftGallery": {
+    "favorite": "Додати до вподобань"
+  },
+  "nftList": {
+    "collections": "Колекції",
+    "collectionsEmptyState": {
+      "allNetworks": {
+        "heading": "У цьому гаманці ще немає колекцій",
+        "subheading": "Ваш гаманець містить 0 колекцій у всіх підтримуваних мережах"
+      },
+      "selectedNetworks": {
+        "heading": "Немає колекцій у вибраних мережах",
+        "subheading": "Ваш гаманець містить 0 колекцій NFT у вибраних мережах"
+      }
+    },
+    "everything": "Усе",
+    "everythingEmptyState": {
+      "allNetworks": {
+        "heading": "У цьому гаманці ще немає NFT",
+        "subheading": "Ваш гаманець містить 0 NFT в усіх підтримуваних мережах"
+      },
+      "selectedNetworks": {
+        "blastHeading": "NFT Blast уже незабаром",
+        "blastSubheading": "Цей гаманець поки що не підтримує перегляд ваших NFT у мережі Blast",
+        "heading": "Немає NFT у вибраних мережах",
+        "subheading": "Ваш гаманець містить 0 NFT у вибраних мережах"
+      }
+    },
+    "title": "NFT"
+  },
+  "nftManage": {
+    "archive": "Архів",
+    "copy_id": "Копіювати посвідчення особи",
+    "favorite": "Додати до вподобань",
+    "title": "Керувати NFT",
+    "unArchive": "Розархівувати",
+    "unArchiveSuccess": "NFT розархівовано",
+    "unfavorite": "Видалити з уподобань"
+  },
+  "nftOptions": {
+    "archive": "Архів",
+    "favorite": "Додати до вподобань",
+    "send": "Надіслати",
+    "unarchive": "Розархівувати",
+    "unfavorite": "Видалити з уподобань",
+    "viewDetails": "Переглянути деталі",
+    "viewOn": "Переглянути на {explorer}"
+  },
+  "nftView": {
+    "about": "Про",
+    "ens": {
+      "description": "Домени Ethereum Name Service (ENS) – це безпечні доменні імена для децентралізованого світу. Домени ENS надають користувачеві можливість зіставляти зрозумілі людині імена з ресурсами blockchain та іншими ресурсами, як-от адреси Ethereum, хеші IPFS або URL-адреси веб-сайтів. Домени ENS можна купувати й продавати на вторинних ринках.",
+      "links": {
+        "label": "Переглянути на"
+      },
+      "ownership": {
+        "label": "Право власності",
+        "manager": "Менеджер",
+        "owner": "Власник"
+      },
+      "traits": {
+        "created": "Дата створення",
+        "expiration": "Термін дії закінчується"
+      }
+    },
+    "failedMedia": {
+      "desc": "Можливо, тип носія ще не підтримується.",
+      "title": "Не вдалося завантажити носій"
+    },
+    "links": {
+      "label": "Переглянути на"
+    },
+    "manage": "Керувати",
+    "noName": "Без імені",
+    "properties": "Властивості",
+    "show_less": "Показати менше",
+    "show_more": "Показати більше"
+  },
+  "onboarding_backup_prompt": {
+    "caption": "Вам потрібні ваші {recoveryPhrase}, щоб відновити свою криптовалюту, якщо втратите пристрій або переключитесь на інший гаманець. {neverShare}",
+    "continue": "Розкрити фразу",
+    "recovery_phrase": "секретна фраза для відновлення",
+    "skip": "Пропустити",
+    "skipWarning": {
+      "back": "Назад",
+      "checkOne": "Я розумію, що якщо я загублю телефон або видалю застосунок без резервної копії, я не зможу відновити свій гаманець.",
+      "checkTwo": "Я розумію, що несу повну відповідальність за будь-яку втрату активів внаслідок відсутності резервної копії для відновлення.",
+      "confirm": "Підтвердити",
+      "title": "Продовжувати без резервного копіювання гаманця?"
+    },
+    "subtitle": "ваш гаманець",
+    "title": "Резервне копіювання"
+  },
+  "onboarding_backup_verify": {
+    "caption": "Торкніться слів нижче в правильному цифровому порядку, щоб переконатися в тому, що ви зберегли секретну фразу відновлення.",
+    "failed": "Фраза недійсна",
+    "paste": "Вставити",
+    "retry": "Спробуйте ще раз",
+    "title": "Переконайтеся в тому, що ви зберегли її правильно",
+    "verified": "Верифіковано",
+    "verify": "Верифікувати"
+  },
+  "onboarding_backup": {
+    "caption": "Запишіть ці 12 слів у цифровому порядку й зберігайте їх у надійному місці. {neverShare}",
+    "continue": "Далі",
+    "copy": "Копіювати",
+    "title": "Ваша секретна фраза для відновлення"
+  },
+  "onboarding_import_wallet": {
+    "caption": "Введіть секретну фразу для відновлення або приватний ключ, щоб імпортувати свій гаманець.",
+    "import": "Імпорт",
+    "paste": "Вставити",
+    "title": "Імпортувати свій гаманець"
+  },
+  "onboarding_secure_wallet": {
+    "authBiometric": "Біометрична автентифікація",
+    "authFaceID": "FaceID",
+    "authPasscode": "Код-пароль",
+    "authTouchID": "TouchID",
+    "caption": "Скористайтеся {authType}, щоб запобігти спробам сторонніх отримати доступ до вашої криптовалюти з вашого телефону.",
+    "secureWallet": "Безпечний гаманець",
+    "skip": "Пропустити",
+    "subtitle": "ваш гаманець",
+    "title": "Захистити"
+  },
+  "onboarding": {
+    "create_wallet": "Створити гаманець",
+    "import_error": "Не вдалось імпортувати гаманець",
+    "import_wallet": "Імпорт",
+    "intro_pages": {
+      "1": {
+        "subtitle": "Kraken Wallet",
+        "text": "Володійте своєю криптовалютою, відкривайте для себе blockchain-мережі й забезпечуйте своє фінансове майбутнє.",
+        "title": "Ласкаво просимо до"
+      },
+      "2": {
+        "subtitle": "вашої кастодіальної платформи",
+        "text": "Надійно зберігайте свою криптовалюту у власному гаманці, доступ до якого маєте лише ви.",
+        "title": "Ваші криптовалютні"
+      },
+      "3": {
+        "subtitle": "blockchain-мережі",
+        "text": "Kraken Wallet підтримує Bitcoin, Ethereum, Polygon, Doge тощо. ",
+        "title": "Переглянути більше"
+      },
+      "4": {
+        "subtitle": "і зберегти NFT",
+        "text": "Купуйте, продавайте, обмінюйте криптовалюту і зберігайте NFT з ваших улюблених колекцій.",
+        "title": "Купити криптовалюту"
+      },
+      "settingUp": {
+        "subtitle": "ваш гаманець...",
+        "text": "Це займе лише хвилину",
+        "title": "Налаштування"
+      }
+    },
+    "never_share": "Ніколи ні з ким не діліться цим.",
+    "scroll_note": "Прокрутіть, щоб дізнатися більше"
+  },
+  "onboardingBackupVerify": {
+    "caption": "Торкніться слів нижче в правильному цифровому порядку, щоб переконатися в тому, що ви зберегли секретну фразу відновлення.",
+    "failed": "Фраза недійсна",
+    "paste": "Вставити",
+    "pasteWarning": {
+      "back": "Назад",
+      "checkOne": "Я розумію, що в разі втрати телефону або видалення застосунку мені знадобиться секретна фраза для відновлення свого гаманця.",
+      "checkTwo": "Я розумію, що в разі втрати фрази для відновлення лише я несу повну відповідальність за будь-які втрачені активи.",
+      "confirm": "Підтвердити",
+      "title": "Підтвердьте, що ви зберегли її в безпечному місці"
+    },
+    "retry": "Спробуйте ще раз",
+    "title": "Переконайтеся в тому, що ви зберегли її правильно",
+    "verified": "Верифіковано",
+    "verify": "Верифікувати"
+  },
+  "onboardingImportCloudBackup": {
+    "desc": "Щоб імпортувати гаманець з резервної копії, скористайтеся своїм ключем доступу для розшифрування.",
+    "selection": {
+      "desc": "Ви створили більше ніж одну резервну копію, виберіть резервну копію гаманця, яку хочете імпортувати",
+      "recent": "Останні",
+      "title": "Виберіть резервну копію гаманця, яку потрібно імпортувати"
+    },
+    "title": "Імпортувати з резервної копії",
+    "usePasskey": "Скористатися ключем доступу"
+  },
+  "onboardingImportMethod": {
+    "methodICloud": {
+      "desc": "Імпортувати з резервної копії iCloud, створеної для Kraken Wallet",
+      "title": "Імпортувати з iCloud"
+    },
+    "methodManual": {
+      "desc": "Імпортувати за допомогою секретної фрази для відновлення з 12–24 слів",
+      "title": "Введіть свою мнемонічну фразу"
+    },
+    "subtitle": "ваш гаманець",
+    "title": "Імпорт"
+  },
+  "onboardingImportSubWallets": {
+    "addByIndex": {
+      "addWallet": "Додати гаманець",
+      "addWallets": "Додати гаманці",
+      "button": "Додати за індексом",
+      "description": "Введіть числовий індекс гаманця, який ви хочете імпортувати.",
+      "placeholder": "Введіть числовий індекс гаманця",
+      "title": "Введіть індекс гаманця"
+    },
+    "findingWallets": {
+      "caption": "Це може зайняти кілька секунд",
+      "foundWallets": "Знайдена така кількість гаманців: {count}...",
+      "title": "Шукаєте субгаманці"
+    },
+    "findSubWallets": {
+      "caption": "Це може зайняти кілька секунд",
+      "foundWallets": "Знайдена така кількість гаманців: {count}...",
+      "title": "Шукаєте субгаманці"
+    },
+    "importSubWallets": {
+      "addByIndex": "Додати за індексом",
+      "hasABalance": "Має баланс",
+      "hasBalance": "Містить кошти",
+      "importingWallets": "Імпортування такої кількості гаманців: {subWalletsCount}...",
+      "importingWalletsOne": "Імпортування 1 гаманця...",
+      "importWallets": "Імпорт такої кількості гаманців: {subWalletsCount}",
+      "importWalletsOne": "Імпорт одного гаманця",
+      "skip": "Пропустити",
+      "subtitle": "Ми знайшли таку кількість гаманців із грошовими коштами: {subWalletsWithBalanceCount}. Виберіть усі гаманці, які хочете імпортувати.",
+      "subtitleOneWallet": "Ми знайшли 1 гаманець із грошовими коштами.",
+      "title": "Виберіть гаманці для імпорту",
+      "wallet": "Гаманець",
+      "walletsFound": "Знайдена така кількість гаманців: {subWalletsCount}",
+      "walletsFoundOne": "Знайдено один гаманець"
+    },
+    "importSubWalletsSuccess": {
+      "continue": "Продовжити",
+      "subtitle": "Гаманці додано успішно. Ви можете додати більше в будь-який час.",
+      "subtitleOneWallet": "Гаманець додано успішно. Ви можете додати більше в будь-який час.",
+      "title": "Імпортована така кількість гаманців: {subWalletsCount}!",
+      "titleOneWallet": "Імпортовано один гаманець!"
+    },
+    "loadingSubWallets": {
+      "caption": "Це може зайняти кілька секунд",
+      "foundWallets": "Знайдена така кількість гаманців: {subWalletsCount}...",
+      "foundWalletsOne": "Знайдено один гаманець",
+      "subtitle": "Це може зайняти кілька секунд",
+      "title": "Шукаєте субгаманці"
+    }
+  },
+  "onboardingImportWallet": {
+    "caption": "Введіть секретну фразу для відновлення, щоб імпортувати свій гаманець.",
+    "disclaimer": "Якщо іншій людині відома ця секретна фраза для відновлення (ключові слова), вона також може отримати доступ до цього гаманця і ваші кошти у небезпеці.",
+    "disclaimerTitle": "Увага!",
+    "header": "Імпортувати свій гаманець",
+    "headerInvalid": "Перевірте свою секретну фразу",
+    "import": "Імпорт",
+    "invalid": "Фраза недійсна",
+    "loading": "Імпортування гаманця...",
+    "paste": "Вставити",
+    "valid": "Імпортовано"
+  },
+  "onboardingOutro": {
+    "button": "Погодитись і продовжити",
+    "caption": "Цей гаманець підтримує Bitcoin, Ethereum, Polygon, Solana тощо.",
+    "footer": "Продовжуючи, ви погоджуєтеся з Умовами надання послуг\n",
+    "termsOfService": "Kraken Wallet",
+    "title": "Ваш гаманець готовий"
+  },
+  "onboardingPushNotifications": {
+    "allow": "Дозволити",
+    "content": "Отримуйте важливі сповіщення щодо транзакцій та інших важливих взаємодій із гаманцем. Щоб увімкнути, дозвольте сповіщення.",
+    "skip": "Запитайте мене пізніше",
+    "title": "Дозвольте сповіщення, щоб завжди бути в курсі",
+    "titleEnd": "дозволити сповіщення",
+    "titleStart": "Щоб завжди бути в курсі, "
+  },
+  "onChainSecurity": {
+    "analysingApp": "Триває аналіз застосунку...",
+    "appConnectCriticalWarning": "Ми вважаємо цей застосунок зловмисним, тож підключення до нього буде небезпечним. Схвалення може призвести до втрати коштів.",
+    "appConnectMediumWarning": "Не вдалося верифікувати застосунок, що надсилає запит.",
+    "appFlagged": "Застосунок позначено!",
+    "appSafetyNotVerified": "Безпеку застосунку не верифіковано",
+    "appSafetyNotVerifiedMessage": "Ми не змогли верифікувати безпеку застосунку, до якого ви намагаєтеся підключитись, через тимчасову помилку або збій у роботі нашого сервісу верифікації застосунків. Дійте з обережністю.",
+    "appSignMessageCriticalWarning": "Ми вважаємо цей застосунок зловмисним, тож повідомлення є небезпечними для підписання. Схвалення може призвести до втрати коштів.",
+    "appSignMessageMediumWarning": "Не вдалося верифікувати застосунок, що надсилає запит.",
+    "appSignTransactionCriticalWarning": "Ми вважаємо цей застосунок зловмисним, тож транзакції є небезпечними для підписання. Схвалення може призвести до втрати коштів.",
+    "appSignTransactionMediumWarning": "Не вдалося верифікувати застосунок, що надсилає запит.",
+    "appWarning": "Ми вважаємо цей застосунок зловмисним, тож підключення до нього буде небезпечним. Схвалення може призвести до втрати коштів",
+    "criticalWarning": "Критичне попередження",
+    "domainMatch": "Збіг доменів",
+    "domainMatchInfo": "Домен, пов’язаний із цим запитом, верифіковано як домен цього застосунку.",
+    "domainMismatch": "Невідповідність домену",
+    "domainMismatchInfo": "Домен цього веб-сайту не відповідає домену відправника цього запиту. Схвалення може призвести до втрати коштів.",
+    "domainMismatchMessage": "Домен застосунку не відповідає відправнику цього запиту. Схвалення може призвести до втрати коштів.",
+    "domainMismatchWarning": "Попередження – невідповідність домену",
+    "ignoreWarningAndProceed": "Проігнорувати попередження й продовжити",
+    "knownSecurityRisk": "Відома загроза безпеці",
+    "knownSecurityRisk!": "Відома загроза безпеці!",
+    "knownSecurityRiskExclaimed": "Відома загроза безпеці!",
+    "knownSecurityRiskExclamation": "Відома загроза безпеці!",
+    "knownSecurityRiskInfo": "Цей веб-сайт позначений як небезпечний кількома провайдерами у сфері безпеки. Щоб захистити свої активи, НЕ підключайтеся до нього.",
+    "knownSecurityRiskMessage": "Цей веб-сайт позначений як небезпечний кількома провайдерами у сфері безпеки. Негайно вийдіть із нього, щоб захистити свої активи від виведення",
+    "messageFlagged": "Повідомлення позначено!",
+    "punycodeDomainRiskMessage": "Адреса цього сайту містить нестандартні символи. Це поширена техніка, яку використовують шахраї, щоб видати свої підробні сайти за справжні. З міркувань безпеки радимо не вводити конфіденційну інформацію та не переходити на цей сайт.",
+    "returnToSafety": "Повернення до безпечного режиму",
+    "signTransactionCriticalWarning": "Ми вважаємо, що ця транзакція є зловмисною й небезпечною для підписання. Схвалення може призвести до втрати коштів.",
+    "transactionFlagged": "Транзакцію позначено!",
+    "transactionWarning": "Ми вважаємо, що ця транзакція є зловмисною й небезпечною для підписання. Схвалення може призвести до втрати коштів",
+    "unverifiedApp": "Не вдалося верифікувати застосунок, що надсилає запит.",
+    "warning": "Увага"
+  },
+  "passwordProtection": {
+    "authFailed": "Помилка автентифікації",
+    "authFailedDescription": "Ви можете спробувати ще раз або повністю очистити й перезавантажити застосунок",
+    "biometricDescriptionAndroid": "навіть якщо ви налаштували біометричні дані через App Lock",
+    "biometricDescriptionIOS": "навіть якщо ви налаштували FaceID або TouchID через App Lock",
+    "confirm": "Підтвердити",
+    "confirmPassword": "Підтвердити пароль",
+    "confirmResetApp": "Підтвердити скидання застосунку",
+    "connectedApps": "Пройти автентифікацію й увійти в підключені застосунки",
+    "createPassword": "Створити пароль",
+    "dataLoss1": "Я розумію, що повне скидання налаштувань застосунку поверне його до заводських налаштувань.",
+    "dataLoss2": "Я розумію, що після відновлення застосунку мені знадобиться моя секретна фраза (або фрази) для відновлення, щоб отримати доступ до гаманця(-ів).",
+    "dataLoss3": "Я розумію, що якщо я скину налаштування застосунку й не матиму секретної фрази (або фраз) для відновлення гаманця, то відновити мій гаманець буде неможливо.",
+    "dataLoss4": "Я розумію, що в разі втрати фрази (фраз) для відновлення я несу повну відповідальність за будь-яку втрату активів.",
+    "dataLossWarning": "Попередження щодо втрати даних!",
+    "disable": "Вимкнути",
+    "disablePassword": "Вимкнути пароль",
+    "disablePasswordDescription": "Введіть пароль, щоб вимкнути захист паролем",
+    "doubleEncryptsData": "Здійснює подвійне шифрування даних вашого застосунку",
+    "enablePasswordProtection": "Увімкнути захист паролем",
+    "enterPassword": "Введіть пароль",
+    "lockout": "Забагато невдалих спроб, повторіть спробу пізніше",
+    "openApp": "Відкрийте застосунок (необов’язково)",
+    "password": "Пароль",
+    "passwordHintLetters": "Спробуйте використовувати великі й малі літери",
+    "passwordHintLonger": "Спробуйте використовувати довший пароль",
+    "passwordHintNumbers": "Спробуйте використовувати літери й цифри",
+    "passwordHintSpecialChars": "Спробуйте використовувати спеціальні символи: !@#$%^&*?_~",
+    "passwordIncorrect": "Пароль недійсний",
+    "passwordLengthError": "Потрібно мінімум 6 символів",
+    "passwordMatchError": "Паролі не збігаються",
+    "passwordStrength": "Надійність пароля:",
+    "passwordStrengthAverage": "Гарно",
+    "passwordStrengthSecure": "Захистити",
+    "passwordStrengthStrong": "Strong",
+    "passwordStrengthVeryWeak": "Дуже слабкий",
+    "passwordStrengthWeak": "Слабкий",
+    "passwordSupersedesAppLock": "App Lock не замінить пароль",
+    "passwordSupersedesAppLockDescription": "Якщо ви створите пароль, він буде потрібен для здійснення транзакцій, {biometricDescription}. З метою безпеки знадобляться обидва.",
+    "protectYourData": "Захистіть свої дані додатковим шифруванням",
+    "rationaleCreateWallet": "Ваш пароль необхідний для створення нового гаманця",
+    "rationaleGetXPub": "Ваш пароль необхідний для перегляду розширеного публічного ключа",
+    "rationaleSeeRecoveryPhrase": "щоб переглянути вашу секретну фразу для відновлення",
+    "rationaleSignTransaction": "Ваш пароль необхідний для підписання транзакцій",
+    "requiredToAccess": "Необхідно для доступу до вашого гаманця",
+    "requireOnOpen": "Запитувати щоразу, коли ви відкриваєте застосунок?",
+    "requireOnOpenDesc": "Підвищує безпеку завдяки подвійному шифруванню даних вашого застосунку, але вам доведеться вводити пароль під час кожного відкриття застосунку",
+    "resetHintModalConfirm": "Добре",
+    "resetHintModalDesc": "Щоб змінити налаштування параметрів пароля, вам потрібно буде вимкнути захист паролем, а потім увімкнути його знову з доданими змінами.",
+    "resetHintModalTitle": "Скиньте пароль для зміни налаштувань",
+    "retry": "Спробувати ще",
+    "sendCrypto": "Надсилайте криптовалюту й NFT",
+    "signTransactions": "Підписуйте транзакції",
+    "title": "Захист паролем",
+    "typePassword": "Введіть пароль",
+    "unlock": "Розблокування",
+    "viewPhrase": "Переглянути секретну фразу для відновлення",
+    "walletLocked": "Гаманець заблоковано",
+    "walletLockedDescription": "Для розблокування введіть пароль",
+    "warning": "Попередження: не втрачайте пароль",
+    "warningDescription": "Зберігайте свій пароль у надійному місці. Він зашифрований безпосередньо на вашому пристрої, тому Kraken не зможе його відновити, якщо ви його втратите або забудете.",
+    "whatIs": "Що таке захист паролем? ",
+    "whatIsDescription": "Він підвищує рівень безпеки, оскільки пароль вимагається для виконання наведених далі дій.",
+    "wipeAndReset": "Очищення й скидання налаштувань застосунку",
+    "wrongPassword": "Це не спрацювало",
+    "wrongPasswordDescription": "Перевірте свій пароль і спробуйте ще раз"
+  },
+  "pushNotificationsPrompt": {
+    "allow": "Дозволити",
+    "content": "Отримуйте важливі сповіщення щодо транзакцій та інших важливих взаємодій із гаманцем. Щоб увімкнути, дозвольте сповіщення.",
+    "disallow": "Не дозволяти",
+    "skip": "Запитайте мене пізніше",
+    "title": "Дозвольте сповіщення, щоб завжди бути в курсі",
+    "titleEnd": "дозволити сповіщення",
+    "titleStart": "Щоб завжди бути в курсі, "
+  },
+  "receive": {
+    "addressCopied": "Адресу скопійовано",
+    "addressError": "Адреса отримувача може бути неактуальною. Оновіть її та спробуйте ще раз",
+    "copied": "Скопійовано",
+    "copy": "Копіювати",
+    "share": "Поділитися",
+    "warning": "Це ваша адреса {networkName}.",
+    "warning_nft": "Це ваша адреса {networkName}. Використовуйте її для отримання криптовалют і NFT, сумісних із цією мережею."
+  },
+  "reputation": {
+    "likelySpam": "Ймовірний спам",
+    "likelySpamDescription": "Цей токен занесено до чорного списку. Будьте обережні під час взаємодії з будь-яким токеном, який ви не можете перевірити. Не довіряйте – перевіряйте.",
+    "likelySpamHelp": "Що таке токени, занесені до чорного списку?",
+    "onTokenLists": "У списках токенів ({count})",
+    "openDocs": "Відкрити документи",
+    "title": "Репутація",
+    "tokenLists": "Списки токенів",
+    "tokenListsDescription": "Списки токенів – це ініціатива спільноти, спрямована на підтримання відкритості, позитивної репутації й довіри до токенів ERC20.",
+    "tokenListsHelp": "Що таке списки токенів?",
+    "unverified": "Немає в списку",
+    "unverifiedDescription": "Цього токена немає в списку. Будьте обережні під час взаємодії з будь-яким токеном, який ви не можете перевірити. Не довіряйте – перевіряйте.",
+    "unverifiedHelp": "Чому його немає в списку?",
+    "verified": "Додано до списку",
+    "verifiedDescription": "Списки токенів – це списки, сформовані виходячи з репутації й спрямовані на виявлення й виділення для вас надійних і якісних токенів.",
+    "verifiedHelp": "Що таке списки токенів?"
+  },
+  "scan": {
+    "apps": "Застосунки",
+    "connected_to": "Підключено до {appName}",
+    "instructions": "Підключіться до застосунків DApp, скануючи QR-код",
+    "manage": "Керувати",
+    "missingPermission": "Щоб використовувати камеру, перейдіть до налаштувань телефону й активуйте дозволи на використання камери в застосунку Super Wallet",
+    "paste": "Вставте адресу",
+    "wallet_connect_failed": "QR-код не відскановано, спробуйте ще раз",
+    "wallet_connect_initialization_failure": "Помилка під час ініціалізації WalletConnect",
+    "wallet_connect_invalid_qr_code": "Це недійсний QR-код",
+    "wallet_connect_previously_submitted_qr_code": "Це недійсний QR-код. Оновіть сторінку й спробуйте ще раз",
+    "wallet_connect_version_deprecated": "Цей застосунок несумісний"
+  },
+  "send": {
+    "address": "Введіть адресу...",
+    "addressHeader": "Надсилати на",
+    "addressOrENS": "Введіть адресу або домен ENS...",
+    "amountHeader": "Сума",
+    "available": "Доступні {0}",
+    "balance": "Баланс {0}",
+    "confirm": "Підтвердити",
+    "confirmSend": "Підтвердити надсилання",
+    "create": "Створити",
+    "enterAmount": "Уведіть суму {symbol}",
+    "evm_fee_fast": "Швидкі",
+    "evm_fee_normal": "Нормальний",
+    "evm_fee_urgent": "Терміновий",
+    "exceedsBalance": "Введена сума перевищує доступний баланс",
+    "exceedsFee": "Не вистачає {token} для оплати комісії за користування мережею",
+    "failed": "Помилка",
+    "failedPriceAlert": {
+      "desc": "Наразі ми не можемо отримати дані щодо ціни цього токена.",
+      "title": "Ціна в доларах США для {token} недоступна"
+    },
+    "fee": "Комісія",
+    "fee_fast": "Швидкі",
+    "fee_medium": "Середній",
+    "fee_slow": "Повільно",
+    "feeWarning": "Поточна комісія за користування мережею становить {feeAmount}, що складає понад {percentage} % від суми, яку ви надсилаєте.",
+    "invalidAddress": "Невірна адреса. Перевірте й спробуйте ще раз",
+    "max": "Максимум",
+    "minAmount": "Мін. сума переказу: {minAmount} {token}",
+    "network_fee": "Комісія за користування мережею",
+    "networkWarning": {
+      "alertBody": "Переконайтеся в тому, що особа, якій ви надсилаєте, має гаманець що підтримує {networkName}",
+      "alertTitle": "Надсилання в мережі {networkName}"
+    },
+    "no_note": "Без примітки",
+    "note": "Примітка",
+    "note_to_self": "Примітка для себе",
+    "pending": "В очікуванні",
+    "polygonWarning": {
+      "alertBody": "Переконайтеся в тому, що особа, якій ви надсилаєте, має гаманець, що підтримує Polygon",
+      "alertTitle": "Надсилання в мережі Polygon",
+      "label": "Надсилання в мережі Polygon"
+    },
+    "priority": "Пріоритетність",
+    "recipient": "Отримувач",
+    "scan": "Сканувати",
+    "send": "Надіслати",
+    "sendError": "Не вдалося завершити транзакцію. Спробуйте ще раз",
+    "sending": "Надсилання...",
+    "sent": "Надіслано",
+    "successEstimation": "Орієнтовний час виконання: ~ {time}",
+    "successLabel": "Транзакцію ініційовано!",
+    "suspiciousCharWarning": {
+      "desc": "Ця адреса містить символи, відмінні від ASCII. Зверніть увагу на те, що існують символи, які виглядають ідентичними або дуже схожими на англійські літери.",
+      "title": "Увага:"
+    },
+    "technicalIssues": "Виникла проблема, спробуйте пізніше",
+    "timeStampabbreviation": {
+      "day": "день",
+      "days": " дня(днів)",
+      "hour": "година",
+      "hours": "години (годин)",
+      "minute": "мін.",
+      "minutes": "хвилини (хвилин)",
+      "second": "секунда",
+      "seconds": "секунди (секунд)"
+    },
+    "title": "Надіслати {ticker}",
+    "title_nft": "Надіслати NFT",
+    "transaction_id": "Ідентифікатор транзакції",
+    "transfer_token": "Токен переказу",
+    "undo": "Скасувати",
+    "warning": {
+      "firstTimeSending": "Перше надсилання на цю адресу",
+      "nthTimeSending": "Кількість попередніх відправлень на цю адресу: {count}",
+      "title": "Увага",
+      "titleCritical": "Критичне попередження"
+    }
+  },
+  "settings": {
+    "about": "Про",
+    "about_release_notes": "Примітки до випуску",
+    "about_selftest": "Запустити діагностику",
+    "advanced": "Розширений",
+    "appLock": "App Lock",
+    "backup": "Резервне копіювання",
+    "backup_mnemonic_seed": "Резервне мнемонічне початкове значення",
+    "connections": "Підключення",
+    "currency": "Валюта",
+    "deleteAll": "Видалити всі дані",
+    "electrum_error_connect": "Не вдається підключитися до наданого сервера Electrum",
+    "electrum_reset": "Скидання до налаштувань за замовчуванням",
+    "electrum_reset_to_default": "Ви дійсно хочете відновити налаштування Electrum за замовчуванням?",
+    "electrum_saved": "Ваші зміни були успішно збережені. Щоб зміни набули чинності, може знадобитися перезапуск застосунку.",
+    "electrum_unable_to_connect": "Не вдалося підключитися до {server}.",
+    "enableTracking": "Увімкнути відстежування помилок",
+    "enableTrackingDescription": "Увімкнувши цю функцію, ви допомагаєте нам покращувати застосунок",
+    "general": "Загальні",
+    "header": "Налаштування",
+    "hideBalances": "Приховати баланси",
+    "krakenConnect": "Kraken Connect",
+    "krakenExchange": "Біржа Kraken",
+    "language": "Мова",
+    "manageWallets": "Керувати гаманцями",
+    "notifications": "Push-повідомлення",
+    "passwordProtection": "Захист паролем",
+    "pn_account_activity": "Ваша активність",
+    "pn_auth_n_sign_connected_apps": "Пройти автентифікацію й увійти в підключені застосунки",
+    "pn_connected_app_interactions": "Взаємодія з підключеним застосунком",
+    "pn_incoming_transactions": "Вхідні транзакції",
+    "pn_incoming_transactions_pending": "Вхідні транзакції в очікуванні",
+    "pn_levelAll": "Увімкнути активність облікового запису",
+    "pn_outgoing_transactions": "Вихідні транзакції",
+    "pn_outgoing_transactions_complete": "Вихідні транзакції завершені",
+    "pn_outgoing_transactions_pending": "Вихідні транзакції в очікуванні",
+    "pn_types_of_notifications_youll_receive": "Типи сповіщень, які ви будете отримувати:",
+    "pn_would_you_like_to_receive_notifications": "Бажаєте отримувати сповіщення?",
+    "privacy": "Конфіденційність",
+    "pushNotifications": "Push-повідомлення",
+    "refreshAll": "Оновити метадані",
+    "refreshAllDesc": "Очищення кешу для всіх NFT й активів",
+    "secretRecoveryPhrase": "Секретна фраза для відновлення",
+    "security": "Безпека",
+    "support": "Служба підтримки",
+    "testnet": "Тестова мережа",
+    "testnetDescription": "Після увімкнення ви можете вибрати мережу й активи тестової мережі на екрані керування активами.",
+    "view_list_of_connected_dapps": "Перегляд списку підключених DApp",
+    "wallets": "Гаманці",
+    "walletsAndBackups": "Гаманці та резервні копії"
+  },
+  "storeReview": {
+    "alertMessage": "Ми хотіли б знати, чи все вам подобається.",
+    "alertTitle": "Вам подобається застосунок Kraken Wallet?",
+    "nagativeAlertTitle": "Нам шкода, що цей застосунок вам не подобається.",
+    "negativeAlertMessage": "Бажаєте розповісти нам, як ми можемо його покращити?",
+    "notReally": "Аж ніяк",
+    "sendFeedback": "Надіслати відгук",
+    "yes": "Так"
+  },
+  "support": {
+    "contactUs": "Зверніться до нас",
+    "getInTouch": "Зв’язатися",
+    "knowledgeBaseDesc": "Шукайте наші документи, знайомтеся з поширеними запитаннями й зв’язуйтеся з нами",
+    "knowledgeBaseTitle": "База знань",
+    "visitSupportCenter": "Відвідати центр підтримки"
+  },
+  "swap": {
+    "amountExceedingBalance": "Введена сума перевищує доступний баланс",
+    "amountPlaceholder": "Уведіть суму {symbol}",
+    "balance": "Баланс {0}",
+    "buttonTitle": "Обмін",
+    "confirmation": {
+      "cancel": "Скасувати",
+      "confirm": "Підтвердити",
+      "initiated": "Обмін ініційовано!",
+      "swapFlagged": "Обмін позначено!"
+    },
+    "emptyState": {
+      "assetsEmptyDesc": "У вашому поточному гаманці немає активів. Спробуйте поповнити гаманець",
+      "assetsEmptyTitle": "Активи відсутні",
+      "clearSearch": "Очистити пошуковий запит",
+      "goBack": "Назад",
+      "okay": "Добре",
+      "searchAllNetworks": "Пошук у всіх мережах",
+      "searchEmptyDesc": "Спробуйте розширити пошук",
+      "searchEmptyTitle": "Немає результатів",
+      "swappableAssetsEmptyDesc": "У цьому гаманці немає активів, які підтримуються нашими постачальниками послуг обміну активів. Наразі підтримуються лише мережі, сумісні з Ethereum і EVM.",
+      "swappableAssetsEmptyNetworkDesc": "У вашому поточному гаманці немає активів у вибраній мережі, які підтримуються нашими постачальниками послуг обміну активів",
+      "swappableAssetsEmptyNetworkTitle": "У вибраній мережі немає доступних для обміну активів",
+      "swappableAssetsEmptyTitle": "Немає доступних для обміну активів",
+      "targetAssetEmptyDesc": "Жоден із наших постачальників не підтримує обмін для обраного вами активу",
+      "targetAssetEmptyTitle": "Відсутні активи, які можна обміняти на"
+    },
+    "error": {
+      "insufficientGas": "Недостатній баланс {symbol} для покриття транзакцій обміну"
+    },
+    "findingBestRote": "Пошук найкращого маршруту",
+    "otherAssets": "Токени",
+    "route": {
+      "bridgeCost": {
+        "hint": "Вартість мосту – це комісія, яку стягує провайдер обміну за переказ активів між різними blockchain під час обміну.",
+        "title": "Вартість мосту"
+      },
+      "krakenFee": {
+        "hint": "Kraken Wallet не стягує комісій за обміни. Ми пропонуємо цю послугу безкоштовно, щоб підтримати впровадження криптовалют і технології блокчейна.",
+        "title": "Комісія Kraken",
+        "value": "БЕЗКОШТОВНО"
+      },
+      "minumumOutput": {
+        "hint": "Якщо відбувається прослизання, це мінімальна сума цільового активу, яку ви отримаєте, якщо транзакція буде успішною.",
+        "title": "Мінімальне виведення"
+      },
+      "networkFee": {
+        "hint": "Мережева комісія – це плата, яка виплачується валідаторам blockchain за обробку й підтвердження вашої транзакції.",
+        "title": "Комісія за користування мережею"
+      },
+      "priceImpact": {
+        "hint": "Вплив на ціну – це різниця між ринковою ціною й ціною обміну. Він залежить від об’єму вашої торгівлі відносно ліквідності пула.",
+        "title": "Вплив на ціну"
+      },
+      "rate": "Ціна",
+      "slippage": {
+        "hint": "Прослизання обміну – це різниця між очікуваною ціною й остаточною ціною активу. Якщо ціна зміниться за межами встановленого допустимого прослизання, транзакція скасовується. Прослизання обміну стосується лише обміну в межах одного ланцюга, за винятком прослизання при використанні мостів.",
+        "title": "Прослизання обміну"
+      },
+      "swapRate": "Курс обміну",
+      "transactionFees": "Комісії за транзакції",
+      "typeSelection": {
+        "bestValue": {
+          "desc": "Найкраща загальна ціна",
+          "name": "Найкраща ціна"
+        },
+        "fastest": {
+          "desc": "Найвища швидкість транзакцій",
+          "name": "Найшвидший обмін"
+        },
+        "title": "Знайдіть маршрут обміну за допомогою"
+      },
+      "unsupportedRoute": {
+        "desc": "Ви також можете спробувати спочатку обміняти свій актив на основний токен, а потім обміняти його на потрібний вам актив.",
+        "title": "Для введеної вами транзакції немає доступних маршрутів. Підвищення параметра прослизання може забезпечити вам більше маршрутів."
+      }
+    },
+    "routePath": {
+      "bridge": "Міст через {name}",
+      "swap": "Обмін через {name}",
+      "title": "Маршрут обміну"
+    },
+    "selectAsset": "Обрати актив",
+    "slippageSettings": {
+      "custom": "Клієнтське",
+      "desc": "Якщо ціна зміниться несприятливо більше, ніж на відсоток прослизання, ваша транзакція з обміну буде анульована.",
+      "footer": "Більш високе прослизання може сприяти підвищенню коефіцієнта успішності транзакції, але може зробити вас вразливими до фронтраннінгу/сендвіч-атак.",
+      "save": "Зберегти",
+      "title": "Налаштування прослизання",
+      "warningHigh": "Прослизання вище {amount} % вважається високим",
+      "warningSmall": "Прослизання нижче {amount} % може призвести до збою обміну",
+      "warningUnsupported": "Прослизання більше {amount} % не підтримується"
+    },
+    "sourceListHeader": "Ваші активи",
+    "sourceSearchPlaceholder": "Обрати актив для обміну",
+    "targetSearchPlaceholder": "Обрати актив для отримання",
+    "title": "Обмін",
+    "unsupportedAssetsHidden": "Наші постачальники послуг обміну ще не підтримують таку кількість ваших інших активів: {count}",
+    "yourAssets": "Ваші активи"
+  },
+  "test": {
+    "key": "Тестування"
+  },
+  "tokenLists": {
+    "blacklisted": "Чорний список",
+    "description": "Списки токенів – це створені, виходячи з репутації, списки, призначені для визначення токенів, яким довіряють різні біржі й інші учасники Web3.",
+    "help": "Що таке списки токенів?",
+    "likelySpam": "Ймовірний спам",
+    "likelySpamDescription": "Будьте вкрай обережні під час взаємодії з цим токеном. Це може бути небезпечно.",
+    "likelySpamHelp": "Що таке токени, що ймовірно є спамом?",
+    "likelySpamInfo": "Токени, що ймовірно є спамом, були позначені спільнотами або одним із наших партнерів як спам, шахрайські або шкідливі.",
+    "likelySpamTitle": "Ймовірний спам",
+    "likelySpamUseCaution": "Будьте вкрай обережні",
+    "notListed": "Немає в списку",
+    "openDocs": "Відкрити документи",
+    "tokenLists": "Списки токенів",
+    "tokens": "Кількість токенів: {tokenListCount}",
+    "unverified": "Немає в списку",
+    "unverifiedButtonLink": "Чому його немає в списку?",
+    "unverifiedDescription": "Цей токен відсутній в усіх підтримуваних списках токенів. Будьте обережні.",
+    "unverifiedExplainerDescription": "Токени, яких немає в списку підтримуваних проєктів і не позначено як спам, можна знайти в цьому списку.",
+    "unverifiedHelp": "Чому його немає в списку?",
+    "unverifiedWarning": "Будьте обережні",
+    "verified": "Занесено до списку",
+    "verifiedDescription": "Представлені тут токени були перевірені й наразі доступні на біржі Kraken.",
+    "verifiedInfoKraken": "Представлені тут токени наразі доступні на біржі Kraken.",
+    "verifiedKraken": "Список токенів Kraken"
+  },
+  "transactionDetails": {
+    "amount": "Сума",
+    "confirmation": {
+      "cancel": "Скасування",
+      "confirm": "Підтвердити",
+      "fee": "Комісія за користування мережею:"
+    },
+    "contractAddress": "Адреса контракту",
+    "copyToClipboard": "Скопійовано в буфер обміну",
+    "description": {
+      "approval": {
+        "failed": "не вдалося схвалити {amount} на {address}",
+        "pending": "{amount} очікує схвалення на {address}",
+        "succeeded": "{amount} було схвалено на {address}"
+      },
+      "approvals": {
+        "failed": "не вдалося схвалити {amount} на {address}",
+        "pending": "{amount} очікує схвалення на {address}",
+        "succeeded": "{amount} було схвалено на {address}",
+        "success": "{amount} було схвалено на {address}"
+      },
+      "contractInteraction": {
+        "failed": "Взаємодія з {address} не відбулася",
+        "pending": "Взаємодія з {address} у стані очікування",
+        "succeeded": "Взаємодія з {address}"
+      },
+      "contractInteractionFundsReceived": {
+        "pending": "Кошти надходять від {address}",
+        "succeeded": "Кошти надійшли через {address}"
+      },
+      "contractInteractions": {
+        "failed": "Взаємодія з {address} не відбулася",
+        "pending": "Взаємодія з {address} у стані очікування",
+        "succeeded": "Взаємодія з {address}"
+      },
+      "deposit": {
+        "failed": "не вдалося внести {amount} на {address}",
+        "pending": "{amount} вноситься на {address}",
+        "succeeded": "{amount} було внесено на {address}"
+      },
+      "nftBuy": {
+        "failed": "не вдалося придбати {nftName} через {address}",
+        "pending": "триває купівля {nftName} через {address}",
+        "succeeded": "{nftName} було придбано через {address}"
+      },
+      "nftMint": {
+        "failed": "не вдалося створити {nftName} через {address}",
+        "pending": "{nftName} створюється через {address}",
+        "succeeded": "{nftName} було створено через {address}"
+      },
+      "nftReceive": {
+        "pending": "{nftName} отримується від {address}",
+        "succeeded": "{nftName} було отримано від {address}"
+      },
+      "nftSell": {
+        "failed": "не вдалося продати {nftName} через {address}",
+        "pending": "{nftName} продається через {address}",
+        "succeeded": "{nftName} було продано через {address}"
+      },
+      "nftSend": {
+        "failed": "не вдалося надіслати {nftName} на {address}",
+        "pending": "{nftName} надсилається на {address}",
+        "succeeded": "{nftName} було надіслано на {address}"
+      },
+      "receive": {
+        "pending": "{amount} отримується від {address}",
+        "succeeded": "{amount} було отримано від {address}"
+      },
+      "receiveUtxo": {
+        "pending": "{amount} отримується",
+        "succeeded": "{amount} було отримано"
+      },
+      "send": {
+        "failed": "{amount} не вдалося надіслати на {address}",
+        "pending": "{amount} надсилається на {address}",
+        "succeeded": "{amount} було надіслано на {address}"
+      },
+      "sendUtxo": {
+        "failed": "Не вдалося надіслати {amount}",
+        "pending": "{amount} надсилається",
+        "succeeded": "{amount} було надіслано"
+      },
+      "swap": {
+        "failed": "{amountSent} не вдалося поміняти на {amountReceived} через {address}",
+        "pending": "{amountSent} замінюється на {amountReceived} через {address}",
+        "succeeded": "{amountSent} було замінено на {amountReceived} через {address}"
+      }
+    },
+    "free": "Безкоштовно",
+    "from": "З",
+    "genericNetworkFee": "Комісія за користування мережею",
+    "input": "Введення",
+    "inputs": "Ввідні дані",
+    "krakenConnect": {
+      "fromKraken": "З: Kraken",
+      "transferredIn": "Переказано в"
+    },
+    "networkFee": "Комісія за користування мережею {network}",
+    "networkFee_": "Комісія за користування мережею",
+    "notes": "Опис",
+    "notes_edit": "Редагувати",
+    "notes_empty": "Немає опису",
+    "notesCaption": "Описи зберігаються безпосередньо на вашому пристрої",
+    "open_explorer": "Дивіться в провіднику",
+    "openExplorer": "Перегляд у провіднику",
+    "output": "Виведення",
+    "outputs": "Вихідні дані",
+    "recipient": "Надсилати на",
+    "saveNotes": "Зберегти",
+    "state": {
+      "failed": "Помилка",
+      "pending": "В очікуванні",
+      "success": "Успішно"
+    },
+    "status": "Статус",
+    "status_confirmed": "Підтверджено",
+    "status_pending": "В очікуванні",
+    "time": "Час",
+    "title": "Деталі транзакції",
+    "to": "До",
+    "toBTC": "До:",
+    "transaction_id": "№ транзакції",
+    "unlimited": "Необмежене"
+  },
+  "transactions": {
+    "activity": "Активність",
+    "no_transactions_yet": "Поки немає транзакцій. Натисніть, щоб оновити",
+    "pending": "Надсилання...",
+    "receive": "Отримати",
+    "send": "Надіслати",
+    "transactions": "Транзакції"
+  },
+  "transactionTile": {
+    "activity": "Активність",
+    "address": {
+      "from": "З: ",
+      "to": "До: "
+    },
+    "balance": "Баланс",
+    "nativeAssetView": {
+      "approval": "Схвалення",
+      "contractInteraction": "Взаємодія з контрактом",
+      "send": "Надіслати {assetSymbol}"
+    },
+    "networkFee": "Комісія за користування мережею",
+    "no_transactions_description": "Поповніть свій гаманець активами",
+    "no_transactions_title": "Транзакції відображатимуться тут",
+    "no_transactions_yet": "Поки немає транзакцій. Натисніть, щоб оновити",
+    "noTransactionsDescription": "Поповніть свій гаманець {0}",
+    "noTransactionsTitle": "Транзакції відображатимуться тут",
+    "pending": "Надсилання...",
+    "transactions": "Транзакції",
+    "type": {
+      "contractInteraction": "Взаємодія в межах контракту",
+      "contractInteractionAffected": "Отримано коштів",
+      "deposit": "Внести",
+      "mint": "Створення NFT",
+      "NFTBuy": "Покупка NFT",
+      "NFTReceive": "Отримання NFT",
+      "NFTSell": "Продаж NFT",
+      "NFTsend": "Надсилання NFT",
+      "receive": "Отримати",
+      "send": "Надіслати",
+      "swap": "Обмін",
+      "tokenApproval": "Схвалення"
+    }
+  },
+  "universalReceive": {
+    "buttonTitle": "Отримати",
+    "copied": "Адресу скопійовано",
+    "crypto": "Криптовалюта",
+    "cryptoAndNft": "NFT й криптовалюта",
+    "ethereumAddressLabel": "Включає мережі, сумісні з Ethereum",
+    "ethereumExplainerBody": "Адресна система Ethereum поширюється на сумісні з Ethereum мережі, як-от Polygon, Arbitrum, OP Mainnet, Base, Blast, Linea і Avalanche, гарантуючи, що ваша єдина адреса працюватиме скрізь",
+    "ethereumExplainerHeading": "Ваша адреса Ethereum",
+    "tokenAddress": "Адреса {token}"
+  },
+  "universalSend": {
+    "assetBTCEmptyDesc": "У вашому поточному гаманці немає Bitcoin",
+    "assetBTCEmptyTitle": "Немає доступних Bitcoin",
+    "assetDogeEmptyDesc": "У вашому поточному гаманці немає Dogecoin",
+    "assetDogeEmptyTitle": "Немає доступних Dogecoin",
+    "assetEthereumaEmptyDesc": "Ваш гаманець не має доступних активів у мережах Ethereum або рівня 2",
+    "assetEthereumEmptyTitle": "Мережа Ethereum недоступна",
+    "assetsEmptyDesc": "У вашому поточному гаманці немає активів. Спробуйте поповнити гаманець",
+    "assetsEmptyTitle": "Активи відсутні",
+    "assetSolanaEmptyDesc": "Ваш поточний гаманець не має доступних активів Solana",
+    "assetSolanaEmptyTitle": "Немає доступних активів Solana",
+    "buttonTitle": "Надіслати",
+    "clearSearch": "Очистити пошук",
+    "continue": "Продовжити",
+    "goBack": "Назад",
+    "myWallets": "Мої гаманці",
+    "searchEmptyDesc": "Спробуйте розширити ваш пошук",
+    "searchEmptyTitle": "Немає результатів",
+    "searchPlaceholder": "Виберіть, що ви хочете надіслати",
+    "sendAsset": "Надіслати актив",
+    "sendTo": "Надіслати на "
+  },
+  "url": {
+    "licenses": "https://www.kraken.com/legal",
+    "privacyPolicy": "https://www.kraken.com/wallet/privacy",
+    "releaseNotes": "https://blog.kraken.com",
+    "termsOfService": "https://kraken.com"
+  },
+  "view_nft": {
+    "gallery": "Галерея",
+    "lives_on": "Проживає на:"
+  },
+  "view_token": {
+    "lives_on": "Проживає на:"
+  },
+  "walletBackup": {
+    "backup": "Резервне копіювання",
+    "backupYourWallet": "Створіть резервну копію свого гаманця",
+    "backupYourWalletDescription": "Переконайтеся в тому, що ви зможете відновити свою криптовалюту, якщо втратите пристрій або перейдете на інший гаманець.",
+    "cloudWarning": {
+      "button": "Створити резервну копію за допомогою iCloud",
+      "desc": "Ви зможете відновити свій гаманець, навіть якщо втратите секретну фразу для відновлення",
+      "title": "Рекомендовано створити хмарну резервну копію"
+    },
+    "manualWarning": {
+      "button": "Створити резервну копію вручну",
+      "desc": "Ви зможете відновити свій гаманець, навіть якщо втратите доступ до свого акаунту iCloud.",
+      "title": "Рекомендовано створити резервну копію вручну"
+    },
+    "secondaryBackup": {
+      "iCloud": "Щоб збільшити можливість відновлення, створіть зашифровану паролем резервну копію в iCloud. Шифрування означає, що навіть Apple не зможе її побачити",
+      "manual": "Щоб збільшити можливість відновлення, створіть резервну копію секретної фрази відновлення вручну та збережіть її в надійному місці.",
+      "title": "Створити вторинну резервну копію"
+    },
+    "secretRecoveryPhrase": "Ваша секретна фраза для відновлення",
+    "tapHereToView": "Торкніться тут для перегляду"
+  },
+  "walletBackupPrompt": {
+    "backUpNow": "Негайне резервне копіювання",
+    "body": "Ви не створили резервну копію секретної фрази для відновлення. Ми рекомендуємо створити резервну копію, щоб уникнути втрати доступу до ваших коштів.",
+    "header": "Перш ніж отримати кошти на цей гаманець, зробіть його резервну копію"
+  },
+  "walletBackupSelection": {
+    "backupManually": "Створити резервну копію вручну",
+    "backupManuallyCompleted": "Резервну копія створено вручну",
+    "backupWithICloud": "Створити резервну копію за допомогою iCloud",
+    "backupWithICloudCompleted": "Резервну копію створено за допомогою iCloud",
+    "caption": "Якщо ви не створите резервну копію свого гаманця, ви ризикуєте втратити свою криптовалюту. Ми не маємо доступу до вашої фрази для відновлення і не зможемо допомогти вам відновити її без резервної копії.",
+    "explainer": {
+      "desc": "Люди часто втрачають криптовалюту через втрату секретної фрази відновлення. Kraken Wallet мінімізує цей ризик, пропонуючи більше одного безпечного методу резервного копіювання.",
+      "title": "Збільште можливість відновлення, щоб зменшити ймовірність втрати"
+    },
+    "iCloudDescCompletedShort": "Зашифрована секретна фраза для відновлення",
+    "iCloudDescLong": "Зашифрувати за допомогою ключа доступу та зберегти в iCloud",
+    "iCloudDescShort": "Зашифрувати та зберегти в iCloud",
+    "manualBackupDescLong": "Зберегти вручну в безпечному місці на ваш вибір",
+    "manualBackupDescShort": "Зберегти в безпечному місці на ваш вибір",
+    "manualBackupDescShortCompleted": "Збережено в надійному місці",
+    "prompt": "Гарантуйте собі доступ до свого гаманця навіть у випадку, якщо ви втратите свій пристрій.",
+    "recoverability": {
+      "desc": "Могло б бути надійніше",
+      "title": "Можливість відновлення"
+    },
+    "skipButton": "Можливо, пізніше",
+    "subtitle": "ваш гаманець",
+    "title": "Резервне копіювання",
+    "titleWithSubtitle": "Створіть резервну копію свого гаманця",
+    "tooltip": {
+      "iCloud": "Резервна копія в iCloud гарантує, що ви зможете відновити свій гаманець, навіть якщо втратите секретну фразу для відновлення.",
+      "manual": "Резервне копіювання вручну гарантує, що ви зможете відновити свій гаманець, якщо втратите доступ до iCloud або загубите свій пристрій."
+    }
+  },
+  "walletCloudBackup": {
+    "createPasskey": "Створити ключ доступу",
+    "hints": {
+      "part1": "Безпечніше за стандартні паролі",
+      "part2": "Зашифровано за допомогою біометричних даних або пристрою безпеки",
+      "part3": "Можна відновити, навіть якщо ви втратите цей пристрій"
+    },
+    "passkeyDescription": "Щоб створити резервну копію, зашифруйте її за допомогою ключа доступу. Це гарантує, що ніхто, крім вас, не зможе відновити резервну копію. (Завдяки шифруванню навіть Apple не зможе побачити ваші дані)",
+    "secureYourBackup": "Захистіть свою резервну копію",
+    "success": "Резервну копію гаманця успішно створено в iCloud"
+  },
+  "walletCloudBackupDelete": {
+    "cancel": "Скасувати",
+    "caption": "Обов’язково збережіть секретну фразу відновлення в надійному місці, щоб мати змогу відновити свій гаманець у разі втрати пристрою.",
+    "check1": "Я розумію, що в разі втрати телефону або видалення застосунку мені знадобиться секретна фраза для відновлення свого гаманця.",
+    "check2": "Я підтверджую, що секретну фразу відновлення з 12 слів збережено в безпечному місці.",
+    "delete": "Видалити",
+    "header": "Ви впевнені, що хочете видалити цю резервну копію?",
+    "title": "Видалити резервну копію"
+  },
+  "walletCloudBackupError": {
+    "deleteBackupConfirmation": {
+      "cancel": "Скасувати",
+      "description": "Видаляючи її, ви підтверджуєте, що ключ доступу вже було видалено. Ця дія видалить будь-яке посилання на видалений із застосунку ключ доступу.",
+      "header": "Видалити резервну копію ключа доступу",
+      "remove": "Видалити",
+      "title": "Справді видалити цю резервну копію ключа доступу?"
+    },
+    "ensureICloudKeychainOn": "Переконайтеся, що в налаштуваннях паролів вашого пристрою ввімкнено функцію iCloud Keychain, яка має використовуватися для зберігання паролів і ключів:",
+    "errorCreatingBackup": {
+      "cancel": "Скасувати",
+      "description": "Щось пішло не так під час спроби створити резервну копію.",
+      "title": "Помилка під час створення резервної копії",
+      "tryAgainBold": "ми не підтримуємо збереження резервних копій на інших пристроях.",
+      "tryAgainButton": "Спробувати ще раз",
+      "tryAgainFormatted": "Під час повторної спроби майте на увазі, що <b>ми не підтримуємо збереження резервних копій на інших пристроях.</b>",
+      "tryAgainRegular": "Під час повторної спроби майте на увазі, що "
+    },
+    "errorCreatingPasskey": {
+      "description": "Переконайтеся, що в налаштуваннях паролів вашого пристрою ввімкнено функцію iCloud Keychain, яка має використовуватися для зберігання паролів і ключів:",
+      "title": "Помилка під час створення резервної копії"
+    },
+    "errorDeletingPasskey": {
+      "cancel": "Скасувати",
+      "deletedPasskeyPossibility": "Інша можливість полягає в тому, що ключ доступу, який містить вашу резервну копію, вже було видалено. Якщо ви впевнені, що ключ доступу видалено, ми можемо позначити його як видалений і видалити його з гаманця.",
+      "removeItButton": "Так, видалити його",
+      "title": "Помилка під час видалення резервної копії ключа доступу"
+    },
+    "errorInactive": {
+      "description": "Якщо ви створили кілька ключів, спробуйте імпортувати іншу резервну копію. В іншому випадку ви можете імпортувати гаманець за допомогою секретної фрази для відновлення з 12–24 слів",
+      "subtitle": "Цей ключ доступу неактивний, що означає, що він із резервної копії, яку ви видалили вручну.",
+      "title": "Неактивний ключ доступу"
+    },
+    "keychainSteps": {
+      "formatted": {
+        "ios17": {
+          "tips": {
+            "one": {
+              "stepOne": "Перейдіть до такого розділу: <b>Settings (Налаштування) → Passwords (Паролі) → Password Options (Параметри паролів)</b>",
+              "stepTwo": "Увімкніть: <b>iCloud Keychain</b>",
+              "title": "<b>Порада 1:</b> переконайтеся в тому, що ввімкнено функцію iCloud Keychain, яка має використовуватися для зберігання паролів і ключів:"
+            },
+            "two": {
+              "stepOne": "Перейдіть до такого розділу: <b>Налаштування → AppleID → iCloud → Паролі</b>",
+              "stepTwo": "Увімкніть такий параметр: <b>Синхронізуйте цей iPhone </b>",
+              "title": "<b>Порада 2:</b> увімкніть паролі iCloud і Keychain"
+            }
+          },
+          "title": "Переконайтеся в тому, що ви використовуєте <b>iCloud Keychain</b> для створення ключа доступу. <b>Інші менеджери паролів наразі не підтримуються.</b>"
+        },
+        "ios18": {
+          "tips": {
+            "one": {
+              "stepOne": "Перейдіть до такого розділу: <b>Налаштування → Загальні → Автозаповнення й паролі</b>",
+              "stepTwo": "Увімкніть такий параметр: <b>Паролі</b>",
+              "title": "<b>Порада 1:</b> Переконайтеся в тому, що паролі iCloud увімкнено, виконавши наведені далі дії."
+            },
+            "two": {
+              "stepOne": "Перейдіть до такого розділу: <b>Налаштування → iCloud → Паролі</b>",
+              "stepTwo": "Увімкніть такий параметр: <b>Синхронізуйте цей iPhone </b>",
+              "title": "<b>Порада 2:</b> увімкніть паролі iCloud і Keychain"
+            }
+          },
+          "title": "Під час наступної спроби переконайтеся в тому, що ви використовуєте <b>паролі</b> iCloud для створення ключа доступу. <b>Інші менеджери паролів наразі не підтримуються.</b>"
+        }
+      },
+      "one": {
+        "bold": "Settings (Налаштування) → Passwords (Паролі) → Password Options (Параметри паролів)",
+        "regular": "1. Перейдіть до такого розділу: "
+      },
+      "two": {
+        "bold": "iCloud Keychain",
+        "regular": "2. Увімкніть такий параметр: "
+      }
+    },
+    "noPasskeyFound": {
+      "description": "Ми не змогли знайти ключ доступу. Можливо, ви не створили його або iCloud Keychain вимкнено у налаштуваннях. Переконайтеся, що iCloud Keychain увімкнено, виконавши такі дії:",
+      "descriptioniOS17": "Ми не змогли знайти ключ доступу. Можливо, ви не створили його або <b>iCloud Keychain</b> вимкнено в налаштуваннях.",
+      "descriptioniOS18": "Ми не змогли знайти ключ доступу. Можливо, ви не створили його або <b>паролі</b> вимкнено в налаштуваннях.",
+      "title": "Ключ доступу не знайдено"
+    },
+    "supportHint": {
+      "link": "Підтримка Kraken Wallet ↗",
+      "regular": "Якщо вам не вдалося вирішити проблему, ви можете звернутися по допомогу: ",
+      "regularWithManualBackup": "Якщо вам не вдалося вирішити проблему, ви можете імпортувати секретну фрази для відновлення з 12–24 слів або звернутися по допомогу: "
+    },
+    "userCanceledBackup": {
+      "cancel": "Скасувати",
+      "description": "Щоб створити резервну копію гаманця, ви повинні увійти в систему вдруге, інакше ми не зможемо надійно захистити ваш гаманець за допомогою ключа доступу.",
+      "title": "Потрібен ключ доступу для входу в систему"
+    }
+  },
+  "walletConnect": {
+    "account_not_found": "WalletConnect: обліковий запис не знайдено",
+    "action_cancelled": "Дію скасовано",
+    "action_in_progress": "Обробка ваших дій у WalletConnect...",
+    "app_details": {
+      "disconnect": "Від’єднати",
+      "disconnect_decscription": "Відключення цього застосунку повністю видалить доступ до вашого гаманця",
+      "error": "Помилка відключення",
+      "open": "Відкрито"
+    },
+    "auth": {
+      "cancel": "Скасування",
+      "connect": "Підключити"
+    },
+    "back_to_dapp": "Щоб продовжити, поверніться до браузера",
+    "failedToConnect": "Застосунок не підключився",
+    "failedToDisconnect": "Застосунок не відключився",
+    "feeEstimate": "Розрахунок комісії",
+    "invalid_request_params": "WalletConnect: недійсні параметри запиту (request.params)",
+    "list": {
+      "disconnect_all": "Відключити все ({0})",
+      "error_all": "Помилка відключення всіх застосунків",
+      "title": "Застосунки"
+    },
+    "method_not_implemented": "WalletConnect: метод {method} не реалізовано",
+    "request_fulfilled": "WalletConnect: запит виконано",
+    "response_rejected": "WalletConnect: Запит застосунку відхилено",
+    "response_rejected_prepare_transaction_failure": "WalletConnect: відповідь відхилено, підготувати звіт про невдалу транзакцію",
+    "title": "WalletConnect",
+    "topic_not_found": "WalletConnect: тему не знайдено",
+    "unsupported_network": "Ця мережа не підтримується",
+    "wallet_no_account": "WalletConnect: пов’язаний гаманець не має пов’язаного номера рахунку",
+    "wallet_not_found": "WalletConnect: не вдалося знайти пов’язаний гаманець"
+  },
+  "walletConnectExplainer": {
+    "firstPage": {
+      "boldDescription": "безпечний доступ до тисяч децентралізованих застосунків",
+      "buttonText": "Звучить непогано",
+      "description": "З вашим гаманцем ви можете {boldDescription}, використовуючи WalletConnect.",
+      "title": "Більше, ніж просто криптосховище!"
+    },
+    "fourthPage": {
+      "aaveDescription": "Позичайте й давайте в борг криптовалюту на Aave",
+      "buttonText": "Закрито",
+      "ensDescription": "Зареєструйте своє ончейн-ім’я, доки воно не зникло",
+      "mintDescription": "Використовуйте свій гаманець, щоб отримати безкоштовні NFT на {url}",
+      "title": "Спробуйте:",
+      "website": "Веб-сайт: "
+    },
+    "secondPage": {
+      "buttonText": "Продовжити",
+      "part1": "Торкніться кнопки «Підключити гаманець»",
+      "part2": "Виберіть WalletConnect",
+      "part3": "У своєму телефоні торкніться",
+      "part4": "Скануйте QR-код",
+      "title": "Щоб підключити гаманець до застосунків Web3",
+      "titlePart1": "1. Натисніть «Підключити гаманець»",
+      "titlePart2": "2. Виберіть WalletConnect",
+      "titlePart3": "3. У своєму телефоні торкніться",
+      "titlePart4": "4. Скануйте QR-код",
+      "titleWithEllipsis": "Щоб підключити гаманець до застосунків Web3...."
+    },
+    "thirdPage": {
+      "buttonText": "Продовжити",
+      "description1": "Торкніться WalletConnect",
+      "description2": "Виберіть Kraken Wallet",
+      "subtitle": "Замість сканування:",
+      "title": "Використовуючи застосунки Web3 на своєму телефоні,"
+    }
+  },
+  "walletConnectTutorialPrompt": {
+    "firstPage": {
+      "boldDescription": "ви можете безпечно отримувати доступ до тисяч децентралізованих застосунків",
+      "buttonText": "Звучить непогано",
+      "description": "З вашим гаманцем ви можете {boldDescription}, використовуючи WalletConnect.",
+      "title": "Більше, ніж просто криптосховище!"
+    },
+    "fourthPage": {
+      "aaveDescription": "Позичайте й давайте в борг криптовалюту на Aave",
+      "aaveWebsite": "app.aave.com",
+      "buttonText": "Закрито",
+      "ensDescription": "Зареєструйте своє ончейн-ім’я, доки воно не зникло",
+      "ensWebsite": "app.ens.domains",
+      "mintDescription": "Використовуйте свій гаманець, щоб отримати безкоштовні NFT на {website}",
+      "mintWebsite": "mint.fun",
+      "title": "Спробуйте:",
+      "website": "Веб-сайт: "
+    },
+    "secondPage": {
+      "buttonText": "Продовжити",
+      "step1": "Торкніться кнопки «Підключити гаманець»",
+      "step1title": "1. Натисніть «Підключити гаманець»",
+      "step2": "Виберіть WalletConnect",
+      "step2title": "2. Виберіть WalletConnect",
+      "step3": "У своєму телефоні торкніться",
+      "step3title": "3. У своєму телефоні торкніться",
+      "step4": "Скануйте QR-код",
+      "step4title": "4. Скануйте QR-код",
+      "title": "Щоб підключити гаманець до застосунків Web3"
+    },
+    "thirdPage": {
+      "buttonText": "Продовжити",
+      "description1": "Скопіюйте посилання на WalletConnect",
+      "description2": "Вставте адресу у свій гаманець",
+      "subtitle": "Замість сканування:",
+      "title": "Використовуючи застосунки Web3 на своєму телефоні,"
+    }
+  },
+  "walletDetails": {
+    "derivationPath": "Шлях виведення",
+    "title": "Більше інформації",
+    "type": "Тип",
+    "wallet_information": "Інформація про гаманець",
+    "xpub": "Розширений публічний ключ",
+    "xpubKeyCopied": "Скопійовано в буфер обміну"
+  },
+  "wallets": {
+    "import_title": "Імпорт",
+    "list_tryagain": "Спробувати ще раз",
+    "pending": "В очікуванні"
+  },
+  "whatsNew": {
+    "assetMarketData": {
+      "buttonText": "Спробуйте самі",
+      "part1": "Тепер ви можете відстежувати ефективність своїх активів та їхню цінову динаміку прямо в гаманці!",
+      "part2": "Пориньте в детальну аналітику активів, дізнавайтеся про потенційні загрози та отримуйте безперешкодний доступ до важливої інформації, такої як контракти токенів і поточні мережеві комісії.",
+      "title": "Вичерпні дані про активи у вашому розпорядженні"
+    },
+    "longPress": {
+      "buttonText": "Звучить непогано",
+      "part1": "Ми із задоволенням представляємо функції Long Press для ваших активів і NFT! Виконуйте такі задачі, як надсилання, отримання й приховування з легкістю, без переключення з одного екрана на інший.",
+      "part2": "Насолоджуйтеся більш зручним і інтуїтивно зрозумілим керуванням гаманцем уже сьогодні.",
+      "title": "Швидкі функції для вашої зручності"
+    },
+    "swaps": {
+      "buttonText": "Обміняти зараз",
+      "part1": "Обміняйте майже будь-які свої активи на інші популярні токени та криптовалюту за допомогою найнадійніших ончейн-протоколів обміну. Більшість торговельних транзакцій закриваються за секунди незалежно від того, відбувається обмін в межах однієї мережі або за допомогою мостів через декілька підтримуваних мереж без жодних перешкод!",
+      "part2": "Скористайтеся можливістю швидкого, безпечного і гнучкого обміну токенів всередині власного гаманця.",
+      "title": "Швидкий, універсальний обмін до ваших послуг"
+    }
+  }
+}

@@ -1,0 +1,208 @@
+import type React from 'react';
+
+import type { StyleProp, ViewStyle } from 'react-native';
+
+import type { WithSpringConfig } from 'react-native-reanimated';
+
+import BottomSheetBase, { BottomSheetBackdrop, BottomSheetModal as BottomSheetBaseModal } from '@gorhom/bottom-sheet';
+import { BlurView } from '@react-native-community/blur';
+import { forwardRef, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { Platform, StyleSheet, View } from 'react-native';
+import Animated, { useAnimatedStyle } from 'react-native-reanimated';
+import { useSafeAreaFrame, useSafeAreaInsets } from 'react-native-safe-area-context';
+
+import { CriticalWarningBackground } from '@/components/CriticalWarningBackground';
+import { useTheme } from '@/theme/themes';
+import { useAndroidBackButton } from '@/utils/useAndroidBackButton';
+
+import { useGlobalState } from '../GlobalState';
+
+import type { BottomSheetBackdropProps, BottomSheetBackgroundProps, BottomSheetModalProps, BottomSheetProps, SNAP_POINT_TYPE } from '@gorhom/bottom-sheet';
+
+import { SheetGradientView } from '/modules/gradient-view';
+
+type CustomProps = {
+  index?: number;
+  dismissible?: boolean;
+  noSafeInsetTop?: boolean;
+  onDismiss?: () => void;
+  onBackdropPress?: () => void;
+  noBackdrop?: boolean;
+  handleAndroidBackButton?: boolean;
+  isWarning?: boolean;
+};
+
+type BaseProps = CustomProps & BottomSheetProps;
+type ModalProps = CustomProps & BottomSheetModalProps;
+type BottomSheetBlurProps = BottomSheetBackgroundProps & Pick<CustomProps, 'isWarning'>;
+
+export type BottomSheetRef = BottomSheetBase;
+export type BottomSheetModalRef = BottomSheetBaseModal;
+
+export const Backdrop = (props: BottomSheetBackdropProps & { dismissible: boolean; onBackdropPress?: () => void }) => {
+  const { colors } = useTheme();
+  return (
+    <BottomSheetBackdrop
+      {...props}
+      style={[StyleSheet.absoluteFill, { backgroundColor: colors.background }, props.style]}
+      opacity={0.7}
+      disappearsOnIndex={-1}
+      appearsOnIndex={0}
+      onPress={props.onBackdropPress}
+      pressBehavior={props.dismissible ? 'close' : 'none'}
+    />
+  );
+};
+
+export const ANIMATION_CONFIGS: WithSpringConfig = {
+  damping: 500,
+  stiffness: 1000,
+  mass: 1.25,
+  overshootClamping: true,
+  restDisplacementThreshold: 10,
+  restSpeedThreshold: 10,
+};
+
+function useBottomSheetProps<T extends BottomSheetRef | BottomSheetModalRef, Props extends BaseProps | ModalProps>(
+  {
+    index,
+    dismissible = true,
+    noSafeInsetTop,
+    noBackdrop,
+    onDismiss,
+    animatedPosition,
+    handleAndroidBackButton,
+    isWarning,
+    onBackdropPress,
+    enableDynamicSizing = false,
+    onChange,
+    ...rest
+  }: Props,
+  ref: React.ForwardedRef<T>,
+) {
+  const insets = useSafeAreaInsets();
+  const [currentIndex, setCurrentIndex] = useState<number>();
+  const [, setShowNavTabs] = useGlobalState('showNavTabs');
+  const handleChange = useCallback(
+    (newIndex: number, position: number, type: SNAP_POINT_TYPE) => {
+      setShowNavTabs(newIndex === -1);
+      setCurrentIndex(newIndex);
+      onChange?.(newIndex, position, type);
+    },
+    [onChange, setShowNavTabs],
+  );
+
+  const renderBackdrop = useCallback(
+    (props: BottomSheetBackdropProps) => (noBackdrop ? null : <Backdrop {...props} onBackdropPress={onBackdropPress} dismissible={dismissible} />),
+    [dismissible, noBackdrop, onBackdropPress],
+  );
+
+  const renderBottomSheetBlur = useCallback((props: BottomSheetBlurProps) => <BottomSheetBlur {...props} isWarning={isWarning} />, [isWarning]);
+
+  const sheetRef = useRef<T>(null);
+
+  useEffect(() => {
+    if (ref) {
+      if (typeof ref === 'function') {
+        ref(sheetRef.current);
+      } else {
+        ref.current = sheetRef.current;
+      }
+    }
+  }, [ref]);
+
+  useAndroidBackButton(() => {
+    if (!handleAndroidBackButton || currentIndex === undefined || currentIndex === -1) {
+      return false;
+    }
+    if (dismissible && sheetRef.current) {
+      sheetRef.current.close();
+    }
+    return true;
+  });
+
+  const topInset = useMemo(() => (noSafeInsetTop ? 0 : insets.top + Platform.select({ android: 12, default: 0 })), [insets.top, noSafeInsetTop]);
+
+  return {
+    animationConfigs: ANIMATION_CONFIGS,
+    animatedPosition: animatedPosition,
+    topInset,
+    index: index || 0,
+    backgroundComponent: renderBottomSheetBlur,
+    backdropComponent: renderBackdrop,
+    handleIndicatorStyle: styles.handle,
+    enablePanDownToClose: dismissible,
+    onClose: onDismiss,
+    onDismiss,
+    onChange: handleAndroidBackButton ? handleChange : onChange,
+    overDragResistanceFactor: 5,
+    containerStyle: styles.shadow,
+    ref: sheetRef,
+    accessible: false,
+    enableDynamicSizing,
+    ...rest,
+  };
+}
+
+export const BottomSheet = forwardRef<BottomSheetRef, BaseProps>((props, ref) => {
+  return <BottomSheetBase {...useBottomSheetProps(props, ref)} />;
+});
+
+export const BottomSheetModal = forwardRef<BottomSheetModalRef, ModalProps>((props, ref) => {
+  return <BottomSheetBaseModal {...useBottomSheetProps({ handleAndroidBackButton: true, ...props }, ref)} />;
+});
+
+const BottomSheetBlur = (props: BottomSheetBlurProps) => {
+  const style: StyleProp<ViewStyle> = [props.style, styles.background];
+
+  const { height: availableHeight } = useSafeAreaFrame();
+
+  const { colors } = useTheme();
+
+  const gradientSizeStyle = useAnimatedStyle(() => ({
+    transform: [
+      { translateY: -availableHeight / 2 },
+      { scaleY: (availableHeight - props.animatedPosition.value) / availableHeight },
+      { translateY: availableHeight / 2 },
+    ],
+  }));
+
+  return (
+    <View {...props} style={style}>
+      {}
+      {Platform.OS === 'ios' ? (
+        <BlurView blurType="ultraThinMaterialDark" reducedTransparencyFallbackColor={colors.background} style={[styles.background, StyleSheet.absoluteFill]} />
+      ) : (
+        <View style={[StyleSheet.absoluteFill, { backgroundColor: colors.blurBackgroundAndroid }]} />
+      )}
+      <Animated.View style={gradientSizeStyle}>
+        <SheetGradientView style={{ height: availableHeight }} />
+        {props.isWarning && <CriticalWarningBackground />}
+      </Animated.View>
+    </View>
+  );
+};
+
+export const styles = StyleSheet.create({
+  background: {
+    borderTopLeftRadius: 48,
+    borderTopRightRadius: 48,
+    overflow: 'hidden',
+  },
+  handle: {
+    borderRadius: 100,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    width: 48,
+    height: 4,
+  },
+  shadow: {
+    elevation: 12,
+    shadowColor: 'rgb(0, 0, 0)',
+    shadowOffset: {
+      width: 0,
+      height: -12,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 36,
+  },
+});
