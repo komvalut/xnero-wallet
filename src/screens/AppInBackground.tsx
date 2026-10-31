@@ -3,7 +3,7 @@ import { Alert, Platform, StyleSheet } from 'react-native';
 import { FullWindowOverlay } from 'react-native-screens';
 
 import { GradientMask, GradientScreenView } from '@/components/Gradients';
-import { SvgIcon } from '@/components/SvgIcon';
+import { XneroMark } from '@/components/XneroMark';
 import { useTheme } from '@/theme/themes';
 
 import { biometricUnlock } from '/helpers/biometric-unlock';
@@ -81,7 +81,7 @@ export const AppInBackground = ({ appState }: Props) => {
   return showPrivacyCover ? (
     <Container>
       <GradientScreenView style={[styles.hideApp, { backgroundColor: colors.background }]}>
-        <GradientMask element={<SvgIcon size={80} color="kraken" name="kraken" testID="LogoIcon" />} />
+        <GradientMask element={<XneroMark size={80} />} />
       </GradientScreenView>
     </Container>
   ) : null;

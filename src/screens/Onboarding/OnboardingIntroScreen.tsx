@@ -6,7 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ActivityIndicator } from '@/components/ActivityIndicator/ActivityIndicator';
 import { FloatingBottomButtons } from '@/components/FloatingBottomButtons';
 import { GradientMask } from '@/components/Gradients';
-import { SvgIcon } from '@/components/SvgIcon';
+import { XneroMark } from '@/components/XneroMark';
 import { useWalletBackupSettings } from '@/hooks/useWalletBackupSettings';
 import { Routes } from '@/Routes';
 import { navigationStyle } from '@/utils/navigationStyle';
@@ -73,7 +73,7 @@ export const OnboardingIntroScreen = ({ navigation }: OnboardingNavigationProps<
       )}
       {animationFinished && createWalletState === 'loading' && <ActivityIndicator style={styles.activityIndicator} size={48} />}
 
-      <GradientMask style={[styles.logo, { top: 16 + insets.top }]} element={<SvgIcon name="kraken" size={36} color="kraken" />} />
+      <GradientMask style={[styles.logo, { top: 16 + insets.top }]} element={<XneroMark size={36} />} />
 
       {!createWalletState && (
         <FloatingBottomButtons
